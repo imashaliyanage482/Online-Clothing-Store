@@ -4,8 +4,8 @@ import { CartProvider } from '@/context/CartContext';
 
 export const metadata = {
   title: {
-    default: 'FashionStore | Modern Apparel & Clothing Collections',
-    template: '%s | FashionStore',
+    default: 'Fashion.lk | Modern Apparel & Clothing Collections',
+    template: '%s | Fashion.lk',
   },
   description: 'Curated premium fashion, seasonal apparel, and sustainable clothing essentials for men and women.',
 };

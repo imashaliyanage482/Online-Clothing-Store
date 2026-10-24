@@ -75,12 +75,12 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-white text-sm font-semibold tracking-wider uppercase">FashionStore</h4>
+            <h4 className="text-white text-sm font-semibold tracking-wider uppercase">Fashion.lk</h4>
             <p className="mt-4 text-xs leading-relaxed text-slate-400">
               Modern apparel crafted with sustainable textiles, designed for longevity, comfort, and timeless elegance.
             </p>
             <div className="mt-6 text-xs text-slate-500">
-              &copy; {new Date().getFullYear()} FashionStore Inc. All rights reserved.
+              &copy; {new Date().getFullYear()} Fashion.lk Inc. All rights reserved.
             </div>
           </div>
         </div>
