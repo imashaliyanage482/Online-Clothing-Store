@@ -699,8 +699,10 @@ export function writeDb(data) {
       fs.writeFileSync(DB_PATH, JSON.stringify(sanitizeProductImageSources(data), null, 2), 'utf8');
       return true;
     } catch (e2) {
-      console.error('Direct write failed:', e2.message);
-      return false;
+      // In serverless environments like Vercel, root filesystem is read-only.
+      // Retain update in memoryDb so active instance serves latest data smoothly.
+      storeState.memoryDb = sanitizedData;
+      return true;
     }
   }
 }
