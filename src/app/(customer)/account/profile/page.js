@@ -24,12 +24,6 @@ export default function CustomerProfilePage() {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
 
-  // Shipping Address
-  const [streetAddress, setStreetAddress] = useState('');
-  const [city, setCity] = useState('');
-  const [province, setProvince] = useState('Western Province');
-  const [postalCode, setPostalCode] = useState('');
-
   // Security Credentials
   const [currentPassword, setCurrentPassword] = useState('');
   const [newPassword, setNewPassword] = useState('');
@@ -46,18 +40,6 @@ export default function CustomerProfilePage() {
       setName(user.name || '');
       setEmail(user.email || '');
       setPhone(user.phone || '');
-
-      // Parse address if string or object
-      if (user.address) {
-        if (typeof user.address === 'object') {
-          setStreetAddress(user.address.street || '');
-          setCity(user.address.city || '');
-          setProvince(user.address.province || 'Western Province');
-          setPostalCode(user.address.postalCode || '');
-        } else if (typeof user.address === 'string') {
-          setStreetAddress(user.address);
-        }
-      }
     }
   }, [user]);
 
@@ -68,15 +50,12 @@ export default function CustomerProfilePage() {
     setSuccessMessage('');
 
     try {
-      const addressString = [streetAddress, city, province, postalCode].filter(Boolean).join(', ');
-
       const res = await fetch('/api/auth/me', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           name,
           phone,
-          address: addressString,
         }),
       });
 

@@ -156,13 +156,6 @@ export default function ProductCard({ product }) {
           </button>
         </div>
       </div>
-            className="w-full py-2 bg-[#252525]/95 backdrop-blur-sm text-[#F5F0E8] text-[11px] font-semibold tracking-wider uppercase rounded-xl hover:bg-[#B69A7A] hover:text-[#252525] transition-all flex items-center justify-center gap-1.5 shadow-md cursor-pointer"
-          >
-            <ShoppingBag className="w-3.5 h-3.5" />
-            <span>Quick Bag</span>
-          </button>
-        </div>
-      </Link>
 
       {/* ── Product Details ── */}
       <div className="p-3 sm:p-4 flex flex-col flex-1">

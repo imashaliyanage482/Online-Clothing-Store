@@ -27,7 +27,7 @@ export default function AdminSidebar({ onNavigate }) {
     { name: 'Customers', href: '/admin/customers', icon: Users },
     { name: 'Orders', href: '/admin/orders', icon: ShoppingBag },
     { name: 'Products', href: '/admin/products', icon: Shirt },
-    { name: 'Categories & Collections', href: '/admin/categories', icon: FolderTree },
+    { name: 'Categories', href: '/admin/categories', icon: FolderTree },
     { name: 'Inventory', href: '/admin/inventory', icon: Boxes },
     { name: 'Settings', href: '/admin/settings', icon: Settings },
   ];

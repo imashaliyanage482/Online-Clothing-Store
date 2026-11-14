@@ -514,21 +514,28 @@ async function safeAtlasCall(actionName, fn) {
   }
 }
 
-let lastMongoSyncTime = 0;
-const MONGO_SYNC_INTERVAL = 30000; // 30 seconds high-speed memory cache window
-let inFlightSyncPromise = null;
+if (!global._appDataStoreState) {
+  global._appDataStoreState = {
+    lastMongoSyncTime: 0,
+    inFlightSyncPromise: null,
+    memoryDb: null,
+    memoryDbMtime: 0,
+  };
+}
+const storeState = global._appDataStoreState;
+const MONGO_SYNC_INTERVAL = 120000; // 2 minutes process-wide high-speed memory cache window
 
 export async function ensureMongoReady(force = false) {
   const now = Date.now();
-  if (!force && now - lastMongoSyncTime < MONGO_SYNC_INTERVAL) {
+  if (!force && now - storeState.lastMongoSyncTime < MONGO_SYNC_INTERVAL) {
     return readDb();
   }
 
-  if (inFlightSyncPromise) {
-    return inFlightSyncPromise;
+  if (storeState.inFlightSyncPromise) {
+    return storeState.inFlightSyncPromise;
   }
 
-  inFlightSyncPromise = (async () => {
+  storeState.inFlightSyncPromise = (async () => {
     try {
       const seedData = readDb();
       await seedEmptyCollectionsFromJson(seedData);
@@ -557,34 +564,29 @@ export async function ensureMongoReady(force = false) {
         });
       }
 
-      if (!writeDb(sanitizedDb)) {
-        throw new Error('MongoDB data could not be cached locally.');
-      }
-      lastMongoSyncTime = Date.now();
+      writeDb(sanitizedDb);
+      storeState.lastMongoSyncTime = Date.now();
       return sanitizedDb;
     } catch (err) {
       console.warn(`[MongoDB Warning] Atlas cluster unavailable (${err.message}). Using local JSON store.`);
       return readDb();
     } finally {
-      inFlightSyncPromise = null;
+      storeState.inFlightSyncPromise = null;
     }
   })();
 
-  return inFlightSyncPromise;
+  return storeState.inFlightSyncPromise;
 }
 
 export const syncFromAtlasOnce = ensureMongoReady;
 
-let memoryDb = null;
-let memoryDbMtime = 0;
-
-// Read database from disk with memory cache
+// Read database from disk with process-wide memory cache
 export function readDb() {
   try {
     if (fs.existsSync(DB_PATH)) {
       const stat = fs.statSync(DB_PATH);
-      if (memoryDb && stat.mtimeMs === memoryDbMtime) {
-        return memoryDb;
+      if (storeState.memoryDb && stat.mtimeMs === storeState.memoryDbMtime) {
+        return storeState.memoryDb;
       }
 
       const raw = fs.readFileSync(DB_PATH, 'utf8');
@@ -648,8 +650,8 @@ export function readDb() {
       if (changed) {
         writeDb(db);
       } else {
-        memoryDb = db;
-        memoryDbMtime = stat.mtimeMs;
+        storeState.memoryDb = db;
+        storeState.memoryDbMtime = stat.mtimeMs;
       }
       return db;
     }
@@ -673,15 +675,16 @@ export function writeDb(data) {
       fs.mkdirSync(dir, { recursive: true });
     }
     if (fs.existsSync(DB_PATH) && fs.readFileSync(DB_PATH, 'utf8') === serialized) {
-      memoryDb = sanitizedData;
-      try { memoryDbMtime = fs.statSync(DB_PATH).mtimeMs; } catch (_) {}
+      storeState.memoryDb = sanitizedData;
+      try { storeState.memoryDbMtime = fs.statSync(DB_PATH).mtimeMs; } catch (_) {}
       return true;
     }
     tempPath = `${DB_PATH}.${process.pid}.${Date.now()}.${Math.random().toString(16).slice(2)}.tmp`;
     fs.writeFileSync(tempPath, serialized, 'utf8');
     fs.renameSync(tempPath, DB_PATH);
-    memoryDb = sanitizedData;
-    try { memoryDbMtime = fs.statSync(DB_PATH).mtimeMs; } catch (_) {}
+    storeState.memoryDb = sanitizedData;
+    try { storeState.memoryDbMtime = fs.statSync(DB_PATH).mtimeMs; } catch (_) {}
+    storeState.lastMongoSyncTime = 0; // Invalidate cache so next sync gets latest
     return true;
   } catch (err) {
     console.error('Failed writing db.json:', err.message);
