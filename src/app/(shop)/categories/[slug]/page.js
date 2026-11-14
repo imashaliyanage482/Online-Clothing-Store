@@ -1,5 +1,6 @@
 import React from 'react';
 import ProductCard from '@/components/shop/ProductCard';
+import EditorialHero from '@/components/shop/EditorialHero';
 
 const sampleProducts = [
   {
@@ -31,18 +32,21 @@ export default function CategoryDetailPage({ params }) {
     .join(' ');
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <div className="border-b border-slate-200 pb-5 mb-8">
-        <h1 className="text-3xl font-bold tracking-tight text-slate-900">{categoryName}</h1>
-        <p className="mt-2 text-sm text-slate-500">
-          Showing apparel curated for {categoryName}.
-        </p>
-      </div>
+    <div className="bg-[#F5F0E8] min-h-screen text-[#252525]">
+      <EditorialHero
+        image="/images/hero-editorial-2.jpg"
+        imageAlt={`${categoryName} apparel`}
+        eyebrow="CURATED CATEGORY"
+        heading={categoryName}
+        description={`Showing apparel thoughtfully designed and curated for ${categoryName}.`}
+      />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {sampleProducts.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
+      <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {sampleProducts.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
       </div>
     </div>
   );

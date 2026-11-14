@@ -36,6 +36,16 @@ const mockCatalog = [
     images: [{ url: 'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=800&q=80' }],
     variants: [{ id: 'v3', size: 'S', colorName: 'Ivory' }],
   },
+  {
+    id: 'p4',
+    title: 'Italian Pebble Leather Weekend Tote',
+    slug: 'italian-pebble-leather-weekend-tote',
+    basePrice: 340.00,
+    category: { name: 'Accessories' },
+    isFeatured: true,
+    images: [{ url: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80' }],
+    variants: [{ id: 'v4', size: 'One Size', colorName: 'Espresso' }],
+  },
 ];
 
 export default function SearchPage() {
@@ -47,25 +57,40 @@ export default function SearchPage() {
   );
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <div className="max-w-xl mx-auto text-center space-y-4 mb-10">
-        <h1 className="text-3xl font-bold tracking-tight text-slate-900">Search Apparel</h1>
-        <p className="text-sm text-slate-500">Find clothing by name, style, or collection</p>
-        <div className="relative">
-          <Input
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search trench coat, wool, knitwear..."
-            className="pl-10 h-12 text-base"
-          />
-          <Search className="w-5 h-5 text-slate-400 absolute left-3.5 top-3.5" />
+    <div className="bg-[#F5F0E8] min-h-screen text-[#252525]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16">
+        <div className="max-w-xl mx-auto text-center space-y-4 mb-12">
+          <span className="text-[11px] font-semibold tracking-[0.28em] text-[#B69A7A] uppercase block">
+            EXPLORE CATALOGUE
+          </span>
+          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#252525]">
+            Search Apparel
+          </h1>
+          <p className="text-sm text-[#252525]/75 font-light">
+            Find luxury garments by cut, collection, or fabric
+          </p>
+          <div className="relative pt-2">
+            <Input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search trench coat, wool, knitwear..."
+              className="pl-11 h-12 text-sm rounded-full bg-[#FAF7F2] border-[#B69A7A]/50 text-[#252525]"
+            />
+            <Search className="w-4 h-4 text-[#B69A7A] absolute left-4 top-5.5 pointer-events-none" />
+          </div>
         </div>
-      </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {filteredProducts.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
+        {filteredProducts.length === 0 ? (
+          <div className="text-center py-16 bg-[#FAF7F2] rounded-2xl border border-[#B69A7A]/30 p-8 max-w-md mx-auto">
+            <p className="text-sm text-[#252525]/70">No garments match your search criteria.</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {filteredProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

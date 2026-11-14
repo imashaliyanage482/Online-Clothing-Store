@@ -8,62 +8,107 @@ import {
   LayoutDashboard,
   User,
   Package,
-  MapPin,
   Heart,
-  Settings,
-  Shield,
   LogOut,
+  ExternalLink,
 } from 'lucide-react';
 
-export default function CustomerSidebar() {
+export default function CustomerSidebar({ onNavigate }) {
   const pathname = usePathname();
-  const { logout } = useAuth();
+  const { logout, user } = useAuth();
 
   const links = [
     { name: 'Dashboard', href: '/account', icon: LayoutDashboard },
     { name: 'My Profile', href: '/account/profile', icon: User },
     { name: 'My Orders', href: '/account/orders', icon: Package },
-    { name: 'Saved Addresses', href: '/account/addresses', icon: MapPin },
-    { name: 'Wishlist', href: '/account/wishlist', icon: Heart },
-    { name: 'Account Settings', href: '/account/settings', icon: Settings },
-    { name: 'Security', href: '/account/security', icon: Shield },
+    { name: 'Saved Wishlist', href: '/account/wishlist', icon: Heart },
   ];
 
+  const handleLinkClick = () => {
+    if (onNavigate) onNavigate();
+  };
+
+  const getInitials = (name) => {
+    if (!name) return 'CU';
+    return name
+      .split(' ')
+      .map((n) => n[0])
+      .slice(0, 2)
+      .join('')
+      .toUpperCase();
+  };
+
   return (
-    <aside className="w-full md:w-64 bg-white rounded-xl border border-slate-200 p-4 h-fit shrink-0">
-      <div className="mb-4 pb-4 border-b border-slate-100">
-        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">
-          Customer Portal
-        </span>
+    <aside className="flex h-full min-h-0 w-64 shrink-0 flex-col border-r border-[#B69A7A]/30 bg-[#252525] text-[#F5F0E8]">
+      {/* Brand Header */}
+      <div className="h-16 flex items-center justify-between px-6 border-b border-[#B69A7A]/25">
+        <Link href="/account" onClick={handleLinkClick} className="flex flex-col">
+          <span className="font-serif text-lg font-bold tracking-wider text-[#F5F0E8] uppercase leading-none">
+            FASHION<span className="text-[#B69A7A]">CLIENT</span>
+          </span>
+          <span className="text-[7.5px] tracking-[0.3em] text-[#B69A7A] uppercase mt-1 font-semibold">
+            CLIENT ATELIER
+          </span>
+        </Link>
+        <Link
+          href="/"
+          target="_blank"
+          className="text-[#F5F0E8]/70 hover:text-[#B69A7A] p-1.5 transition-colors"
+          title="Open Public Storefront"
+        >
+          <ExternalLink className="w-4 h-4" />
+        </Link>
       </div>
-      <nav className="space-y-1">
-        {links.map((link) => {
-          const Icon = link.icon;
-          const isActive = pathname === link.href;
+
+      {/* Navigation Links */}
+      <nav className="min-h-0 flex-1 space-y-1 overflow-y-auto px-3 py-5">
+        {links.map((item) => {
+          const Icon = item.icon;
+          const active = pathname === item.href;
           return (
             <Link
-              key={link.href}
-              href={link.href}
-              className={`flex items-center gap-3 px-3.5 py-2.5 rounded-lg text-sm font-medium transition-colors ${
-                isActive
-                  ? 'bg-slate-900 text-white'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
+              key={item.href}
+              href={item.href}
+              onClick={handleLinkClick}
+              className={`flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-medium tracking-wide transition-all ${
+                active
+                  ? 'bg-[#B69A7A] text-[#252525] font-semibold shadow-md'
+                  : 'text-[#F5F0E8]/80 hover:text-[#F5F0E8] hover:bg-white/10'
               }`}
             >
-              <Icon className="w-4 h-4 shrink-0" />
-              <span>{link.name}</span>
+              <Icon
+                className={`w-4 h-4 shrink-0 ${active ? 'text-[#252525]' : 'text-[#B69A7A]'}`}
+              />
+              <span>{item.name}</span>
             </Link>
           );
         })}
+      </nav>
+
+      {/* User Profile & Logout Footer */}
+      <div className="p-4 border-t border-[#B69A7A]/25 bg-black/20">
+        <div className="flex items-center gap-3 mb-3 px-1">
+          <div className="w-8 h-8 rounded-full bg-[#B69A7A]/20 border border-[#B69A7A]/40 flex items-center justify-center text-[#B69A7A] font-bold text-xs font-mono shrink-0">
+            {getInitials(user?.name)}
+          </div>
+          <div className="min-w-0 flex-1">
+            <p className="text-xs font-semibold text-[#F5F0E8] truncate">
+              {user?.name || 'Valued Client'}
+            </p>
+            <p className="text-[10px] text-[#B69A7A] truncate font-light">
+              {user?.email || 'client@fashionstore.com'}
+            </p>
+          </div>
+        </div>
 
         <button
           onClick={logout}
-          className="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-lg text-sm font-medium text-rose-600 hover:bg-rose-50 transition-colors mt-4 pt-3 border-t border-slate-100"
+          className="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-rose-300 hover:text-white hover:bg-rose-500/20 transition-all cursor-pointer"
         >
-          <LogOut className="w-4 h-4 shrink-0" />
+          <LogOut className="w-3.5 h-3.5" />
           <span>Sign Out</span>
         </button>
-      </nav>
+      </div>
     </aside>
   );
 }

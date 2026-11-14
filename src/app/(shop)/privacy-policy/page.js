@@ -2,25 +2,39 @@ import React from 'react';
 
 export const metadata = {
   title: 'Privacy Policy | FashionStore',
+  description: 'Our commitment to data privacy, secure processing, and customer trust.',
 };
 
 export default function PrivacyPolicyPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16 space-y-6">
-      <h1 className="text-3xl font-extrabold text-slate-900">Privacy Policy</h1>
-      <p className="text-sm text-slate-500">Effective Date: October 2026</p>
-      <div className="prose prose-slate max-w-none text-sm leading-relaxed space-y-4 text-slate-700">
-        <p>
-          At FashionStore, we respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy details our data collection, storage, and processing practices.
-        </p>
-        <h3 className="text-base font-bold text-slate-900 pt-4">1. Information We Collect</h3>
-        <p>
-          When you create an account, browse our apparel selections, or place an order, we collect identity data (name, email), shipping data (street address, telephone), and transaction data.
-        </p>
-        <h3 className="text-base font-bold text-slate-900 pt-4">2. Payment Security</h3>
-        <p>
-          All credit and debit card payments are processed via PCI-DSS compliant payment gateways (e.g., Stripe). FashionStore never stores raw credit card numbers or CVV codes on our servers.
-        </p>
+    <div className="bg-[#F5F0E8] min-h-screen text-[#252525]">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-20 space-y-8">
+        <div>
+          <span className="text-[11px] font-semibold tracking-[0.28em] text-[#B69A7A] uppercase block mb-2">
+            CLIENT TRUST
+          </span>
+          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#252525] tracking-tight">
+            Privacy Policy
+          </h1>
+        </div>
+
+        <div className="p-8 bg-[#FAF7F2] rounded-2xl border border-[#B69A7A]/30 space-y-6 text-sm sm:text-base leading-relaxed text-[#252525]/80 font-light">
+          <p>
+            At FashionStore, we respect your privacy and are committed to safeguarding the personal information you entrust to us. This Privacy Policy details our data collection, encryption, and secure checkout practices.
+          </p>
+          <h3 className="font-serif text-lg font-bold text-[#252525] pt-2">
+            Secure Payment Architecture
+          </h3>
+          <p>
+            All electronic payment transactions are encrypted using strict TLS and processed via PCI-DSS compliant payment gateways. FashionStore never stores raw payment card numbers or security codes on our servers.
+          </p>
+          <h3 className="font-serif text-lg font-bold text-[#252525] pt-2">
+            Data Usage & Discretion
+          </h3>
+          <p>
+            Your information is used solely to fulfill orders, provide customized sizing recommendations, and communicate private editorial drops. We never sell customer records to third-party advertisers.
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,4329 @@
+{
+  "products": [
+    {
+      "id": "prod-1793213685913-774",
+      "title": " Brand New Men's High Waisted Straight Leg Loose Jeans",
+      "slug": "brand-new-men-s-high-waisted-straight-leg-loose-jeans",
+      "gender": "collection",
+      "category": "New season",
+      "categorySlug": "new-season",
+      "collectionSlugs": [
+        "new-season"
+      ],
+      "price": 5200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 11,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/65/cc/4f/65cc4f95a69d7ceee28e27e58e8a76bd.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/65/cc/4f/65cc4f95a69d7ceee28e27e58e8a76bd.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "2026 Winter Brand New Men's High Waisted Straight Leg Loose Jeans with Thick Fleece, Warm Cotton,",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#9dbbd7",
+          "image": "https://i.pinimg.com/736x/65/cc/4f/65cc4f95a69d7ceee28e27e58e8a76bd.jpg"
+        }
+      ],
+      "sizes": [
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "createdAt": "2026-10-28T18:54:45.914Z",
+      "collectionSlug": "new-season"
+    },
+    {
+      "id": "prod-1793213567122-656",
+      "title": "Women's Straight Jeans",
+      "slug": "women-s-straight-jeans",
+      "gender": "collection",
+      "category": "New season",
+      "categorySlug": "new-season",
+      "collectionSlugs": [
+        "new-season"
+      ],
+      "price": 5100,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 13,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/23/a5/01/23a5017cc17a22f5c2b03db561886598.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/23/a5/01/23a5017cc17a22f5c2b03db561886598.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "Women's Straight Jeans with Rhinestones",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#252525",
+          "image": "https://i.pinimg.com/736x/23/a5/01/23a5017cc17a22f5c2b03db561886598.jpg"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "createdAt": "2026-10-28T18:52:47.122Z",
+      "collectionSlug": "new-season"
+    },
+    {
+      "id": "prod-1793213409737-648",
+      "title": "Summer collection presents these trousers ",
+      "slug": "summer-collection-presents-these-trousers",
+      "gender": "collection",
+      "category": "New season",
+      "categorySlug": "new-season",
+      "collectionSlugs": [
+        "new-season"
+      ],
+      "price": 3100,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 9,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/6e/77/8b/6e778b5a975bc5a40eb4a41288fceb56.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/6e/77/8b/6e778b5a975bc5a40eb4a41288fceb56.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://i.pinimg.com/1200x/38/34/89/383489f5f87ec56f5eb0df0900210fc1.jpg",
+          "isPrimary": false,
+          "sortOrder": 1
+        }
+      ],
+      "description": "The Viktor & Rolf Spring/Summer 2026 collection presents these trousers made in a crisp cream denim with a balloon-shaped silhouette featuring sculptural volume and signature balloon seaming throughout.",
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#ccb9a3",
+          "image": "https://i.pinimg.com/1200x/38/34/89/383489f5f87ec56f5eb0df0900210fc1.jpg"
+        },
+        {
+          "name": "Black",
+          "hex": "#252525",
+          "image": "https://i.pinimg.com/736x/6e/77/8b/6e778b5a975bc5a40eb4a41288fceb56.jpg"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "createdAt": "2026-10-28T18:50:09.737Z",
+      "collectionSlug": "new-season",
+      "updatedAt": "2026-10-28T18:50:48.153Z"
+    },
+    {
+      "id": "prod-1793213268403-696",
+      "title": "Kessie White Irregular Hem Maxi Dress",
+      "slug": "kessie-white-irregular-hem-maxi-dress",
+      "gender": "collection",
+      "category": "New season",
+      "categorySlug": "new-season",
+      "collectionSlugs": [
+        "new-season"
+      ],
+      "price": 7400,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 6,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/1200x/ce/09/1f/ce091f1560f1ca7ad0c551b5d5d8147a.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/ce/09/1f/ce091f1560f1ca7ad0c551b5d5d8147a.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "Go to the Fashionslee online fashion dresses website ( fashionslee.com ) and search for the product title \"Kessie White Irregular Hem Maxi Dress\" to make a purchase. ",
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#f2f2f2",
+          "image": "https://i.pinimg.com/1200x/ce/09/1f/ce091f1560f1ca7ad0c551b5d5d8147a.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "createdAt": "2026-10-28T18:47:48.403Z",
+      "collectionSlug": "new-season"
+    },
+    {
+      "id": "prod-1793213198243-975",
+      "title": "Soft luxury meets timeless elegance.",
+      "slug": "soft-luxury-meets-timeless-elegance",
+      "gender": "collection",
+      "category": "New season",
+      "categorySlug": "new-season",
+      "collectionSlugs": [
+        "new-season"
+      ],
+      "price": 7400,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 8,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/236x/a9/a7/21/a9a721d37243258da3592ce27db025f2.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/236x/a9/a7/21/a9a721d37243258da3592ce27db025f2.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "✨ Soft luxury meets timeless elegance. This beautifully embroidered neutral-tone dress by Kapra Couture is perfect for girls who love classy, feminine, and minimal fashion. ",
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#d59a9a",
+          "image": "https://i.pinimg.com/236x/a9/a7/21/a9a721d37243258da3592ce27db025f2.jpg"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "createdAt": "2026-10-28T18:46:38.243Z",
+      "collectionSlug": "new-season"
+    },
+    {
+      "id": "prod-1793213060934-417",
+      "title": "Casual day outfit",
+      "slug": "casual-day-outfit",
+      "gender": "collection",
+      "category": "New season",
+      "categorySlug": "new-season",
+      "collectionSlugs": [
+        "new-season"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 14,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/34/33/4f/34334fbc0f9c9a405b83f6268afae8fa.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/34/33/4f/34334fbc0f9c9a405b83f6268afae8fa.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "Whether you're dressing for a casual day out, office wear, or a weekend hangout, these versatile polos are a must-have. Discover trendy colors, modern fits, and breathable fabrics that keep you looking sharp all day.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#252525",
+          "image": "https://i.pinimg.com/736x/34/33/4f/34334fbc0f9c9a405b83f6268afae8fa.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "createdAt": "2026-10-28T18:44:20.935Z",
+      "collectionSlug": "new-season"
+    },
+    {
+      "id": "prod-1793212976809-404",
+      "title": "Perfect blend of comfort and style T-Shirt",
+      "slug": "perfect-blend-of-comfort-and-style-t-shirt",
+      "gender": "collection",
+      "category": "New season",
+      "categorySlug": "new-season",
+      "collectionSlugs": [
+        "new-season"
+      ],
+      "price": 3200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 15,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/a9/de/7b/a9de7b63e3e468836f67641ad0721eea.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/a9/de/7b/a9de7b63e3e468836f67641ad0721eea.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "Upgrade your wardrobe with the latest polo shirts for men – the perfect blend of comfort and style!",
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#B69A7A",
+          "image": "https://i.pinimg.com/736x/a9/de/7b/a9de7b63e3e468836f67641ad0721eea.jpg"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "createdAt": "2026-10-28T18:42:56.810Z",
+      "collectionSlug": "new-season"
+    },
+    {
+      "id": "prod-1793212831551-338",
+      "title": "Women's Magda Butrym collection on Moda Operandi",
+      "slug": "women-s-magda-butrym-collection-on-moda-operandi",
+      "gender": "collection",
+      "category": "New season",
+      "categorySlug": "new-season",
+      "collectionSlugs": [
+        "new-season"
+      ],
+      "price": 4200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 5,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/70/bf/ee/70bfee6bbc3eb0ad8f04e67c377d833c.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/70/bf/ee/70bfee6bbc3eb0ad8f04e67c377d833c.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "2026 coastal-to-city transition with the Magda Butrym Draped Halterneck Blouse, a high-consequence interrogation of organic texture and \"Philo-era\" discipline. ",
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#B69A7A",
+          "image": "https://i.pinimg.com/736x/70/bf/ee/70bfee6bbc3eb0ad8f04e67c377d833c.jpg"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "createdAt": "2026-10-28T18:40:31.551Z",
+      "collectionSlug": "new-season"
+    },
+    {
+      "id": "prod-1793210898454-793",
+      "title": "Stylish Black Sunglasses",
+      "slug": "stylish-black-sunglasses",
+      "gender": "men",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "collectionSlugs": [],
+      "price": 2400,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 4,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/ad/14/49/ad14493502bc1c6b3fba79b86ce394a7.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/ad/14/49/ad14493502bc1c6b3fba79b86ce394a7.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "Elevate your everyday look with these stylish black sunglasses featuring elegant gold-tone details. 😎✨ Their sleek rectangular design is perfect for men who love a modern, sophisticated fashion look.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#252525",
+          "image": "https://i.pinimg.com/736x/ad/14/49/ad14493502bc1c6b3fba79b86ce394a7.jpg"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "createdAt": "2026-10-28T18:08:18.454Z",
+      "collectionSlug": null
+    },
+    {
+      "id": "prod-1793210284292-388",
+      "title": "Mens Watch Chronograph",
+      "slug": "mens-watch-chronograph",
+      "gender": "men",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "collectionSlugs": [],
+      "price": 3500,
+      "originalPrice": 4100,
+      "isSale": true,
+      "isNew": false,
+      "stockQuantity": 5,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/42/b1/41/42b141bfceea67484f5224d36a8197fe.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/42/b1/41/42b141bfceea67484f5224d36a8197fe.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": false,
+          "sortOrder": 1
+        },
+        {
+          "url": "https://www.temu.com/ul/kuiper/un3.html?subj=dpa-un&_bg_fs=1&_p_jump_id=1082&_x_vst_scene=adg&goods_id=601099568409335&adg_ctx=a-a7aaf4a9~c-c6ab38bb&_p_rfs=1&_x_ads_channel=pinterest&_x_ads_creative_id=4260610032095&_x_ads_id=2680091946726&_x_ads_set=626759616912&_x_ads_sub_channel=shopping&_x_ns_catalog_id=2000117&_x_ns_creative=4260610032095&_x_ns_gid=601099568409335&_x_ns_product_id=17592423156127&_x_ns_prz_type=101&locale_override=187~~USD&_x_bg_adid=eu1075977328&_x_ads_account=549770650864&_x_ns_placement=%7Bplacement%7D&pp=0.png",
+          "isPrimary": false,
+          "sortOrder": 2
+        }
+      ],
+      "description": "Mens Watch Chronograph Analogue Quartz Waterproof Stainless Steel Date Business Men Designer Watch for Man Mother's Day Gift Present #UK",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#f1e9e9",
+          "image": "https://i.pinimg.com/736x/42/b1/41/42b141bfceea67484f5224d36a8197fe.jpg"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "createdAt": "2026-10-28T17:58:04.292Z",
+      "collectionSlug": null,
+      "updatedAt": "2026-10-28T18:08:49.743Z"
+    },
+    {
+      "id": "prod-1793210027862-182",
+      "title": "Formal Watches",
+      "slug": "formal-watches",
+      "gender": "women",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "collectionSlugs": [],
+      "price": 2500,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 7,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/25/ab/b9/25abb9fe4ab5e619a9c2232e70d18ee0.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/25/ab/b9/25abb9fe4ab5e619a9c2232e70d18ee0.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "Formal Watches for Women's",
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#B69A7A",
+          "image": "https://i.pinimg.com/736x/25/ab/b9/25abb9fe4ab5e619a9c2232e70d18ee0.jpg"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "createdAt": "2026-10-28T17:53:47.862Z",
+      "collectionSlug": null
+    },
+    {
+      "id": "prod-1793209911259-115",
+      "title": "Luxury Summer Sunglasses",
+      "slug": "luxury-summer-sunglasses",
+      "gender": "women",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "collectionSlugs": [],
+      "price": 2100,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 5,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/e0/1b/dc/e01bdc9b63002fe65791be3c999bf94b.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/e0/1b/dc/e01bdc9b63002fe65791be3c999bf94b.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "Luxury Summer Sunglasses Look 🖤 | Elegant Neutral Outfit Aesthetic",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#252525",
+          "image": "https://i.pinimg.com/736x/e0/1b/dc/e01bdc9b63002fe65791be3c999bf94b.jpg"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "createdAt": "2026-10-28T17:51:51.259Z",
+      "collectionSlug": null
+    },
+    {
+      "id": "prod-1793209737492-257",
+      "title": "Minimalist Leather Shoulder Bag",
+      "slug": "minimalist-leather-shoulder-bag",
+      "gender": "women",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "collectionSlugs": [],
+      "price": 4500,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 7,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/ff/58/23/ff582339e80acc12ea4fb09747411c3c.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/ff/58/23/ff582339e80acc12ea4fb09747411c3c.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "Super pretty colour women's shoulder bag\n",
+      "colors": [
+        {
+          "name": "Red",
+          "hex": "#983a3a",
+          "image": "https://i.pinimg.com/736x/ff/58/23/ff582339e80acc12ea4fb09747411c3c.jpg"
+        },
+        {
+          "name": "Beige",
+          "hex": "#88b77b",
+          "image": "https://i.pinimg.com/736x/f8/76/fd/f876fdf4e5cce42cef155e937a8dffb6.jpg"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "createdAt": "2026-10-28T17:48:57.492Z",
+      "collectionSlug": null
+    },
+    {
+      "id": "prod-1793209447536-505",
+      "title": "Cargo Pant",
+      "slug": "cargo-pant",
+      "gender": "women",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "collectionSlugs": [],
+      "price": 4500,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 25,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/3e/f2/a9/3ef2a9e2b7eeb453f411ed9985244cf6.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/3e/f2/a9/3ef2a9e2b7eeb453f411ed9985244cf6.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "Cargo trousers with cool details and become part of the latest trend by matching them with a pair of trainers and a crisp T-shirt.",
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#cead88",
+          "image": "https://i.pinimg.com/736x/3e/f2/a9/3ef2a9e2b7eeb453f411ed9985244cf6.jpg"
+        },
+        {
+          "name": "Green",
+          "hex": "#2b4f21",
+          "image": "https://i.pinimg.com/1200x/2e/06/4f/2e064fc091d6f19bc9335475532aa62e.jpg"
+        },
+        {
+          "name": "Brown",
+          "hex": "#4e1818",
+          "image": "https://i.pinimg.com/736x/74/f6/dc/74f6dc7f2e095795f41105463fa3f733.jpg"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "createdAt": "2026-10-28T17:44:07.536Z",
+      "collectionSlug": null
+    },
+    {
+      "id": "prod-1793202833240-179",
+      "title": "Shirt Blouse",
+      "slug": "shirt-blouse",
+      "gender": "women",
+      "category": "Tops & Blouses",
+      "categorySlug": "tops",
+      "collectionSlugs": [],
+      "price": 1450,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 18,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "description": "",
+      "colors": [
+        {
+          "name": "Pink",
+          "hex": "#e1adc3",
+          "image": "https://i.pinimg.com/736x/30/da/72/30da728012339c421f4dff6791cb53d7.jpg"
+        },
+        {
+          "name": "Blue",
+          "hex": "#99a7ea",
+          "image": "https://i.pinimg.com/736x/35/d2/59/35d25910ea243c16fdf8629bc6168a52.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "createdAt": "2026-10-28T15:53:53.240Z",
+      "collectionSlug": null,
+      "updatedAt": "2026-10-28T17:34:22.282Z"
+    },
+    {
+      "id": "top-1",
+      "title": "Basic Organic Cotton Crewneck Top",
+      "slug": "basic-organic-cotton-crewneck-top",
+      "category": "Tops & Blouses",
+      "categorySlug": "tops",
+      "price": 1850,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://i.pinimg.com/736x/f5/4e/68/f54e689bfc6be8c8d88c5ef3d8ab109c.jpg",
+      "description": "Spun from 100% GOTS-certified Aegean organic cotton with a structured neckline and tailored drape.",
+      "colors": [
+        {
+          "name": "Pure White",
+          "hex": "#ca3f69",
+          "image": "https://i.pinimg.com/736x/f5/4e/68/f54e689bfc6be8c8d88c5ef3d8ab109c.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 15,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-28T15:34:55.676Z",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/f5/4e/68/f54e689bfc6be8c8d88c5ef3d8ab109c.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "top-2",
+      "title": "Elegant Pleated Silk Blouse",
+      "slug": "elegant-pleated-silk-blouse",
+      "category": "Tops & Blouses",
+      "categorySlug": "tops",
+      "price": 2400,
+      "originalPrice": 2900,
+      "isSale": true,
+      "isNew": false,
+      "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=700&q=80",
+      "description": "Lustrous mulberry silk with soft concealed mother-of-pearl buttons and tailored cuff detailing.",
+      "colors": [
+        {
+          "name": "Champagne",
+          "hex": "#E7DEC8"
+        },
+        {
+          "name": "Midnight",
+          "hex": "#1C2331"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 20,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T17:05:57.229Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "top-3",
+      "title": "Ribbed Knit Minimalist Mockneck",
+      "slug": "ribbed-knit-minimalist-mockneck",
+      "category": "Tops & Blouses",
+      "categorySlug": "tops",
+      "price": 2600,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "image": "https://i.pinimg.com/736x/a1/68/f1/a168f16cc9a09f8274f8c557157c3dec.jpg",
+      "description": "Engineered compact ribbed knit that contours the silhouette comfortably with shape-recovery yarn.",
+      "colors": [
+        {
+          "name": "Camel",
+          "hex": "#C8AD8D"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 27,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-28T08:58:56.486Z",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/a1/68/f1/a168f16cc9a09f8274f8c557157c3dec.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "top-4",
+      "title": "Pure Linen Relaxed Resort Shirt",
+      "slug": "pure-linen-relaxed-resort-shirt",
+      "category": "Tops & Blouses",
+      "categorySlug": "tops",
+      "price": 2200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
+      "description": "Pre-washed French flax linen with a breathable breezy drape, curved hem, and natural shell buttons.",
+      "colors": [
+        {
+          "name": "Standard",
+          "hex": "#403262"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 15,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T15:09:50.292Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "top-5",
+      "title": "Minimalist Cropped Ribbed Tank",
+      "slug": "minimalist-cropped-ribbed-tank",
+      "category": "Tops & Blouses",
+      "categorySlug": "tops",
+      "price": 2550,
+      "originalPrice": 2800,
+      "isSale": true,
+      "isNew": false,
+      "image": "https://i.pinimg.com/1200x/d5/d5/d3/d5d5d3a2a840fbb1f6410e99c258f658.jpg",
+      "description": "Premium stretch modal fabric with wide binding along the square neckline and subtle ribbed texture.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#fcefd4"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 14,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-28T09:35:28.191Z",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/d5/d5/d3/d5d5d3a2a840fbb1f6410e99c258f658.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "top-6",
+      "title": "Draped Satin Asymmetric Camisole",
+      "slug": "draped-satin-asymmetric-camisole",
+      "category": "Tops & Blouses",
+      "categorySlug": "tops",
+      "price": 3200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://i.pinimg.com/736x/e0/15/93/e01593322fea372a6d1fd14556185158.jpg",
+      "description": "Double-layered lustrous heavy satin with delicate adjustable rouleau straps and subtle cowl front.",
+      "colors": [
+        {
+          "name": "Dark Blue",
+          "hex": "#165455"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 7,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T15:15:28.233Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "dress-1",
+      "title": "Floral Tiered Bohemian Midi Dress",
+      "slug": "floral-tiered-bohemian-midi-dress",
+      "category": "Dresses",
+      "categorySlug": "dresses",
+      "price": 4800,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://i.pinimg.com/736x/df/52/e8/df52e89a28a87c1d8d74967371bfc8db.jpg",
+      "description": "Fluid tiered viscose crepe featuring subtle hand-painted botanical motifs and a self-tie waist cord.",
+      "colors": [
+        {
+          "name": "Earthy Olive",
+          "hex": "#606456"
+        },
+        {
+          "name": "Terracotta",
+          "hex": "#C27C60"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 12,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T14:45:41.929Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "dress-2",
+      "title": "Elegant Pleated Maxi Evening Dress",
+      "slug": "elegant-pleated-maxi-evening-dress",
+      "category": "Dresses",
+      "categorySlug": "dresses",
+      "price": 5400,
+      "originalPrice": 6900,
+      "isSale": true,
+      "isNew": false,
+      "image": "https://i.pinimg.com/1200x/ce/6e/f6/ce6ef692b639167371a88eea12621f23.jpg",
+      "description": "Floor-sweeping sunray accordion pleats that catch the light elegantly with each stride.",
+      "colors": [
+        {
+          "name": "Onyx Black",
+          "hex": "#252525"
+        },
+        {
+          "name": "Desert Beige",
+          "hex": "#B69A7A"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 4,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T14:57:57.348Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "dress-3",
+      "title": "Lustrous Satin Cowl-Neck Slip Dress",
+      "slug": "lustrous-satin-cowl-neck-slip-dress",
+      "category": "Dresses",
+      "categorySlug": "dresses",
+      "price": 5200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://i.pinimg.com/1200x/4e/d8/1e/4ed81e49ed1dc673a4c9e5eeef050880.jpg",
+      "description": "Cut on the bias for a natural contours-hugging drape. Features a flattering low back and side slit.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#f7f7f7"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0f1380"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 7,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T15:17:19.142Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "dress-4",
+      "title": "Casual Linen Summer Wrap Dress",
+      "slug": "casual-linen-summer-wrap-dress",
+      "category": "Dresses",
+      "categorySlug": "dresses",
+      "price": 4600,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=80",
+      "description": "100% garment-dyed European linen with an adjustable wrap tie belt and roomy concealed pockets.",
+      "colors": [
+        {
+          "name": "Red",
+          "hex": "#e74b08"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 15,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T15:18:20.280Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "dress-5",
+      "title": "Structured Minimalist Little Black Dress",
+      "slug": "structured-minimalist-little-black-dress",
+      "category": "Dresses",
+      "categorySlug": "dresses",
+      "price": 3800,
+      "originalPrice": 4500,
+      "isSale": true,
+      "isNew": false,
+      "image": "https://i.pinimg.com/736x/86/2d/62/862d626e4a88f153c27d355d7c7fd3fb.jpg",
+      "description": "Architectural crepe tailoring with refined seam detailing and an understated square boatneck neckline.",
+      "colors": [
+        {
+          "name": "Deep Black",
+          "hex": "#252525"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 5,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T15:19:44.503Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "dress-6",
+      "title": "Belted Kimono Silhouette Shirtdress",
+      "slug": "belted-kimono-silhouette-shirtdress",
+      "category": "Dresses",
+      "categorySlug": "dresses",
+      "price": 2700,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=700&q=80",
+      "description": "Crisp poplin cotton with a wide fabric obi belt, dropped shoulder line, and tailored breast pockets.",
+      "colors": [
+        {
+          "name": "Dark Red",
+          "hex": "#a22a2a"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 15,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T15:20:43.721Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "denim-1",
+      "title": "Oversized Vintage Denim Trucker Jacket",
+      "slug": "oversized-vintage-denim-trucker-jacket",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "price": 4800,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://i.pinimg.com/736x/78/77/cb/7877cbaa68706ff6d3c8fd79b192a4cd.jpg",
+      "description": "Heavyweight 13oz ring-spun denim with distressed brass buttons and authentic vintage stone-washing.",
+      "colors": [
+        {
+          "name": "Vintage Stone Blue",
+          "hex": "#1f4a6f"
+        },
+        {
+          "name": "Faded Black",
+          "hex": "#3B3B3B"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 9,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T15:22:52.746Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "denim-2",
+      "title": "High-Rise Wide-Leg Vintage Denim",
+      "slug": "high-rise-wide-leg-vintage-denim",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "price": 4600,
+      "originalPrice": 5500,
+      "isSale": true,
+      "isNew": false,
+      "image": "https://i.pinimg.com/736x/1f/39/d2/1f39d2e177033d0904e21c963dad3fa4.jpg",
+      "description": "Full-length wide-leg cut with authentic 90s vintage wash, 5-pocket construction, and zip fly.",
+      "colors": [
+        {
+          "name": "Light Indigo",
+          "hex": "#7998b4"
+        }
+      ],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 10,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T15:24:19.599Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "denim-3",
+      "title": "Classic Western Washed Denim Shirt",
+      "slug": "classic-western-washed-denim-shirt",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "price": 4800,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "image": "https://i.pinimg.com/1200x/5f/fe/0b/5ffe0bf8eb2389a047b2a1fb45b4817c.jpg",
+      "description": "Softened 7oz cotton denim with pointed western front yoke, pearl snap buttons, and chest flap pockets.",
+      "colors": [
+        {
+          "name": "Medium Wash",
+          "hex": "#4c6d90"
+        },
+        {
+          "name": "Bleach Light",
+          "hex": "#A3BCCE"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 23,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T15:26:21.222Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "denim-5",
+      "title": "Cropped Raw-Hem Denim Utility Vest",
+      "slug": "cropped-raw-hem-denim-utility-vest",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "price": 4900,
+      "originalPrice": 5200,
+      "isSale": true,
+      "isNew": false,
+      "image": "https://i.pinimg.com/736x/8e/4f/7d/8e4f7d8c217a0d55b5e087d09f9e30d0.jpg",
+      "description": "Boxy streetwear tailoring with raw fringe hemline, deep armholes, and oversized chest pockets.",
+      "colors": [
+        {
+          "name": "Faded Ink",
+          "hex": "#313840"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 8,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-27T15:30:19.947Z",
+      "collectionSlugs": []
+    },
+    {
+      "id": "denim-6",
+      "title": "Straight-Fit Vintage Stone Denim",
+      "slug": "straight-fit-vintage-stone-denim",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "price": 4200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://i.pinimg.com/736x/75/cf/aa/75cfaaebe61821dd0451786c8e8e494d.jpg",
+      "description": "Clean ankle-grazing straight leg silhouette tailored for versatile day-to-night styling.",
+      "colors": [
+        {
+          "name": "Classic Blue",
+          "hex": "#84a3c2"
+        }
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 13,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-28T17:13:53.921Z",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/75/cf/aa/75cfaaebe61821dd0451786c8e8e494d.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ]
+    },
+    {
+      "id": "jean-1",
+      "title": "Tailored High-Waisted Pleated Trousers",
+      "slug": "tailored-high-waisted-pleated-trousers",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "price": 3400,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
+      "description": "Double front pleats with extended waistband tab, belt loops, and clean tapered leg silhouette.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#faf7f5",
+          "image": "https://i.pinimg.com/736x/95/19/d3/9519d3174ea6cf3543c6d2d3ddaf32cc.jpg"
+        },
+        {
+          "name": "Jet Black",
+          "hex": "#918d8d",
+          "image": "https://i.pinimg.com/736x/73/f7/12/73f71202888e91434895f8958235d620.jpg"
+        },
+        {
+          "name": "Soft Sand",
+          "hex": "#7e432a",
+          "image": "https://i.pinimg.com/736x/1b/d2/44/1bd2444f09ab4d8e518f91dedc467769.jpg"
+        },
+        {
+          "name": "Black",
+          "hex": "#252525",
+          "image": "https://i.pinimg.com/736x/df/1b/aa/df1baa6cb12b34c2e68bfb1e3cedd364.jpg"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 40,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://i.pinimg.com/736x/95/19/d3/9519d3174ea6cf3543c6d2d3ddaf32cc.jpg",
+          "isPrimary": false,
+          "sortOrder": 1
+        },
+        {
+          "url": "https://i.pinimg.com/736x/73/f7/12/73f71202888e91434895f8958235d620.jpg",
+          "isPrimary": false,
+          "sortOrder": 2
+        },
+        {
+          "url": "https://i.pinimg.com/736x/1b/d2/44/1bd2444f09ab4d8e518f91dedc467769.jpg",
+          "isPrimary": false,
+          "sortOrder": 3
+        },
+        {
+          "url": "https://i.pinimg.com/736x/df/1b/aa/df1baa6cb12b34c2e68bfb1e3cedd364.jpg",
+          "isPrimary": false,
+          "sortOrder": 4
+        }
+      ],
+      "updatedAt": "2026-10-28T18:09:30.794Z"
+    },
+    {
+      "id": "jean-2",
+      "title": "Fluid Wide-Leg Linen Palazzo Pants",
+      "slug": "fluid-wide-leg-linen-palazzo-pants",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "price": 2900,
+      "originalPrice": 3500,
+      "isSale": true,
+      "isNew": false,
+      "image": "https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?auto=format&fit=crop&w=700&q=80",
+      "description": "Pure French linen with elasticated back waist, front slash pockets, and voluminous breezy hem.",
+      "colors": [
+        {
+          "name": "Natural Flax",
+          "hex": "#8fb1d6"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 15,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T17:21:13.030Z"
+    },
+    {
+      "id": "jean-3",
+      "title": "Classic Straight-Leg Ankle Jean",
+      "slug": "classic-straight-leg-ankle-jean",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "price": 3800,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=700&q=80",
+      "description": "1% elastane comfort stretch denim that molds perfectly to your form without bagging out.",
+      "colors": [
+        {
+          "name": "Washed Black",
+          "hex": "#333230"
+        }
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 16,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T17:35:44.533Z"
+    },
+    {
+      "id": "jean-5",
+      "title": "Minimalist Everyday pink Trouser",
+      "slug": "minimalist-everyday-black-trouser",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "price": 4200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=700&q=80",
+      "description": "Wrinkle-resistant bi-stretch tailored twill with concealed hook-and-bar closure.",
+      "colors": [
+        {
+          "name": "Matte Black",
+          "hex": "#edc0c0",
+          "image": "https://i.pinimg.com/736x/13/0c/bc/130cbc29d6ae458daaa681115b7ba57a.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 15,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T17:38:42.036Z"
+    },
+    {
+      "id": "jean-6",
+      "title": "Relaxed Drawstring Tencel Pants",
+      "slug": "relaxed-drawstring-tencel-pants",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "price": 3200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=700&q=80",
+      "description": "Silky Tencel lyocell fiber with soft garment wash, drawstring waist, and gentle cuffed hems.",
+      "colors": [
+        {
+          "name": "Warm Cream",
+          "hex": "#547d4f",
+          "image": "https://i.pinimg.com/736x/1e/0c/5b/1e0c5b8d3c59a557a1648489fb547abe.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 10,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T17:40:49.652Z"
+    },
+    {
+      "id": "skirt-1",
+      "title": "Bias-Cut Lustrous Satin Midi Skirt",
+      "slug": "bias-cut-lustrous-satin-midi-skirt",
+      "category": "Skirts",
+      "categorySlug": "skirts",
+      "price": 3600,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=700&q=80",
+      "description": "Silky heavyweight satin cut diagonally across the grain for an effortless liquid-drape motion.",
+      "colors": [
+        {
+          "name": "Espresso",
+          "hex": "#3B2F2A",
+          "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=700&q=80"
+        },
+        {
+          "name": "Midnight",
+          "hex": "#305a2a",
+          "image": "https://i.pinimg.com/1200x/23/81/1c/23811ce670c62bd83281ea66dc30cf5f.jpg"
+        },
+        {
+          "name": "Dark Red",
+          "hex": "#8a1414",
+          "image": "https://i.pinimg.com/736x/0e/06/5b/0e065baa641a92c007d8b55ddad6f6a0.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 18,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://i.pinimg.com/1200x/23/81/1c/23811ce670c62bd83281ea66dc30cf5f.jpg",
+          "isPrimary": false,
+          "sortOrder": 1
+        },
+        {
+          "url": "https://i.pinimg.com/736x/0e/06/5b/0e065baa641a92c007d8b55ddad6f6a0.jpg",
+          "isPrimary": false,
+          "sortOrder": 2
+        }
+      ],
+      "updatedAt": "2026-10-28T15:39:18.728Z"
+    },
+    {
+      "id": "skirt-2",
+      "title": "Sunray Accordion Pleated Maxi Skirt",
+      "slug": "sunray-accordion-pleated-maxi-skirt",
+      "category": "Skirts",
+      "categorySlug": "skirts",
+      "price": 3200,
+      "originalPrice": 4000,
+      "isSale": true,
+      "isNew": false,
+      "image": "https://i.pinimg.com/736x/88/63/70/886370c7da6c7f9a5daa2da082c3a9d7.jpg",
+      "description": "Fine knife pleating that retains crisp structural definition, finished with an elasticated waistband.",
+      "colors": [
+        {
+          "name": "Sand Beige",
+          "hex": "#B69A7A",
+          "image": "https://i.pinimg.com/736x/88/63/70/886370c7da6c7f9a5daa2da082c3a9d7.jpg"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff",
+          "image": "https://i.pinimg.com/736x/04/a5/71/04a571e0678db30c84e467cb6454b130.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 13,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "updatedAt": "2026-10-28T15:38:34.510Z",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/88/63/70/886370c7da6c7f9a5daa2da082c3a9d7.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://i.pinimg.com/736x/04/a5/71/04a571e0678db30c84e467cb6454b130.jpg",
+          "isPrimary": false,
+          "sortOrder": 1
+        }
+      ]
+    },
+    {
+      "id": "skirt-3",
+      "title": "High-Waist A-Line Utility Skirt",
+      "slug": "high-waist-a-line-utility-skirt",
+      "category": "Skirts",
+      "categorySlug": "skirts",
+      "price": 6800,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://images.unsplash.com/photo-1577900232427-18219b9166a0?auto=format&fit=crop&w=700&q=80",
+      "description": "Structured cotton twill with statement patch cargo pockets and horn button front placket.",
+      "colors": [
+        {
+          "name": "Off-White",
+          "hex": "#F5F2EC"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 30,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1577900232427-18219b9166a0?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T15:39:57.990Z"
+    },
+    {
+      "id": "skirt-4",
+      "title": "Tiered Cotton Bohemian Maxi Skirt",
+      "slug": "tiered-cotton-bohemian-maxi-skirt",
+      "category": "Skirts",
+      "categorySlug": "skirts",
+      "price": 4100,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "image": "https://i.pinimg.com/1200x/17/e5/6c/17e56c3b55c5378959fbafaf60b40816.jpg",
+      "description": "Airy multi-tiered organic cotton voile with subtle pintuck pleats and delicate ladder lace trim.",
+      "colors": [
+        {
+          "name": "Soft Blue",
+          "hex": "#5b83e1"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 9,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/17/e5/6c/17e56c3b55c5378959fbafaf60b40816.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T08:46:22.303Z"
+    },
+    {
+      "id": "skirt-5",
+      "title": "Stylish Burgundy Skirt with Leg Cut ",
+      "slug": "Elegant & Bold Fashion Look",
+      "category": "Skirts",
+      "categorySlug": "skirts",
+      "price": 5800,
+      "originalPrice": 6900,
+      "isSale": true,
+      "isNew": false,
+      "image": "https://i.pinimg.com/736x/b7/74/ad/b774ad8bd49922c2b0beeef0b4107533.jpg",
+      "description": "Clean architectural overlapping front with hidden snap closure and smooth satin inner lining.",
+      "colors": [
+        {
+          "name": "Red",
+          "hex": "#751a10"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 14,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/b7/74/ad/b774ad8bd49922c2b0beeef0b4107533.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T08:57:00.169Z"
+    },
+    {
+      "id": "acc-1",
+      "title": "Minimalist Italian Leather Shoulder Bag",
+      "slug": "minimalist-italian-leather-shoulder-bag",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "price": 2800,
+      "originalPrice": 3500,
+      "isSale": true,
+      "isNew": true,
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=700&q=80",
+      "description": "Supple full-grain calfskin with subtle gold-embossed logo, magnetic closure, and suede lining.",
+      "colors": [
+        {
+          "name": "Onyx Black",
+          "hex": "#252525"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 10,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T08:57:59.763Z"
+    },
+    {
+      "id": "acc-2",
+      "title": "Premium Brown Leather Briefcase",
+      "slug": "structured-top-handle-leather-handbag",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "price": 4800,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://i.pinimg.com/1200x/f2/19/94/f21994fc14cf984c24e3afe38cb84d46.jpg",
+      "description": "Architectural trapezoid silhouette with sturdy top handle and detachable cross-body strap.",
+      "colors": [
+        {
+          "name": "Noir",
+          "hex": "#471a1a"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "gender": "men",
+      "collectionSlug": null,
+      "stockQuantity": 5,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/f2/19/94/f21994fc14cf984c24e3afe38cb84d46.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:02:17.408Z"
+    },
+    {
+      "id": "acc-4",
+      "title": "Oversized Havana Polarized Sunglasses",
+      "slug": "oversized-havana-polarized-sunglasses",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "price": 3400,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "image": "https://i.pinimg.com/1200x/1c/44/61/1c4461ff8ced8d0df65e1fdc8f42cf2e.jpg",
+      "description": "Hand-polished Italian acetate frame with 100% UV400 category 3 scratch-resistant polarized lenses.",
+      "colors": [
+        {
+          "name": "Glossy Black",
+          "hex": "#212121"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 7,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/1c/44/61/1c4461ff8ced8d0df65e1fdc8f42cf2e.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T17:52:08.153Z"
+    },
+    {
+      "id": "acc-5",
+      "title": "Hand-Rolled Mulberry Silk Atelier Scarf",
+      "slug": "hand-rolled-mulberry-silk-atelier-scarf",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "price": 2200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "image": "https://i.pinimg.com/1200x/07/9d/a6/079da61aab309b04653280bfe68806ed.jpg",
+      "description": "100% 16mm Mulberry silk twill featuring exclusive geometric atelier print with hand-rolled edges.",
+      "colors": [
+        {
+          "name": "Midnight Gold",
+          "hex": "#2b3336"
+        }
+      ],
+      "sizes": [
+        "90cm x 90cm"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 8,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/07/9d/a6/079da61aab309b04653280bfe68806ed.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:07:24.782Z"
+    },
+    {
+      "id": "acc-6",
+      "title": "Everyday Heavy Canvas & Leather Shopper Tote",
+      "slug": "everyday-heavy-canvas-and-leather-shopper-tote",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "price": 3800,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "image": "https://i.pinimg.com/736x/eb/5e/c8/eb5ec83547deafc280a6fd571b84276b.jpg",
+      "description": "18oz rugged water-resistant cotton canvas reinforced with Italian saddle leather handles and bottom studs.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#f5f5f5"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "gender": "women",
+      "collectionSlug": null,
+      "stockQuantity": 23,
+      "status": "ACTIVE",
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/eb/5e/c8/eb5ec83547deafc280a6fd571b84276b.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:08:26.302Z"
+    },
+    {
+      "id": "m-sh-1",
+      "title": "Relaxed Fit Heavyweight Cotton Overshirt",
+      "slug": "relaxed-fit-heavyweight-cotton-overshirt",
+      "gender": "men",
+      "category": "T-Shirts & Shirts",
+      "categorySlug": "shirts",
+      "collectionSlug": null,
+      "price": 5500,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 7,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=700&q=80",
+      "description": "Crafted from 320gsm durable twill cotton with dual chest patch pockets and matte horn buttons.",
+      "colors": [
+        {
+          "name": "Olive Blue",
+          "hex": "#141a71"
+        },
+        {
+          "name": "Deep Black",
+          "hex": "#252525"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "collectionSlugs": [],
+      "updatedAt": "2026-10-27T16:30:14.795Z"
+    },
+    {
+      "id": "m-sh-2",
+      "title": "French Normandy Linen Camp Collar Shirt",
+      "slug": "french-normandy-linen-camp-collar-shirt",
+      "gender": "men",
+      "category": "T-Shirts & Shirts",
+      "categorySlug": "shirts",
+      "collectionSlug": null,
+      "price": 3800,
+      "originalPrice": 4500,
+      "isSale": true,
+      "isNew": false,
+      "stockQuantity": 11,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/1200x/da/f4/25/daf425ec4994b3147e17caf3fd3c66b9.jpg",
+      "description": "Airy pre-washed European flax linen featuring a retro relaxed camp collar and mother-of-pearl buttons.",
+      "colors": [
+        {
+          "name": "Natural Ecru",
+          "hex": "#EAE6DF"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/da/f4/25/daf425ec4994b3147e17caf3fd3c66b9.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:17:35.297Z"
+    },
+    {
+      "id": "m-sh-3",
+      "title": "Supima Cotton Minimalist Crewneck T-Shirt",
+      "slug": "supima-cotton-minimalist-crewneck-tshirt",
+      "gender": "men",
+      "category": "T-Shirts & Shirts",
+      "categorySlug": "shirts",
+      "collectionSlug": null,
+      "price": 4500,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 15,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/a6/2d/c3/a62dc3ea8aaaf74210da26161c7cb0d1.jpg",
+      "description": "Extra-long staple American Supima cotton with a tailored classic neckline that maintains shape wash after wash.",
+      "colors": [
+        {
+          "name": "Warm Taupe",
+          "hex": "#0f0f0f"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/a6/2d/c3/a62dc3ea8aaaf74210da26161c7cb0d1.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:19:07.559Z"
+    },
+    {
+      "id": "m-sh-4",
+      "title": "Tailored Oxford Cloth Button-Down Shirt",
+      "slug": "tailored-oxford-cloth-button-down-shirt",
+      "gender": "men",
+      "category": "T-Shirts & Shirts",
+      "categorySlug": "shirts",
+      "collectionSlug": null,
+      "price": 5200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 24,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/15/ce/bb/15cebb6fd5af3a4caa763fd0d1d19c59.jpg",
+      "description": "Crisp two-ply pin-point Oxford cotton weave tailored with modern collar roll and rounded barrel cuffs.",
+      "colors": [
+        {
+          "name": "Crisp White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Powder Blue",
+          "hex": "#C5D8E8"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/15/ce/bb/15cebb6fd5af3a4caa763fd0d1d19c59.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:20:26.807Z"
+    },
+    {
+      "id": "m-sh-6",
+      "title": "Silk-Blend Fluid Evening Lounge Shirt",
+      "slug": "silk-blend-fluid-evening-lounge-shirt",
+      "gender": "men",
+      "category": "T-Shirts & Shirts",
+      "categorySlug": "shirts",
+      "collectionSlug": null,
+      "price": 5800,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 12,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=700&q=80",
+      "description": "Lustrous mulberry silk and viscose blend with subtle fluid drape, hidden front placket, and tonal atelier sheen.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#ebebeb"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:21:32.222Z"
+    },
+    {
+      "id": "m-jn-1",
+      "title": "Vintage Selvedge Rigid Straight Jeans",
+      "slug": "vintage-selvedge-rigid-straight-jeans",
+      "gender": "men",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "collectionSlug": null,
+      "price": 5200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 17,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/1200x/29/44/3b/29443b7227a841943171462db6aeaf48.jpg",
+      "description": "14oz shuttle-loomed red-line selvedge denim woven in Okayama with authentic copper rivets and button fly.",
+      "colors": [
+        {
+          "name": "Raw Indigo",
+          "hex": "#1E2D4A"
+        }
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/29/44/3b/29443b7227a841943171462db6aeaf48.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:23:21.013Z"
+    },
+    {
+      "id": "m-jn-2",
+      "title": "Relaxed Tapered Washed Blue Jeans",
+      "slug": "relaxed-tapered-washed-blue-jeans",
+      "gender": "men",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "collectionSlug": null,
+      "price": 4800,
+      "originalPrice": 5500,
+      "isSale": true,
+      "isNew": false,
+      "stockQuantity": 18,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/08/b4/e0/08b4e0d740aae318cf86c38fa9352ff1.jpg",
+      "description": "Gentle vintage stone enzyme wash with room in the seat and thigh tapering neatly toward the ankle hem.",
+      "colors": [
+        {
+          "name": "Medium Vintage Wash",
+          "hex": "#387194"
+        }
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/08/b4/e0/08b4e0d740aae318cf86c38fa9352ff1.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:24:15.103Z"
+    },
+    {
+      "id": "m-jn-3",
+      "title": "Slim Fit Stay-Black Clean Denim",
+      "slug": "slim-fit-stay-black-clean-denim",
+      "gender": "men",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "collectionSlug": null,
+      "price": 5900,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 20,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/21/47/f2/2147f2cb257d01a5839b4c5cee0f0891.jpg",
+      "description": "Sulfur stay-black dyed cotton denim that resists fading through 40+ laundry cycles with 1% comfort stretch.",
+      "colors": [
+        {
+          "name": "Deep Onyx",
+          "hex": "#181818"
+        }
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/21/47/f2/2147f2cb257d01a5839b4c5cee0f0891.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:24:56.862Z"
+    },
+    {
+      "id": "m-jn-5",
+      "title": "Classic Bootcut Mid-Rise Vintage Denim",
+      "slug": "classic-bootcut-mid-rise-vintage-denim",
+      "gender": "men",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "collectionSlug": null,
+      "price": 4400,
+      "originalPrice": 5000,
+      "isSale": true,
+      "isNew": false,
+      "stockQuantity": 11,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=700&q=80",
+      "description": "90s archival silhouette cut with subtle boot flare at the leg opening and authentic whisker distressing.",
+      "colors": [
+        {
+          "name": "Worn Light Wash",
+          "hex": "#87A9C7"
+        }
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:25:47.354Z"
+    },
+    {
+      "id": "m-jn-6",
+      "title": "Acid Washed Loose 90s Skater Jean",
+      "slug": "acid-washed-loose-90s-skater-jean",
+      "gender": "men",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "collectionSlug": null,
+      "price": 4900,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 25,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1560243563-062bfc001d68?auto=format&fit=crop&w=700&q=80",
+      "description": "Wide cut relaxed leg profile with gentle stacking over sneakers in marbled marble acid-wash treatment.",
+      "colors": [
+        {
+          "name": "Marble Bleach",
+          "hex": "#A8BED4"
+        },
+        {
+          "name": "Black",
+          "hex": "#252525"
+        },
+        {
+          "name": "White",
+          "hex": "#fdfcfc"
+        }
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:26:30.324Z"
+    },
+    {
+      "id": "m-tr-1",
+      "title": "Single-Pleated Tailored Relaxed Trouser",
+      "slug": "single-pleated-tailored-relaxed-trouser",
+      "gender": "men",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "collectionSlug": null,
+      "price": 13800,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 25,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=700&q=80",
+      "description": "Fluid wool-viscose twill with double forward pleats, side waist adjusters, and a generous straight fall.",
+      "colors": [
+        {
+          "name": "Charcoal Grey",
+          "hex": "#3B3B3B"
+        },
+        {
+          "name": "Desert Khaki",
+          "hex": "#B8A389"
+        }
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "collectionSlugs": []
+    },
+    {
+      "id": "m-tr-2",
+      "title": "Classic Flat-Front Everyday Stretch Chino",
+      "slug": "classic-flat-front-everyday-stretch-chino",
+      "gender": "men",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "collectionSlug": null,
+      "price": 9500,
+      "originalPrice": 11800,
+      "isSale": true,
+      "isNew": false,
+      "stockQuantity": 34,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=700&q=80",
+      "description": "Garment-dyed 260gsm combed cotton twill with welt back pockets and reinforced coin pocket.",
+      "colors": [
+        {
+          "name": "Warm Sand",
+          "hex": "#C2B29F"
+        },
+        {
+          "name": "Navy Blue",
+          "hex": "#1E2A38"
+        },
+        {
+          "name": "Olive Drab",
+          "hex": "#4B5320"
+        }
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "collectionSlugs": []
+    },
+    {
+      "id": "m-tr-5",
+      "title": "Modern Cropped Ankle Tapered Trouser",
+      "slug": "modern-cropped-ankle-tapered-trouser",
+      "gender": "men",
+      "category": "Trousers & Jeans",
+      "categorySlug": "jeans",
+      "collectionSlug": null,
+      "price": 4400,
+      "originalPrice": 5900,
+      "isSale": true,
+      "isNew": false,
+      "stockQuantity": 6,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=700&q=80",
+      "description": "Contemporary silhouette terminating neatly above the shoe line with 2cm blind-stitched turn-up cuffs.",
+      "colors": [
+        {
+          "name": "Coffee Brown",
+          "hex": "#e9d5ba"
+        }
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T18:12:33.403Z"
+    },
+    {
+      "id": "m-ow-1",
+      "title": "Minimalist Double-Faced Wool Atelier Coat",
+      "slug": "minimalist-double-faced-wool-atelier-coat",
+      "gender": "men",
+      "category": "Jackets & Outerwear",
+      "categorySlug": "outerwear",
+      "collectionSlug": null,
+      "price": 5500,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 8,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=700&q=80",
+      "description": "Hand-finished double-faced Australian merino wool coat with clean concealed horn button front closure.",
+      "colors": [
+        {
+          "name": "Camel Tan",
+          "hex": "#C19A6B"
+        }
+      ],
+      "sizes": [
+        "38",
+        "40"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T18:17:31.245Z"
+    },
+    {
+      "id": "m-ow-2",
+      "title": "Heavyweight Loopback French Terry Hoodie",
+      "slug": "heavyweight-loopback-french-terry-hoodie",
+      "gender": "men",
+      "category": "Jackets & Outerwear",
+      "categorySlug": "outerwear",
+      "collectionSlug": null,
+      "price": 3800,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 11,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/1200x/f7/b6/45/f7b64545c2db2b1ba1076b6053580d29.jpg",
+      "description": "450gsm dense 100% organic cotton loopback fleece with double-lined hood and seamless kangaroo pocket.",
+      "colors": [
+        {
+          "name": "Washed Black",
+          "hex": "#0c551b"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/f7/b6/45/f7b64545c2db2b1ba1076b6053580d29.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:28:45.155Z"
+    },
+    {
+      "id": "m-ow-3",
+      "title": "Unstructured Pure Linen Atelier Blazer",
+      "slug": "unstructured-pure-linen-atelier-blazer",
+      "gender": "men",
+      "category": "Jackets & Outerwear",
+      "categorySlug": "outerwear",
+      "collectionSlug": null,
+      "price": 6000,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 3,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/1200x/cf/92/25/cf9225e07e998d0919b9b214448f92b4.jpg",
+      "description": "Quarter-lined Italian linen summer sport coat featuring patch pockets, double rear vents, and soft natural shoulders.",
+      "colors": [
+        {
+          "name": "Sand Khaki",
+          "hex": "#CDBFA9",
+          "image": "https://i.pinimg.com/1200x/cf/92/25/cf9225e07e998d0919b9b214448f92b4.jpg"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/cf/92/25/cf9225e07e998d0919b9b214448f92b4.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": false,
+          "sortOrder": 1
+        }
+      ],
+      "updatedAt": "2026-10-28T18:16:57.757Z"
+    },
+    {
+      "id": "m-ow-5",
+      "title": "Vintage Leather Minimalist Biker Jacket",
+      "slug": "vintage-leather-minimalist-biker-jacket",
+      "gender": "men",
+      "category": "Jackets & Outerwear",
+      "categorySlug": "outerwear",
+      "collectionSlug": null,
+      "price": 4500,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 6,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/1200x/35/28/0d/35280de29d099e7bad9bc96f6acb6fd1.jpg",
+      "description": "Buttery full-grain lambskin leather with antique silver YKK two-way zipper and cupro diamond-quilted lining.",
+      "colors": [
+        {
+          "name": "Washed Black Leather",
+          "hex": "#511515"
+        }
+      ],
+      "sizes": [
+        "38",
+        "40",
+        "42"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/35/28/0d/35280de29d099e7bad9bc96f6acb6fd1.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:30:48.346Z"
+    },
+    {
+      "id": "m-acc-1",
+      "title": "Full-Grain Italian Saddle Leather Belt",
+      "slug": "full-grain-italian-saddle-leather-belt",
+      "gender": "men",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "collectionSlug": null,
+      "price": 5400,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 40,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+      "description": "Vegetable-tanned 3.8mm thick bridle leather with hand-burnished beveled edges and solid brushed brass buckle.",
+      "colors": [
+        {
+          "name": "Black Noir",
+          "hex": "#0f114d"
+        }
+      ],
+      "sizes": [
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:11:43.225Z"
+    },
+    {
+      "id": "m-acc-2",
+      "title": "Minimalist Bifold Leather Wallet with RFID",
+      "slug": "minimalist-bifold-leather-wallet-with-rfid",
+      "gender": "men",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "collectionSlug": null,
+      "price": 3800,
+      "originalPrice": 4500,
+      "isSale": true,
+      "isNew": false,
+      "stockQuantity": 10,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/1200x/b1/ca/15/b1ca1552e1b34b1a63e8ed685ab6b521.jpg",
+      "description": "Ultra-slim 8-card bifold crafted from buttero Italian calfskin leather with embedded RFID theft blocking.",
+      "colors": [
+        {
+          "name": "Espresso Brown",
+          "hex": "#77411d"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/b1/ca/15/b1ca1552e1b34b1a63e8ed685ab6b521.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:11:03.281Z"
+    },
+    {
+      "id": "m-acc-3",
+      "title": "Classic Black Sunglasses - Effortless Summer Style",
+      "slug": "handcrafted-acetate-polarized-aviators",
+      "gender": "men",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "collectionSlug": null,
+      "price": 2900,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 7,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/736x/74/f5/06/74f506d106ae24662c64846664e9f7f8.jpg",
+      "description": "Custom Japanese acetate frame with precision five-barrel hinges and category 3 polarized UV400 lenses.",
+      "colors": [
+        {
+          "name": "Piano Black",
+          "hex": "#111111"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/74/f5/06/74f506d106ae24662c64846664e9f7f8.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:10:05.360Z"
+    },
+    {
+      "id": "m-kw-1",
+      "title": "KEMISANT Men Belt 2Pack -  Genuine Leather Belt 1 3/8\"",
+      "slug": "KEMISANT Men Belt 2Pack, Genuine Leather Belt 1 3/8\"",
+      "gender": "men",
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "collectionSlug": null,
+      "price": 2500,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": true,
+      "stockQuantity": 15,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/1200x/f9/8a/ae/f98aaec4fe7f6b17d3692628005d541c.jpg",
+      "description": "Spun from Grade-A 100% white Mongolian cashmere fibers (15.5 micron diameter) for cloud-like softness.",
+      "colors": [
+        {
+          "name": "Camel Melange",
+          "hex": "#7d4b36"
+        },
+        {
+          "name": "Charcoal Noir",
+          "hex": "#262626"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "collectionSlugs": [],
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/f9/8a/ae/f98aaec4fe7f6b17d3692628005d541c.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T09:14:38.825Z"
+    },
+    {
+      "id": "m-kw-2",
+      "title": "Heavyweight Cable-Knit Wool Fisherman Sweater",
+      "slug": "heavyweight-cable-knit-wool-fisherman-sweater",
+      "gender": "men",
+      "category": "Jackets & Outerwear",
+      "categorySlug": "outerwear",
+      "collectionSlug": null,
+      "price": 7500,
+      "originalPrice": 8000,
+      "isSale": true,
+      "isNew": false,
+      "stockQuantity": 3,
+      "status": "ACTIVE",
+      "image": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=700&q=80",
+      "description": "Traditional Aran heritage honeycomb and cable stitching from 100% unprocessed pure British shetland wool.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#131514"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "collectionSlugs": [],
+      "needsCategoryReview": true,
+      "categoryReviewReason": "Knitwear has no dedicated category in the requested structure.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "updatedAt": "2026-10-28T18:13:53.334Z"
+    },
+    {
+      "id": "m-kw-3",
+      "title": "Fine Gauge Merino Wool Mock-Neck Knit",
+      "slug": "fine-gauge-merino-wool-mock-neck-knit",
+      "gender": "men",
+      "category": "Jackets & Outerwear",
+      "categorySlug": "outerwear",
+      "collectionSlug": null,
+      "price": 3200,
+      "originalPrice": null,
+      "isSale": false,
+      "isNew": false,
+      "stockQuantity": 4,
+      "status": "ACTIVE",
+      "image": "https://i.pinimg.com/1200x/b8/4f/3f/b84f3fe75397dd15ef68e3872171a1f9.jpg",
+      "description": "14-gauge Italian spun merino wool with refined tailored fit engineered to slide seamlessly underneath suit jackets.",
+      "colors": [
+        {
+          "name": "Black Onyx",
+          "hex": "#202020",
+          "image": "https://i.pinimg.com/1200x/b8/4f/3f/b84f3fe75397dd15ef68e3872171a1f9.jpg"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "collectionSlugs": [],
+      "needsCategoryReview": true,
+      "categoryReviewReason": "Knitwear has no dedicated category in the requested structure.",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/b8/4f/3f/b84f3fe75397dd15ef68e3872171a1f9.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=700&q=80",
+          "isPrimary": false,
+          "sortOrder": 1
+        }
+      ],
+      "updatedAt": "2026-10-28T18:15:18.856Z"
+    },
+    {
+      "category": "Office Wear",
+      "categorySlug": "office-wear",
+      "collectionSlug": "office-wear",
+      "collectionSlugs": [
+        "office-wear"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#535f9d",
+          "image": "https://i.pinimg.com/736x/75/fc/20/75fc2089cd457fad6f0d2bada99a2942.jpg"
+        },
+        {
+          "name": "Green",
+          "hex": "#1a7053",
+          "image": "https://i.pinimg.com/736x/94/df/c9/94dfc947509cc605be22588efcd4c9cd.jpg"
+        },
+        {
+          "name": "Red",
+          "hex": "#7b0a0a",
+          "image": "https://i.pinimg.com/736x/35/2d/c3/352dc3407612e03cebc0bbdb11d62f8a.jpg"
+        }
+      ],
+      "createdAt": "2026-10-29T17:00:32.050Z",
+      "description": "However, fall business casual is not all about being warm and comfortable it is also about being presentable without being over done.",
+      "gender": "collection",
+      "id": "prod-1793293232050-778",
+      "image": "https://i.pinimg.com/736x/75/fc/20/75fc2089cd457fad6f0d2bada99a2942.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/75/fc/20/75fc2089cd457fad6f0d2bada99a2942.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://i.pinimg.com/736x/94/df/c9/94dfc947509cc605be22588efcd4c9cd.jpg",
+          "isPrimary": false,
+          "sortOrder": 1
+        },
+        {
+          "url": "https://i.pinimg.com/736x/35/2d/c3/352dc3407612e03cebc0bbdb11d62f8a.jpg",
+          "isPrimary": false,
+          "sortOrder": 2
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 8590,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "fall-business-casual-outfits",
+      "status": "ACTIVE",
+      "stockQuantity": 19,
+      "title": "Fall Business Casual Outfits "
+    },
+    {
+      "category": "Office Wear",
+      "categorySlug": "office-wear",
+      "collectionSlug": "office-wear",
+      "collectionSlugs": [
+        "office-wear"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#898080",
+          "image": "https://i.pinimg.com/1200x/a1/a8/3f/a1a83f363351fddbadb460bc0ddb4bda.jpg"
+        },
+        {
+          "name": "Beige",
+          "hex": "#685b86",
+          "image": "https://i.pinimg.com/736x/27/b1/a0/27b1a00b0e220aa5dc808f0a02b99803.jpg"
+        }
+      ],
+      "createdAt": "2026-10-29T17:03:58.028Z",
+      "description": "Modern teal dress shirt with charcoal pants – perfect business casual look for work, meetings & date nights. Clean, sharp and trending in USA men’s fashion 2026. Save for outfit inspiration ✨",
+      "gender": "collection",
+      "id": "prod-1793293438028-929",
+      "image": "https://i.pinimg.com/1200x/a1/a8/3f/a1a83f363351fddbadb460bc0ddb4bda.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/a1/a8/3f/a1a83f363351fddbadb460bc0ddb4bda.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://i.pinimg.com/736x/27/b1/a0/27b1a00b0e220aa5dc808f0a02b99803.jpg",
+          "isPrimary": false,
+          "sortOrder": 1
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 8400,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "slug": "teal-dress-shirt-outfit-for-men-modern-business-casual",
+      "status": "ACTIVE",
+      "stockQuantity": 20,
+      "title": "Teal Dress Shirt Outfit for Men | Modern Business Casual "
+    },
+    {
+      "category": "Office Wear",
+      "categorySlug": "office-wear",
+      "collectionSlug": "office-wear",
+      "collectionSlugs": [
+        "office-wear"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#6e3030",
+          "image": "https://i.pinimg.com/736x/6d/01/4d/6d014da5477c666a7f366abd14604a27.jpg"
+        }
+      ],
+      "createdAt": "2026-10-29T17:07:20.046Z",
+      "description": "Trending Brown Shirt Black Pant Combo For Men ✨ Perfect for Office, Meeting & Formal Party Premium Slim Fit | Mens Fashion 2026",
+      "gender": "collection",
+      "id": "prod-1793293640046-354",
+      "image": "https://i.pinimg.com/736x/6d/01/4d/6d014da5477c666a7f366abd14604a27.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/6d/01/4d/6d014da5477c666a7f366abd14604a27.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 7900,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "slug": "chocolate-brown-shirt-black-pant-combo-for-men",
+      "status": "ACTIVE",
+      "stockQuantity": 7,
+      "title": "Chocolate Brown Shirt Black Pant Combo For Men"
+    },
+    {
+      "category": "Office Wear",
+      "categorySlug": "office-wear",
+      "collectionSlug": "office-wear",
+      "collectionSlugs": [
+        "office-wear"
+      ],
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#792529",
+          "image": "https://i.pinimg.com/736x/5d/2f/72/5d2f72f1a0a73587b42e3d86ed559dff.jpg"
+        }
+      ],
+      "createdAt": "2026-10-29T17:11:40.896Z",
+      "description": "Elegant burgundy draped top styled with high-waisted ivory wide-leg trousers, a burgundy structured handbag, pointed-toe heels, gold accessories, and a matching belt",
+      "gender": "collection",
+      "id": "prod-1793293900895-984",
+      "image": "https://i.pinimg.com/736x/5d/2f/72/5d2f72f1a0a73587b42e3d86ed559dff.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/5d/2f/72/5d2f72f1a0a73587b42e3d86ed559dff.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": true,
+      "originalPrice": 8400,
+      "price": 7600,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "burgundy-ivory-elegant-outfit-quiet-luxury-fashion-look",
+      "status": "ACTIVE",
+      "stockQuantity": 6,
+      "title": "Burgundy & Ivory Elegant Outfit | Quiet Luxury Fashion Look"
+    },
+    {
+      "category": "Office Wear",
+      "categorySlug": "office-wear",
+      "collectionSlug": "office-wear",
+      "collectionSlugs": [
+        "office-wear"
+      ],
+      "colors": [
+        {
+          "name": "Pink",
+          "hex": "#e69ef5",
+          "image": "https://i.pinimg.com/736x/96/34/50/963450394b3d8a18317f1aaca0f2e90f.jpg"
+        }
+      ],
+      "createdAt": "2026-10-29T17:13:46.963Z",
+      "description": "Refresh your wardrobe with 20+ Baby Pink Outfits 2026 featuring elegant and trendy looks for every occasion. Discover the perfect baby pink outfit, stylish baby pink combination ideas, a chic baby pink shirt outfit, flattering baby pink outfit women styles, and versatile baby pink top outfit inspiration.",
+      "gender": "collection",
+      "id": "prod-1793294026963-285",
+      "image": "https://i.pinimg.com/736x/96/34/50/963450394b3d8a18317f1aaca0f2e90f.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/96/34/50/963450394b3d8a18317f1aaca0f2e90f.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 7990,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "slug": "pink-outfits-2026-featuring-elegant-and-trendy-looks-for-every-occasion",
+      "status": "ACTIVE",
+      "stockQuantity": 10,
+      "title": "Pink Outfits 2026 featuring elegant and trendy looks for every occasion. "
+    },
+    {
+      "category": "Office Wear",
+      "categorySlug": "office-wear",
+      "collectionSlug": "office-wear",
+      "collectionSlugs": [
+        "office-wear"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#095315",
+          "image": "https://i.pinimg.com/736x/f9/db/2b/f9db2b79fc39f3c9d2ad60ee5996495e.jpg"
+        }
+      ],
+      "createdAt": "2026-10-29T17:15:42.114Z",
+      "description": "A beautiful neutral aesthetic outfit featuring olive green and beige tones styled with delicate gold accessories. Perfect for minimal fashion lovers and classy outfit inspiration.",
+      "gender": "collection",
+      "id": "prod-1793294142114-746",
+      "image": "https://i.pinimg.com/736x/f9/db/2b/f9db2b79fc39f3c9d2ad60ee5996495e.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/f9/db/2b/f9db2b79fc39f3c9d2ad60ee5996495e.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": true,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 8590,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "neutral-aesthetic-outfit-idea-women-shirt-outfit",
+      "status": "ACTIVE",
+      "stockQuantity": 9,
+      "title": "Neutral Aesthetic Outfit Idea | Women Shirt Outfit 💚"
+    },
+    {
+      "category": "Office Wear",
+      "categorySlug": "office-wear",
+      "collectionSlug": "office-wear",
+      "collectionSlugs": [
+        "office-wear"
+      ],
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#c1bdbd",
+          "image": "https://i.pinimg.com/736x/c9/8a/d4/c98ad4ef42c33e94b840cdcfac146f08.jpg"
+        },
+        {
+          "name": "Black",
+          "hex": "#121212",
+          "image": "https://i.pinimg.com/736x/52/e8/0a/52e80a35eb4d140ae4aa957943cb32b7.jpg"
+        }
+      ],
+      "createdAt": "2026-10-29T17:20:04.866Z",
+      "description": "Dress for success with stylish men's office outfits. Discover smart office fashion ideas featuring tailored shirts, blazers, dress pants, chinos, and polished shoes. Perfect for business meetings, office days, interviews, and professional events, these outfit ideas combine comfort, confidence, and timeless style.",
+      "gender": "collection",
+      "id": "prod-1793294404866-817",
+      "image": "https://i.pinimg.com/736x/c9/8a/d4/c98ad4ef42c33e94b840cdcfac146f08.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/c9/8a/d4/c98ad4ef42c33e94b840cdcfac146f08.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://i.pinimg.com/736x/52/e8/0a/52e80a35eb4d140ae4aa957943cb32b7.jpg",
+          "isPrimary": false,
+          "sortOrder": 1
+        }
+      ],
+      "isNew": true,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 8600,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "slug": "classic-shirt-and-tie-outfit-for-men",
+      "status": "ACTIVE",
+      "stockQuantity": 20,
+      "title": "Classic Shirt and Tie Outfit for Men"
+    },
+    {
+      "category": "Evening & Occasion Wear",
+      "categorySlug": "evening-occasion-wear",
+      "collectionSlug": "evening-occasion-wear",
+      "collectionSlugs": [
+        "evening-occasion-wear"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#252525",
+          "image": "https://i.pinimg.com/236x/c0/a5/62/c0a56249033925c1f2192b2d4faf6a0d.jpg"
+        }
+      ],
+      "createdAt": "2026-10-29T17:27:14.098Z",
+      "description": "Mooyius presents a striking midi dress that captures modern femininity through sculpted structure and fluid asymmetry.",
+      "gender": "collection",
+      "id": "prod-1793294834098-110",
+      "image": "https://i.pinimg.com/236x/c0/a5/62/c0a56249033925c1f2192b2d4faf6a0d.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/236x/c0/a5/62/c0a56249033925c1f2192b2d4faf6a0d.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 8990,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "off-shoulder-asymmetric-ruffle-hem-midi-dress",
+      "status": "ACTIVE",
+      "stockQuantity": 4,
+      "title": "Off-Shoulder Asymmetric Ruffle Hem Midi Dress"
+    },
+    {
+      "category": "Evening & Occasion Wear",
+      "categorySlug": "evening-occasion-wear",
+      "collectionSlug": "evening-occasion-wear",
+      "collectionSlugs": [
+        "evening-occasion-wear"
+      ],
+      "colors": [
+        {
+          "name": "Red",
+          "hex": "#b71f1f",
+          "image": "https://www.blissfulgal.com/cdn/shop/files/9bb3d3fdcb80f89ee646ba9b48de1ae1.webp?v=1790652334&width=1200"
+        }
+      ],
+      "createdAt": "2026-10-29T17:29:00.814Z",
+      "description": "Chic Halter Sleeveless Long High Split Prom Dress",
+      "gender": "collection",
+      "id": "prod-1793294940814-186",
+      "image": "https://www.blissfulgal.com/cdn/shop/files/9bb3d3fdcb80f89ee646ba9b48de1ae1.webp?v=1790652334&width=1200",
+      "images": [
+        {
+          "url": "https://www.blissfulgal.com/cdn/shop/files/9bb3d3fdcb80f89ee646ba9b48de1ae1.webp?v=1790652334&width=1200",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 9500,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "chic-halter-sleeveless-long-high-split-prom-dress",
+      "status": "ACTIVE",
+      "stockQuantity": 3,
+      "title": " Chic Halter Sleeveless Long High Split Prom Dress"
+    },
+    {
+      "category": "Evening & Occasion Wear",
+      "categorySlug": "evening-occasion-wear",
+      "collectionSlug": "evening-occasion-wear",
+      "collectionSlugs": [
+        "evening-occasion-wear"
+      ],
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#7b4b14",
+          "image": "https://i.pinimg.com/1200x/24/5e/0b/245e0b5d23343cc2503cc01b22d816dd.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:07:30.545Z",
+      "description": "Polyester Pattern:Printing Sheer:No Season:Suitable for all seasons Operation Instruction:Machine wash or professional dry clean Features",
+      "gender": "collection",
+      "id": "prod-1793718450544-707",
+      "image": "https://i.pinimg.com/1200x/24/5e/0b/245e0b5d23343cc2503cc01b22d816dd.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/24/5e/0b/245e0b5d23343cc2503cc01b22d816dd.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 8200,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "manfinity-mode-men-s-black-autumn-elegant-evening-satin-shirt-luxury-stand-up-collar-formal-dress-shirt-business-casual-long-sleeve-shirt-for-wedding",
+      "status": "ACTIVE",
+      "stockQuantity": 7,
+      "title": "Manfinity Mode Men's Black Autumn Elegant Evening Satin Shirt,Luxury Stand-Up Collar Formal Dress Shirt,Business Casual Long Sleeve Shirt For Wedding"
+    },
+    {
+      "category": "Evening & Occasion Wear",
+      "categorySlug": "evening-occasion-wear",
+      "collectionSlug": "evening-occasion-wear",
+      "collectionSlugs": [
+        "evening-occasion-wear"
+      ],
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#2a178c",
+          "image": "https://i.pinimg.com/736x/b5/30/0d/b5300ded97475c5bff687c0e933aa67b.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:09:11.429Z",
+      "description": "Ice blue pant strip shirt",
+      "gender": "collection",
+      "id": "prod-1793718551429-470",
+      "image": "https://i.pinimg.com/736x/b5/30/0d/b5300ded97475c5bff687c0e933aa67b.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/b5/30/0d/b5300ded97475c5bff687c0e933aa67b.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 4800,
+      "sizes": [
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "slug": "ice-blue-pant-strip-shirt",
+      "status": "ACTIVE",
+      "stockQuantity": 6,
+      "title": "Ice blue pant strip shirt"
+    },
+    {
+      "category": "Evening & Occasion Wear",
+      "categorySlug": "evening-occasion-wear",
+      "collectionSlug": "evening-occasion-wear",
+      "collectionSlugs": [
+        "evening-occasion-wear"
+      ],
+      "colors": [
+        {
+          "name": "Dark Red",
+          "hex": "#842a2a",
+          "image": "https://i.pinimg.com/736x/a4/de/08/a4de08cb2223a1071aa81b8c570d8dd4.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:10:50.268Z",
+      "description": "Discover elegant burgundy suit outfit ideas for men with a sophisticated luxury aesthetic. A deep burgundy blazer paired with a black shirt creates a timeless look for weddings, parties, date nights, formal events and evening occasions. Save this Fashion Aura style inspiration for your next classy men’s outfit.",
+      "gender": "collection",
+      "id": "prod-1793718650268-598",
+      "image": "https://i.pinimg.com/736x/a4/de/08/a4de08cb2223a1071aa81b8c570d8dd4.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/a4/de/08/a4de08cb2223a1071aa81b8c570d8dd4.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": true,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 9700,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "burgundy-suit-outfit-ideas-for-men-luxury-formal-style-only-for-luxury-people",
+      "status": "ACTIVE",
+      "stockQuantity": 9,
+      "title": "Burgundy Suit Outfit Ideas for Men | Luxury Formal Style.Only For Luxury People 😎"
+    },
+    {
+      "category": "Evening & Occasion Wear",
+      "categorySlug": "evening-occasion-wear",
+      "collectionSlug": "evening-occasion-wear",
+      "collectionSlugs": [
+        "evening-occasion-wear"
+      ],
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#d2bca3",
+          "image": "https://i.pinimg.com/1200x/69/20/a8/6920a890b3d85d310ee9e123b1f05491.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:12:38.835Z",
+      "description": "So elegant and soft! Mauve taupe one shoulder long gown with draped bodice and crystal strap and beaded waist belt. Sheer tulle skirt with high leg slit, flowy train, silver sparkle clutch, silver heels.",
+      "gender": "collection",
+      "id": "prod-1793718758835-73",
+      "image": "https://i.pinimg.com/1200x/69/20/a8/6920a890b3d85d310ee9e123b1f05491.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/69/20/a8/6920a890b3d85d310ee9e123b1f05491.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 9200,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "mauve-one-shoulder-tulle-evening-gown-with-slit",
+      "status": "ACTIVE",
+      "stockQuantity": 3,
+      "title": "Mauve One Shoulder Tulle Evening Gown with Slit"
+    },
+    {
+      "category": "Evening & Occasion Wear",
+      "categorySlug": "evening-occasion-wear",
+      "collectionSlug": "evening-occasion-wear",
+      "collectionSlugs": [
+        "evening-occasion-wear"
+      ],
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#e8cfdc",
+          "image": "https://i.pinimg.com/736x/5c/74/ac/5c74ac0d9222b1a938b4159aa6dedcce.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:14:42.765Z",
+      "description": "Cute Light Pink Sparkly Homecoming Dress, A-line off the shoulder with pearl beaded.",
+      "gender": "collection",
+      "id": "prod-1793718882765-166",
+      "image": "https://i.pinimg.com/736x/5c/74/ac/5c74ac0d9222b1a938b4159aa6dedcce.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/5c/74/ac/5c74ac0d9222b1a938b4159aa6dedcce.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 1000,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "pink-mini-prom-dress",
+      "status": "ACTIVE",
+      "stockQuantity": 2,
+      "title": "Pink Mini Prom Dress"
+    },
+    {
+      "category": "Seasonal Edit",
+      "categorySlug": "seasonal-edit",
+      "collectionSlug": "seasonal-edit",
+      "collectionSlugs": [
+        "seasonal-edit"
+      ],
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#131853",
+          "image": "https://img.staticdj.com/d5e20fe962c16372739d88f6a96c3760_750x.jpeg"
+        },
+        {
+          "name": "White",
+          "hex": "#e1e1c1",
+          "image": "https://img.staticdj.com/9a9f593bcd3ca74ee2dd27e757234018_750x.jpeg"
+        },
+        {
+          "name": "Green",
+          "hex": "#0b4007",
+          "image": "https://img.staticdj.com/43baac868cd732d991ff704596096f5e_750x.jpeg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:36:07.893Z",
+      "description": "Women'S Casual Solid Color Two Piece Suit",
+      "gender": "collection",
+      "id": "prod-1793720167893-91",
+      "image": "https://img.staticdj.com/d5e20fe962c16372739d88f6a96c3760_750x.jpeg",
+      "images": [
+        {
+          "url": "https://img.staticdj.com/d5e20fe962c16372739d88f6a96c3760_750x.jpeg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://img.staticdj.com/9a9f593bcd3ca74ee2dd27e757234018_750x.jpeg",
+          "isPrimary": false,
+          "sortOrder": 1
+        },
+        {
+          "url": "https://img.staticdj.com/43baac868cd732d991ff704596096f5e_750x.jpeg",
+          "isPrimary": false,
+          "sortOrder": 2
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 6000,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "slug": "women-s-casual-solid-color-two-piece-suit",
+      "status": "ACTIVE",
+      "stockQuantity": 20,
+      "title": "Women'S Casual Solid Color Two Piece Suit",
+      "updatedAt": "2026-11-03T15:57:55.056Z"
+    },
+    {
+      "category": "Seasonal Edit",
+      "categorySlug": "seasonal-edit",
+      "collectionSlug": "seasonal-edit",
+      "collectionSlugs": [
+        "seasonal-edit"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#f7f3f3",
+          "image": "https://i.pinimg.com/736x/83/e2/6d/83e26d7256d51ac3a858f43d15219daa.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:39:02.085Z",
+      "description": "Discover stylish outfit ideas for every mood and occasion! 👗✨ From cute casual looks and classy outfits to aesthetic street style and everyday fashion, find inspiration to create your perfect look. Save this pin for your next outfit inspo! 💕🌸",
+      "gender": "collection",
+      "id": "prod-1793720342084-157",
+      "image": "https://i.pinimg.com/736x/83/e2/6d/83e26d7256d51ac3a858f43d15219daa.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/83/e2/6d/83e26d7256d51ac3a858f43d15219daa.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "https://img.staticdj.com/d5e20fe962c16372739d88f6a96c3760_750x.jpeg",
+          "isPrimary": false,
+          "sortOrder": 1
+        }
+      ],
+      "isNew": true,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 4500,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "stylish-outfit-ideas-for-every-mood-and-occasion",
+      "status": "ACTIVE",
+      "stockQuantity": 5,
+      "title": "Stylish outfit ideas for every mood and occasion! 👗✨ ",
+      "updatedAt": "2026-11-03T15:58:12.778Z"
+    },
+    {
+      "category": "Couples Wear",
+      "categorySlug": "couples-wear",
+      "collectionSlug": "couples-wear",
+      "collectionSlugs": [
+        "couples-wear"
+      ],
+      "colors": [
+        {
+          "name": "Green",
+          "hex": "#369151",
+          "image": "https://i.pinimg.com/736x/1f/10/34/1f10343465f62b91cdc6c0c892cc1054.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:47:57.451Z",
+      "description": "Elegant summer couple outfit featuring a yellow midi dress and classic black shirt with tailored trousers. ",
+      "gender": "collection",
+      "id": "prod-1793720877450-175",
+      "image": "https://i.pinimg.com/736x/1f/10/34/1f10343465f62b91cdc6c0c892cc1054.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/1f/10/34/1f10343465f62b91cdc6c0c892cc1054.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 7590,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "elegant-summer-couple-outfit",
+      "status": "ACTIVE",
+      "stockQuantity": 8,
+      "title": "Elegant Summer couple outfit"
+    },
+    {
+      "category": "Couples Wear",
+      "categorySlug": "couples-wear",
+      "collectionSlug": "couples-wear",
+      "collectionSlugs": [
+        "couples-wear"
+      ],
+      "colors": [
+        {
+          "name": "Purple",
+          "hex": "#ccacd7",
+          "image": "https://i.pinimg.com/736x/83/5f/b1/835fb1585acfca98e93b54abffb53baa.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:50:39.929Z",
+      "description": "Lavender Couple Goals 💜👫 The most viral aesthetic matching outfit right now on Pinterest! Her: Lavender corset long dress with sweetheart neckline, cream mini bag, white heels ✨ Him: Lavender shirt + white pants + beige loafers Perfect for: Brunch, Date Night, Vacation, Pre-wedding Shoot Save this look 📌 | Follow for more viral couple outfits",
+      "gender": "collection",
+      "id": "prod-1793721039929-603",
+      "image": "https://i.pinimg.com/736x/83/5f/b1/835fb1585acfca98e93b54abffb53baa.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/83/5f/b1/835fb1585acfca98e93b54abffb53baa.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": true,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 8000,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "lavender-matching-couple-outfit-aesthetic-his-and-hers-pastel-dress-shirt-viral-couple-goal",
+      "status": "ACTIVE",
+      "stockQuantity": 5,
+      "title": "Lavender Matching Couple Outfit Aesthetic 💜 | His and Hers Pastel Dress & Shirt | Viral Couple Goal"
+    },
+    {
+      "category": "Couples Wear",
+      "categorySlug": "couples-wear",
+      "collectionSlug": "couples-wear",
+      "collectionSlugs": [
+        "couples-wear"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#b9d0df",
+          "image": "https://i.pinimg.com/736x/f6/f9/c7/f6f9c7abb8b2c737229d8a19f27dd04f.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:52:20.009Z",
+      "description": "light blue couple outfit, blue and white couple outfit, matching couple outfits, couple fashion ideas, couple outfit inspiration, classy couple look, aesthetic couple outfit, coordinated couple outfits, summer couple outfit, casual couple fashion",
+      "gender": "collection",
+      "id": "prod-1793721140009-51",
+      "image": "https://i.pinimg.com/736x/f6/f9/c7/f6f9c7abb8b2c737229d8a19f27dd04f.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/f6/f9/c7/f6f9c7abb8b2c737229d8a19f27dd04f.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": true,
+      "originalPrice": 7500,
+      "price": 7000,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "blue-white-made-for-each-other-couple-outfit-goals",
+      "status": "ACTIVE",
+      "stockQuantity": 10,
+      "title": "Blue & white, made for each other 💙🤍✨ Couple outfit goals"
+    },
+    {
+      "category": "Couples Wear",
+      "categorySlug": "couples-wear",
+      "collectionSlug": "couples-wear",
+      "collectionSlugs": [
+        "couples-wear"
+      ],
+      "colors": [
+        {
+          "name": "Navy Blue",
+          "hex": "#3e2a89",
+          "image": "https://i.pinimg.com/736x/c5/42/9f/c5429f7fbd96670feeaf53bdd12137ae.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:53:54.746Z",
+      "description": "A stylish couple fashion look featuring coordinated navy blue and ivory outfits. The elegant combination creates a classy, modern, and romantic aesthetic—perfect for date nights, vacations, couple photoshoots, and special occasions. Save this look for chic couple outfit inspiration. 💙🤍✨",
+      "gender": "collection",
+      "id": "prod-1793721234746-96",
+      "image": "https://i.pinimg.com/736x/c5/42/9f/c5429f7fbd96670feeaf53bdd12137ae.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/c5/42/9f/c5429f7fbd96670feeaf53bdd12137ae.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": true,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 8200,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "navy-ivory-couple-outfit-elegant-aesthetic-look",
+      "status": "ACTIVE",
+      "stockQuantity": 5,
+      "title": "Navy & Ivory Couple Outfit – Elegant Aesthetic Look."
+    },
+    {
+      "category": "Couples Wear",
+      "categorySlug": "couples-wear",
+      "collectionSlug": "couples-wear",
+      "collectionSlugs": [
+        "couples-wear"
+      ],
+      "colors": [
+        {
+          "name": "Red",
+          "hex": "#972b2b",
+          "image": "https://i.pinimg.com/1200x/f9/e9/79/f9e979950596a129ca303cf2dc3674eb.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:55:24.587Z",
+      "description": "Matching burgundy couple outfits for wedding and formal dinner. Woman in maroon ruffle high-low maxi dress with belt and man in burgundy shirt and white pants. Elegant couple style for engagement, valentine's date and luxury events. Save this wine red couple outfit!",
+      "gender": "collection",
+      "id": "prod-1793721324586-457",
+      "image": "https://i.pinimg.com/1200x/f9/e9/79/f9e979950596a129ca303cf2dc3674eb.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/1200x/f9/e9/79/f9e979950596a129ca303cf2dc3674eb.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 8100,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "burgundy-couple-outfit-maroon-dress-and-shirt-matching-look",
+      "status": "ACTIVE",
+      "stockQuantity": 7,
+      "title": "Burgundy Couple Outfit - Maroon Dress and Shirt Matching Look"
+    },
+    {
+      "category": "Seasonal Edit",
+      "categorySlug": "seasonal-edit",
+      "collectionSlug": "seasonal-edit",
+      "collectionSlugs": [
+        "seasonal-edit"
+      ],
+      "colors": [
+        {
+          "name": "Green",
+          "hex": "#9bb09b",
+          "image": "https://i.pinimg.com/736x/cc/07/9f/cc079f1f38c730cd1ddcfb3e34fdb497.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T15:56:56.809Z",
+      "description": "2pcs Men's Hawaiian Vacation Casual Floral Print Shirt And Plain Shorts Set Mint Green Boho Tropical,Plants,All Over Print Slight Stretch All Men Clothing, size features are:Bust: ,Length: ,Sleeve Length:",
+      "gender": "collection",
+      "id": "prod-1793721416809-8",
+      "image": "https://i.pinimg.com/736x/cc/07/9f/cc079f1f38c730cd1ddcfb3e34fdb497.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/cc/07/9f/cc079f1f38c730cd1ddcfb3e34fdb497.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": false,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 5900,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "slug": "2pcs-men-s-hawaiian-vacation-casual-floral-print-shirt-and-plain-shorts-set",
+      "status": "ACTIVE",
+      "stockQuantity": 8,
+      "title": "2pcs Men's Hawaiian Vacation Casual Floral Print Shirt And Plain Shorts Set",
+      "updatedAt": "2026-11-03T15:58:26.874Z"
+    },
+    {
+      "category": "Seasonal Edit",
+      "categorySlug": "seasonal-edit",
+      "collectionSlug": "seasonal-edit",
+      "collectionSlugs": [
+        "seasonal-edit"
+      ],
+      "colors": [
+        {
+          "name": "beige",
+          "hex": "#f5f4db",
+          "image": "https://i.pinimg.com/736x/8d/d0/a3/8dd0a32ce08d11dcebe50caaaca5ec33.jpg"
+        }
+      ],
+      "createdAt": "2026-11-03T16:01:33.961Z",
+      "description": "Country Concert Outfit Retro Music Festival Summer Dress",
+      "gender": "collection",
+      "id": "prod-1793721693960-690",
+      "image": "https://i.pinimg.com/736x/8d/d0/a3/8dd0a32ce08d11dcebe50caaaca5ec33.jpg",
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/8d/d0/a3/8dd0a32ce08d11dcebe50caaaca5ec33.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ],
+      "isNew": true,
+      "isSale": false,
+      "originalPrice": null,
+      "price": 10000,
+      "sizes": [
+        "One Size"
+      ],
+      "slug": "country-concert-outfit-retro-music-festival-summer-dress",
+      "status": "ACTIVE",
+      "stockQuantity": 4,
+      "title": "Country Concert Outfit Retro Music Festival Summer Dress"
+    }
+  ],
+  "categories": [
+    {
+      "id": "tops",
+      "title": "Tops & Blouses",
+      "slug": "tops",
+      "href": "/women/tops",
+      "description": "Effortless everyday basics, fluid silk blouses, and breathable linen silhouettes.",
+      "cta": "Explore Tops",
+      "image": "https://i.pinimg.com/736x/6c/9e/f3/6c9ef350ccdf48add02362b6088eabe5.jpg",
+      "itemCount": "6 Styles",
+      "gender": "women",
+      "isActive": true,
+      "displayOrder": 1,
+      "testPingTime": 1793286523514
+    },
+    {
+      "id": "dresses",
+      "title": "Dresses",
+      "slug": "dresses",
+      "href": "/women/dresses",
+      "description": "From daytime tiered midi dresses to graceful lustrous evening maxi silhouettes.",
+      "cta": "Explore Dresses",
+      "image": "https://i.pinimg.com/736x/6b/0e/52/6b0e526b409f6cc06ea7978dcc8c6ad0.jpg",
+      "itemCount": "6 Styles",
+      "gender": "women",
+      "isActive": true,
+      "displayOrder": 2
+    },
+    {
+      "id": "jeans",
+      "title": "Trousers & Jeans",
+      "slug": "jeans",
+      "href": "/women/jeans",
+      "description": "Tailored pleated high-waist trousers, fluid linen palazzos, and everyday pants.",
+      "cta": "Explore Trousers",
+      "image": "https://i.pinimg.com/1200x/8f/66/ca/8f66ca5aa9f07f6f14b837c1229210f7.jpg",
+      "itemCount": "6 Styles",
+      "gender": "women",
+      "isActive": true,
+      "displayOrder": 3
+    },
+    {
+      "id": "skirts",
+      "title": "Skirts",
+      "slug": "skirts",
+      "href": "/women/skirts",
+      "description": "Bias-cut satin midi skirts, pleated accordion silhouettes, and clean A-lines.",
+      "cta": "Explore Skirts",
+      "image": "https://i.pinimg.com/736x/0c/22/3e/0c223e5d8656bc62baeed47698220c8d.jpg",
+      "itemCount": "6 Styles",
+      "gender": "women",
+      "isActive": true,
+      "displayOrder": 4
+    },
+    {
+      "id": "accessories",
+      "title": "Accessories",
+      "slug": "accessories",
+      "href": "/women/accessories",
+      "description": "Handcrafted Italian leather shoulder bags, artisanal belts, and pure silk scarves.",
+      "cta": "Explore Accessories",
+      "image": "https://i.pinimg.com/1200x/31/e3/9d/31e39df9aba102ae4d1fb45276beac91.jpg",
+      "itemCount": "6 Styles",
+      "gender": "women",
+      "isActive": true,
+      "displayOrder": 5
+    },
+    {
+      "id": "men-shirts",
+      "title": "T-Shirts & Shirts",
+      "slug": "shirts",
+      "gender": "men",
+      "href": "/men/shirts",
+      "description": "Clean tailored button-downs, breathable pure linen resort shirts, and heavyweight Supima cotton tees.",
+      "cta": "Explore Shirts",
+      "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80",
+      "itemCount": "6 Styles",
+      "isActive": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "men-jeans",
+      "title": "Trousers & Jeans",
+      "slug": "jeans",
+      "gender": "men",
+      "href": "/men/jeans",
+      "description": "Vintage selvedge straight cuts, washed relaxed tapered silhouettes, and durable rigid Japanese cotton denim.",
+      "cta": "Explore Jeans",
+      "image": "https://i.pinimg.com/1200x/72/e5/a8/72e5a8c44508c430d7fa2787a9d051f6.jpg",
+      "itemCount": "6 Styles",
+      "isActive": true,
+      "displayOrder": 2
+    },
+    {
+      "id": "men-outerwear",
+      "title": "Jackets & Outerwear",
+      "slug": "outerwear",
+      "gender": "men",
+      "href": "/men/outerwear",
+      "description": "Unstructured tailoring, heavy French terry hoodies, rugged waxed field jackets, and minimalist overcoats.",
+      "cta": "Explore Outerwear",
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80",
+      "itemCount": "6 Styles",
+      "isActive": true,
+      "displayOrder": 3
+    },
+    {
+      "id": "men-accessories",
+      "title": "Accessories",
+      "slug": "accessories",
+      "gender": "men",
+      "href": "/men/accessories",
+      "description": "Vegetable-tanned leather belts, polarized sunglasses, full-grain weekender duffles, and brass jewelry.",
+      "cta": "Explore Accessories",
+      "image": "https://i.pinimg.com/736x/ca/cb/06/cacb06a97da8caef297b43af2f0698a7.jpg",
+      "itemCount": "6 Styles",
+      "isActive": true,
+      "displayOrder": 4
+    }
+  ],
+  "collections": [
+    {
+      "id": "col-new-season",
+      "title": "New Season",
+      "slug": "new-season",
+      "description": "Spring / Summer 2025 ready-to-wear runway drop, featuring natural fibers and flowing minimalist cuts.",
+      "cta": "Explore New Season",
+      "image": "https://i.pinimg.com/1200x/b2/ea/88/b2ea8837e69882060c9bfb97a9f87e29.jpg",
+      "itemCount": "12 Styles",
+      "isActive": true,
+      "displayOrder": 1,
+      "managedCollectionVersion": 1
+    },
+    {
+      "id": "col-office-wear",
+      "title": "Office Wear",
+      "slug": "office-wear",
+      "description": "Refined contemporary power dressing, structured wool blazers, fluid pleated trousers, and crisp cottons.",
+      "cta": "Explore Office Wear",
+      "image": "https://i.pinimg.com/1200x/49/e2/22/49e2226176b68044eb8f185feb7b693f.jpg",
+      "itemCount": "10 Styles",
+      "isActive": true,
+      "displayOrder": 2,
+      "managedCollectionVersion": 1
+    },
+    {
+      "id": "col-evening-wear",
+      "title": "Evening & Occasion Wear",
+      "slug": "evening-occasion-wear",
+      "description": "Lustrous silk slip dresses, tuxedo-inspired tailored outerwear, and artisanal leather accessories.",
+      "cta": "Shop Evening Wear",
+      "image": "https://i.pinimg.com/1200x/2b/45/06/2b4506d0c19019a4246d4654d9d64546.jpg",
+      "itemCount": "8 Styles",
+      "isActive": true,
+      "displayOrder": 3,
+      "managedCollectionVersion": 1
+    },
+    {
+      "id": "col-essentials",
+      "title": "Seasonal Edit",
+      "slug": "seasonal-edit",
+      "description": "Elevated staples designed for everyday living — heavyweight tees, selvedge denim, and cashmere knits.",
+      "cta": "Shop Essentials",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80",
+      "itemCount": "14 Styles",
+      "isActive": true,
+      "displayOrder": 4,
+      "managedCollectionVersion": 1
+    },
+    {
+      "id": "col-couples-wear",
+      "cta": "Explore Couples Wear",
+      "description": "Coordinated luxury silhouettes and matching capsule edits designed for modern couples.",
+      "displayOrder": 5,
+      "image": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "itemCount": "Coordinated Edits",
+      "slug": "couples-wear",
+      "title": "Couples Wear"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-101",
+      "orderNumber": "FS-2026-98124",
+      "customerName": "Kavindu Perera",
+      "customerEmail": "kavindu@gmail.com",
+      "customerPhone": "+94 77 123 4567",
+      "shippingAddress": "No. 42, Ward Place, Colombo 07, Sri Lanka",
+      "items": [
+        {
+          "id": "item-1",
+          "productId": "top-1",
+          "productTitle": "Basic Organic Cotton Crewneck Top",
+          "quantity": 2,
+          "price": 4200,
+          "size": "M",
+          "color": "Alabaster White",
+          "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80"
+        },
+        {
+          "id": "item-2",
+          "productId": "m-sh-1",
+          "productTitle": "Relaxed Fit Heavyweight Cotton Overshirt",
+          "quantity": 1,
+          "price": 11500,
+          "size": "L",
+          "color": "Olive Green",
+          "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=700&q=80"
+        }
+      ],
+      "subtotal": 19900,
+      "discountAmount": 0,
+      "shippingFee": 0,
+      "totalAmount": 19900,
+      "paymentMethod": "CASH_ON_DELIVERY",
+      "paymentStatus": "PAID",
+      "status": "CANCELLED",
+      "createdAt": "2026-10-24T11:02:10.039Z",
+      "updatedAt": "2026-10-27T16:26:38.919Z"
+    },
+    {
+      "id": "ord-102",
+      "orderNumber": "FS-2026-98125",
+      "customerName": "Anuki Fernando",
+      "customerEmail": "anuki.f@outlook.com",
+      "customerPhone": "+94 71 987 6543",
+      "shippingAddress": "15/3, Galle Road, Mount Lavinia, Sri Lanka",
+      "items": [
+        {
+          "id": "item-3",
+          "productId": "dress-3",
+          "productTitle": "Pleated Accordion Evening Maxi Dress",
+          "quantity": 1,
+          "price": 16800,
+          "size": "S",
+          "color": "Champagne Gold",
+          "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=700&q=80"
+        }
+      ],
+      "subtotal": 16800,
+      "discountAmount": 0,
+      "shippingFee": 0,
+      "totalAmount": 16800,
+      "paymentMethod": "CREDIT_CARD",
+      "paymentStatus": "PAID",
+      "status": "PROCESSING",
+      "createdAt": "2026-10-26T11:02:10.040Z"
+    },
+    {
+      "id": "ord-103",
+      "orderNumber": "FS-2026-98126",
+      "customerName": "Naveen Jayawardena",
+      "customerEmail": "naveen.j@gmail.com",
+      "customerPhone": "+94 76 555 4321",
+      "shippingAddress": "88, Kandy Road, Kiribathgoda, Sri Lanka",
+      "items": [
+        {
+          "id": "item-4",
+          "productId": "m-jn-1",
+          "productTitle": "Vintage Selvedge Rigid Straight Jeans",
+          "quantity": 1,
+          "price": 15200,
+          "size": "32",
+          "color": "Raw Indigo",
+          "image": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?auto=format&fit=crop&w=700&q=80"
+        }
+      ],
+      "subtotal": 15200,
+      "discountAmount": 0,
+      "shippingFee": 0,
+      "totalAmount": 15200,
+      "paymentMethod": "CASH_ON_DELIVERY",
+      "paymentStatus": "UNPAID",
+      "status": "DELIVERED",
+      "createdAt": "2026-10-27T11:02:10.040Z",
+      "updatedAt": "2026-11-14T11:29:16.103Z"
+    },
+    {
+      "createdAt": "2026-11-03T16:45:30.006Z",
+      "customerEmail": "admin@fashionstore.com",
+      "customerName": "L.P.Perera",
+      "customerPhone": "0745520980",
+      "discountAmount": 0,
+      "id": "ord-1793724330006",
+      "items": [
+        {
+          "id": "dress-1-M-Earthy Olive",
+          "productId": "dress-1-M-Earthy Olive",
+          "productTitle": "Floral Tiered Bohemian Midi Dress",
+          "price": null,
+          "quantity": 1,
+          "size": "M",
+          "color": "Earthy Olive",
+          "image": "https://i.pinimg.com/736x/df/52/e8/df52e89a28a87c1d8d74967371bfc8db.jpg"
+        }
+      ],
+      "orderNumber": "FS-2026-35994",
+      "paymentMethod": "CREDIT_CARD",
+      "paymentStatus": "PAID",
+      "shippingAddress": "104/A Galle rd,Colombo 05, colombo, colombo 12400, Sri Lanka",
+      "shippingFee": 650,
+      "status": "DELIVERED",
+      "subtotal": 0,
+      "totalAmount": 0,
+      "updatedAt": "2026-11-14T11:29:21.813Z"
+    },
+    {
+      "city": "Dehiwala-Mount Lavinia",
+      "createdAt": "2026-11-03T17:22:39.584Z",
+      "customerEmail": "admin@fashionstore.com",
+      "customerName": "Kalpa",
+      "customerPhone": "0752302018",
+      "discountAmount": 0,
+      "id": "ord-1793726559583",
+      "items": [
+        {
+          "id": "prod-1793209737492-257-One Size-Red",
+          "productId": "prod-1793209737492-257",
+          "productTitle": "Minimalist Leather Shoulder Bag",
+          "price": 4500,
+          "quantity": 1,
+          "size": "One Size",
+          "color": "Red",
+          "image": "https://i.pinimg.com/736x/ff/58/23/ff582339e80acc12ea4fb09747411c3c.jpg"
+        }
+      ],
+      "orderNumber": "FS-2026-50815",
+      "paymentMethod": "CASH_ON_DELIVERY",
+      "paymentStatus": "UNPAID",
+      "province": "Western Province",
+      "receiptToken": "8b9f4169-765c-4fb7-a90c-6fb5d548915c",
+      "shippingAddress": "1/B dehiwala, Dehiwala-Mount Lavinia, Western Province, Sri Lanka",
+      "shippingFee": 350,
+      "status": "DELIVERED",
+      "subtotal": 4500,
+      "totalAmount": 4850,
+      "updatedAt": "2026-11-14T11:29:19.776Z"
+    },
+    {
+      "city": "Colombo",
+      "createdAt": "2026-11-14T10:02:06.872Z",
+      "customerEmail": "customer@example.com",
+      "customerName": "Jane Doe",
+      "customerPhone": "0763245896",
+      "discountAmount": 0,
+      "id": "ord-1794650526871",
+      "items": [
+        {
+          "id": "skirt-2-S-Sand Beige",
+          "productId": "skirt-2",
+          "productTitle": "Sunray Accordion Pleated Maxi Skirt",
+          "price": 3200,
+          "quantity": 1,
+          "size": "S",
+          "color": "Sand Beige",
+          "image": "https://i.pinimg.com/736x/88/63/70/886370c7da6c7f9a5daa2da082c3a9d7.jpg"
+        }
+      ],
+      "orderNumber": "FS-2026-10544",
+      "paymentMethod": "CREDIT_CARD",
+      "paymentStatus": "PAID",
+      "province": "Western Province",
+      "receiptToken": "55dbcb37-e35b-4233-abaf-bc1c910a6e63",
+      "shippingAddress": "i86t, Colombo, Western Province, Sri Lanka",
+      "shippingFee": 450,
+      "status": "PENDING",
+      "subtotal": 3200,
+      "totalAmount": 3650
+    },
+    {
+      "city": "Sri Jayawardenepura Kotte",
+      "createdAt": "2026-11-14T11:05:24.108Z",
+      "customerEmail": "dilki@gmail.com",
+      "customerName": "Dilki Gamage",
+      "customerPhone": "0745263250",
+      "discountAmount": 0,
+      "id": "ord-1794654324108",
+      "items": [
+        {
+          "id": "dress-5-M-Deep Black",
+          "productId": "dress-5",
+          "productTitle": "Structured Minimalist Little Black Dress",
+          "price": 3800,
+          "quantity": 1,
+          "size": "M",
+          "color": "Deep Black",
+          "image": "https://i.pinimg.com/736x/86/2d/62/862d626e4a88f153c27d355d7c7fd3fb.jpg"
+        },
+        {
+          "id": "skirt-4-Soft Blue",
+          "productId": "skirt-4",
+          "productTitle": "Tiered Cotton Bohemian Maxi Skirt",
+          "price": 4100,
+          "quantity": 1,
+          "size": "S",
+          "color": "Soft Blue",
+          "image": "https://i.pinimg.com/1200x/17/e5/6c/17e56c3b55c5378959fbafaf60b40816.jpg"
+        },
+        {
+          "id": "dress-1-S-Earthy Olive",
+          "productId": "dress-1",
+          "productTitle": "Floral Tiered Bohemian Midi Dress",
+          "price": 4800,
+          "quantity": 1,
+          "size": "S",
+          "color": "Earthy Olive",
+          "image": "https://i.pinimg.com/736x/df/52/e8/df52e89a28a87c1d8d74967371bfc8db.jpg"
+        },
+        {
+          "id": "dress-2-XS-Onyx Black",
+          "productId": "dress-2",
+          "productTitle": "Elegant Pleated Maxi Evening Dress",
+          "price": 5400,
+          "quantity": 1,
+          "size": "XS",
+          "color": "Onyx Black",
+          "image": "https://i.pinimg.com/1200x/ce/6e/f6/ce6ef692b639167371a88eea12621f23.jpg"
+        }
+      ],
+      "orderNumber": "FS-2026-27347",
+      "paymentMethod": "CASH_ON_DELIVERY",
+      "paymentStatus": "UNPAID",
+      "province": "Western Province",
+      "receiptToken": "d8fe5514-8e91-4bac-97fc-18eac8d5843d",
+      "shippingAddress": "No-20/B Kotte , Sri Jayawardenepura Kotte, Western Province, Sri Lanka",
+      "shippingFee": 350,
+      "status": "PENDING",
+      "subtotal": 18100,
+      "totalAmount": 18450,
+      "updatedAt": "2026-11-14T11:25:31.640Z"
+    },
+    {
+      "city": "Sri Jayawardenepura Kotte",
+      "createdAt": "2026-11-14T11:33:28.422Z",
+      "customerEmail": "dilki@gmail.com",
+      "customerName": "Dilki Gamage",
+      "customerPhone": "0745235250",
+      "discountAmount": 0,
+      "id": "ord-1794656008421",
+      "items": [
+        {
+          "id": "prod-1793209737492-257-One Size-Red",
+          "productId": "prod-1793209737492-257",
+          "productTitle": "Minimalist Leather Shoulder Bag",
+          "price": 4500,
+          "quantity": 2,
+          "size": "One Size",
+          "color": "Red",
+          "image": "https://i.pinimg.com/736x/ff/58/23/ff582339e80acc12ea4fb09747411c3c.jpg"
+        }
+      ],
+      "orderNumber": "FS-2026-87627",
+      "paymentMethod": "CASH_ON_DELIVERY",
+      "paymentStatus": "UNPAID",
+      "province": "Western Province",
+      "receiptToken": "b0019d4f-391b-4e5a-9f17-4e1b5f9972d1",
+      "shippingAddress": "No-20/B kotte, Sri Jayawardenepura Kotte, Western Province, Sri Lanka",
+      "shippingFee": 350,
+      "status": "PENDING",
+      "subtotal": 9000,
+      "totalAmount": 9350
+    },
+    {
+      "city": "Horana",
+      "createdAt": "2026-11-14T11:59:34.354Z",
+      "customerEmail": "pubuduimasha@gmail.com",
+      "customerName": "pubudu imasha",
+      "customerPhone": "0752413010",
+      "discountAmount": 0,
+      "id": "ord-1794657574353",
+      "items": [
+        {
+          "id": "skirt-1-S-Espresso",
+          "productId": "skirt-1",
+          "productTitle": "Bias-Cut Lustrous Satin Midi Skirt",
+          "price": 3600,
+          "quantity": 2,
+          "size": "S",
+          "color": "Espresso",
+          "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=700&q=80"
+        }
+      ],
+      "orderNumber": "FS-2026-31692",
+      "paymentMethod": "CASH_ON_DELIVERY",
+      "paymentStatus": "UNPAID",
+      "province": "Western Province",
+      "receiptToken": "b95a366f-4f0a-4b71-9795-30c93351e550",
+      "shippingAddress": "horana, Horana, Western Province, Sri Lanka",
+      "shippingFee": 350,
+      "status": "PENDING",
+      "subtotal": 7200,
+      "totalAmount": 7550
+    },
+    {
+      "city": "Horana",
+      "createdAt": "2026-11-14T12:05:06.876Z",
+      "customerEmail": "pubuduimasha@gmail.com",
+      "customerName": "pubudu imasha",
+      "customerPhone": "0763254120",
+      "discountAmount": 0,
+      "id": "ord-1794657906875",
+      "items": [
+        {
+          "id": "prod-1793721234746-96-One Size-Navy Blue",
+          "productId": "prod-1793721234746-96",
+          "productTitle": "Navy & Ivory Couple Outfit – Elegant Aesthetic Look.",
+          "price": 8200,
+          "quantity": 1,
+          "size": "One Size",
+          "color": "Navy Blue",
+          "image": "https://i.pinimg.com/736x/c5/42/9f/c5429f7fbd96670feeaf53bdd12137ae.jpg"
+        }
+      ],
+      "orderNumber": "FS-2026-81360",
+      "paymentMethod": "CASH_ON_DELIVERY",
+      "paymentStatus": "UNPAID",
+      "province": "Western Province",
+      "receiptToken": "c1de8d69-b55e-4003-880d-9aa21345673a",
+      "shippingAddress": "Horana, Horana, Western Province, Sri Lanka",
+      "shippingFee": 350,
+      "status": "PENDING",
+      "subtotal": 8200,
+      "totalAmount": 8550
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1",
+      "name": "Kavindu Perera",
+      "email": "kavindu@gmail.com",
+      "phone": "+94 77 123 4567",
+      "address": "Colombo 07, Sri Lanka",
+      "totalOrders": 3,
+      "totalSpent": 48500,
+      "createdAt": "2026-01-15T10:00:00Z"
+    },
+    {
+      "id": "cust-2",
+      "name": "Anuki Fernando",
+      "email": "anuki.f@outlook.com",
+      "phone": "+94 71 987 6543",
+      "address": "Mount Lavinia, Sri Lanka",
+      "totalOrders": 2,
+      "totalSpent": 31200,
+      "createdAt": "2026-02-04T12:30:00Z"
+    },
+    {
+      "id": "cust-3",
+      "name": "Naveen Jayawardena",
+      "email": "naveen.j@gmail.com",
+      "phone": "+94 76 555 4321",
+      "address": "Kiribathgoda, Sri Lanka",
+      "totalOrders": 1,
+      "totalSpent": 15200,
+      "createdAt": "2026-02-28T09:15:00Z"
+    },
+    {
+      "address": "",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "email": "customer@example.com",
+      "id": "cust-1794653141167",
+      "name": "Kasuni Perera",
+      "phone": "+94 77 123 4567",
+      "totalOrders": 0,
+      "totalSpent": 0
+    },
+    {
+      "address": "",
+      "createdAt": "2026-11-14T11:02:43.755Z",
+      "email": "dilki@gmail.com",
+      "id": "cust-1794654163755",
+      "name": "Dilki Gamage",
+      "phone": "0745238520",
+      "totalOrders": 0,
+      "totalSpent": 0
+    },
+    {
+      "address": "",
+      "createdAt": "2026-11-14T11:57:02.079Z",
+      "email": "pubuduimasha@gmail.com",
+      "id": "cust-1794657422079",
+      "name": "pubudu imasha",
+      "phone": "0745211003",
+      "totalOrders": 0,
+      "totalSpent": 0
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "Admin",
+      "email": "admin@fashionstore.com",
+      "passwordHash": "$2a$10$mcA3XOplRIHZDSt2gguCF.GSjuC5KnBGNilbCjJKrqrJPlbvOatX.",
+      "role": "ADMIN",
+      "phone": "+94 11 234 5678",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-cust-1",
+      "name": "Kasuni Perera",
+      "email": "customer@example.com",
+      "passwordHash": "$2a$10$Ze1ovUIew/f8dJELR0mvru5IeIJuHrOvVOvPyOLe5fHUEYQqK8RQm",
+      "role": "CUSTOMER",
+      "phone": "+94 77 123 4567",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "createdAt": "2026-11-14T11:02:43.755Z",
+      "email": "dilki@gmail.com",
+      "id": "usr-1794654163755-371",
+      "name": "Dilki Gamage",
+      "passwordHash": "$2a$10$uAVW3j9ws4zUaisJ4XoWRODDcMI0ro59bVy/zstWJ3GKwlY8IJ0Lm",
+      "phone": "0745238520",
+      "role": "CUSTOMER"
+    },
+    {
+      "createdAt": "2026-11-14T11:57:02.079Z",
+      "email": "pubuduimasha@gmail.com",
+      "id": "usr-1794657422079-470",
+      "name": "pubudu imasha",
+      "passwordHash": "$2a$10$lye87LQsY1YrOp9DWMC1...NLEfK2pITAS2Bc.aUQoK.a.YR2hwbG",
+      "phone": "0745211003",
+      "role": "CUSTOMER"
+    },
+    {
+      "email": "admin14@gmail.ik",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "id": "usr-admin-14",
+      "name": "Admin",
+      "passwordHash": "$2a$10$mcA3XOplRIHZDSt2gguCF.GSjuC5KnBGNilbCjJKrqrJPlbvOatX.",
+      "phone": "+94 77 123 4567",
+      "role": "ADMIN"
+    },
+    {
+      "email": "admin14@gmail.lk",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "id": "usr-admin-14-lk",
+      "name": "Admin",
+      "passwordHash": "$2a$10$mcA3XOplRIHZDSt2gguCF.GSjuC5KnBGNilbCjJKrqrJPlbvOatX.",
+      "phone": "+94 77 123 4567",
+      "role": "ADMIN"
+    }
+  ],
+  "settings": {
+    "storeName": "FASHIONSTORE",
+    "storeTagline": "WEAR YOUR STORY",
+    "currencyCode": "LKR",
+    "currencySymbol": "Rs.",
+    "lowStockThreshold": 8,
+    "supportEmail": "info@fashionstore.com",
+    "supportPhone": "+94 11 234 5678",
+    "freeShippingThreshold": 15000,
+    "standardShippingFee": 450,
+    "address": "Galle Rd, Colombo 04, Sri Lanka",
+    "enabledCurrencies": [
+      "LKR",
+      "USD"
+    ],
+    "id": "store-settings",
+    "lkrPerUsd": 320
+  }
+}

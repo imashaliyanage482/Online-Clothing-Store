@@ -21,8 +21,16 @@ export async function middleware(request) {
 
   // 1. Guard Admin Routes
   if (pathname.startsWith('/admin')) {
+    // Allow unauthenticated access specifically to /admin/login
+    if (pathname === '/admin/login') {
+      if (user && user.role === 'ADMIN') {
+        return NextResponse.redirect(new URL('/admin/dashboard', request.url));
+      }
+      return NextResponse.next();
+    }
+
     if (!user || user.role !== 'ADMIN') {
-      const loginUrl = new URL('/login', request.url);
+      const loginUrl = new URL('/admin/login', request.url);
       loginUrl.searchParams.set('callbackUrl', pathname);
       return NextResponse.redirect(loginUrl);
     }

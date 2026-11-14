@@ -6,6 +6,7 @@ const AuthContext = createContext({
   user: null,
   loading: true,
   login: async () => {},
+  register: async () => {},
   logout: async () => {},
   refreshUser: async () => {},
 });
@@ -34,18 +35,39 @@ export function AuthProvider({ children }) {
     refreshUser();
   }, []);
 
-  const login = async (credentials) => {
+  const login = async (emailOrCredentials, maybePassword) => {
+    let payload = {};
+    if (typeof emailOrCredentials === 'object' && emailOrCredentials !== null) {
+      payload = emailOrCredentials;
+    } else {
+      payload = { email: emailOrCredentials, password: maybePassword };
+    }
+
     const res = await fetch('/api/auth/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(credentials),
+      body: JSON.stringify(payload),
     });
     const data = await res.json();
     if (!res.ok) {
-      throw new Error(data.error || 'Failed to login');
+      throw new Error(data.error || 'Failed to sign in. Please verify your credentials.');
     }
     setUser(data.user);
-    return data.user;
+    // Return both shape patterns: { success: true, user: data.user } AND direct user fields
+    return Object.assign({ success: true, user: data.user }, data.user);
+  };
+
+  const register = async (formData) => {
+    const res = await fetch('/api/auth/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+    const data = await res.json();
+    if (!res.ok) {
+      throw new Error(data.error || 'Failed to create account.');
+    }
+    return data;
   };
 
   const logout = async () => {
@@ -55,7 +77,7 @@ export function AuthProvider({ children }) {
   };
 
   return (
-    <AuthContext.Provider value={{ user, loading, login, logout, refreshUser }}>
+    <AuthContext.Provider value={{ user, loading, login, register, logout, refreshUser }}>
       {children}
     </AuthContext.Provider>
   );

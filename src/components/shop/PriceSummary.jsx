@@ -1,5 +1,5 @@
 import React from 'react';
-import { formatCurrency } from '@/lib/utils/currency';
+import { useCurrency } from '@/context/CurrencyContext';
 
 export default function PriceSummary({
   subtotal = 0,
@@ -8,37 +8,40 @@ export default function PriceSummary({
   discount = 0,
   total = 0,
 }) {
+  const { currencyCode, formatPrice } = useCurrency();
+
   return (
-    <div className="bg-white rounded-xl border border-slate-200 p-6 space-y-4">
-      <h3 className="text-base font-semibold text-slate-900 border-b border-slate-100 pb-3">
+    <div className="bg-[#FAF7F2] rounded-2xl border border-[#B69A7A]/30 p-6 sm:p-8 space-y-5">
+      <h3 className="font-serif text-lg font-bold text-[#252525] border-b border-[#B69A7A]/25 pb-3">
         Order Summary
       </h3>
-      <div className="space-y-2.5 text-sm text-slate-600">
+      <div className="space-y-3 text-sm text-[#252525]/80 font-light">
         <div className="flex justify-between">
           <span>Subtotal</span>
-          <span className="font-medium text-slate-900">{formatCurrency(subtotal)}</span>
+          <span className="font-medium text-[#252525]">{formatPrice(subtotal)}</span>
         </div>
         {discount > 0 && (
-          <div className="flex justify-between text-emerald-600">
-            <span>Discount Applied</span>
-            <span>-{formatCurrency(discount)}</span>
+          <div className="flex justify-between text-[#B69A7A] font-medium">
+            <span>Privilege Discount</span>
+            <span>-{formatPrice(discount)}</span>
           </div>
         )}
         <div className="flex justify-between">
-          <span>Standard Delivery</span>
-          <span className="font-medium text-slate-900">
-            {shipping === 0 ? 'Complimentary' : formatCurrency(shipping)}
+          <span>Delivery</span>
+          <span className="font-medium text-[#252525]">
+            {shipping === null ? 'Calculated at checkout' : shipping === 0 ? 'Complimentary' : formatPrice(shipping)}
           </span>
         </div>
-        <div className="flex justify-between">
-          <span>Estimated Sales Tax</span>
-          <span className="font-medium text-slate-900">{formatCurrency(tax)}</span>
-        </div>
       </div>
-      <div className="border-t border-slate-100 pt-3 flex justify-between items-center text-base font-bold text-slate-900">
+      <div className="border-t border-[#B69A7A]/25 pt-4 flex justify-between items-center text-base font-bold text-[#252525]">
         <span>Total</span>
-        <span>{formatCurrency(total)}</span>
+        <span className="text-lg">{formatPrice(total)}</span>
       </div>
+      {currencyCode === 'USD' && (
+        <p className="text-[11px] text-[#252525]/60">
+          USD display is converted from LKR at the store&apos;s current exchange rate.
+        </p>
+      )}
     </div>
   );
 }

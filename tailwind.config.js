@@ -6,18 +6,38 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+        sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+      },
       colors: {
-        brand: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          800: '#1e293b',
-          900: '#0f172a',
-          950: '#020617',
-          accent: '#d97706',
+        cream: {
+          DEFAULT: '#F5F0E8',
+          light: '#FAF7F2',
+          dark: '#EDE5D8',
+        },
+        fashionBlack: {
+          DEFAULT: '#252525',
+          soft: '#2D2D2D',
+          deep: '#1A1A1A',
+        },
+        beige: {
+          DEFAULT: '#B69A7A',
+          light: '#C7AD90',
+          dark: '#A38666',
+        },
+        fashion: {
+          bg: '#F5F0E8',
+          cream: '#F5F0E8',
+          sand: '#EBE3D5',
+          muted: '#8E8880',
+          dark: '#252525',
+          beige: '#B69A7A',
+          card: '#FAF7F2',
         },
       },
     },
   },
   plugins: [],
 };
+

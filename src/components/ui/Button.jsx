@@ -1,5 +1,12 @@
 import React from 'react';
 
+/**
+ * Luxury Fashion Button Component
+ * Color System:
+ *   - Primary:   bg-[#252525] text-[#F5F0E8] hover:bg-[#B69A7A] hover:text-[#252525]
+ *   - Secondary: bg-[#F5F0E8] text-[#252525] border border-[#B69A7A] hover:bg-[#B69A7A]/15
+ *   - Outline:   bg-transparent text-[#252525] border border-[#252525] hover:bg-[#252525] hover:text-[#F5F0E8]
+ */
 export default function Button({
   children,
   variant = 'primary',
@@ -9,20 +16,25 @@ export default function Button({
   ...props
 }) {
   const baseStyles =
-    'inline-flex items-center justify-center font-medium transition-all rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed';
+    'inline-flex items-center justify-center font-medium tracking-wide transition-all duration-200 rounded-full focus:outline-none focus:ring-2 focus:ring-[#B69A7A] focus:ring-offset-1 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer';
 
   const variants = {
-    primary: 'bg-slate-900 text-white hover:bg-slate-800 focus:ring-slate-900 shadow-sm',
-    secondary: 'bg-slate-100 text-slate-800 hover:bg-slate-200 focus:ring-slate-300',
-    outline: 'border border-slate-300 bg-transparent text-slate-700 hover:bg-slate-50 focus:ring-slate-400',
-    danger: 'bg-rose-600 text-white hover:bg-rose-700 focus:ring-rose-500 shadow-sm',
-    accent: 'bg-amber-600 text-white hover:bg-amber-700 focus:ring-amber-500 shadow-sm',
+    primary:
+      'bg-[#252525] text-[#F5F0E8] hover:bg-[#B69A7A] hover:text-[#252525] shadow-sm',
+    secondary:
+      'bg-[#F5F0E8] text-[#252525] border border-[#B69A7A] hover:bg-[#B69A7A]/20',
+    outline:
+      'border border-[#252525] bg-transparent text-[#252525] hover:bg-[#252525] hover:text-[#F5F0E8]',
+    beige:
+      'bg-[#B69A7A] text-[#252525] hover:bg-[#252525] hover:text-[#F5F0E8]',
+    ghost:
+      'bg-transparent text-[#252525] hover:bg-[#B69A7A]/15',
   };
 
   const sizes = {
-    sm: 'px-3 py-1.5 text-xs',
-    md: 'px-4 py-2.5 text-sm',
-    lg: 'px-6 py-3 text-base',
+    sm: 'px-4 py-2 text-xs',
+    md: 'px-6 py-2.5 text-xs sm:text-sm',
+    lg: 'px-8 py-3.5 text-sm font-semibold',
   };
 
   return (

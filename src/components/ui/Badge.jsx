@@ -2,17 +2,18 @@ import React from 'react';
 
 export default function Badge({ children, variant = 'default', className = '' }) {
   const variants = {
-    default: 'bg-slate-100 text-slate-800',
-    success: 'bg-emerald-50 text-emerald-700 border border-emerald-200',
-    warning: 'bg-amber-50 text-amber-700 border border-amber-200',
-    danger: 'bg-rose-50 text-rose-700 border border-rose-200',
-    info: 'bg-sky-50 text-sky-700 border border-sky-200',
-    accent: 'bg-purple-50 text-purple-700 border border-purple-200',
+    default: 'bg-[#252525] text-[#F5F0E8]',
+    secondary: 'bg-[#FAF7F2] text-[#252525] border border-[#B69A7A]/50',
+    beige: 'bg-[#B69A7A]/20 text-[#252525] border border-[#B69A7A]',
+    success: 'bg-[#B69A7A]/20 text-[#252525] border border-[#B69A7A]',
+    warning: 'bg-[#FAF7F2] text-[#252525] border border-[#B69A7A]',
+    danger: 'bg-red-50 text-red-700 border border-red-200',
+    info: 'bg-[#F5F0E8] text-[#252525] border border-[#B69A7A]/40',
   };
 
   return (
     <span
-      className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold tracking-wide ${
+      className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-semibold tracking-wider uppercase ${
         variants[variant] || variants.default
       } ${className}`}
     >

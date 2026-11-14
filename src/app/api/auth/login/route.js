@@ -1,39 +1,29 @@
 import { NextResponse } from 'next/server';
 import { createSessionToken, COOKIE_NAME } from '@/lib/auth/session';
-
-// Mock credentials fallback for instant testability without active DB connection
-const DEMO_ACCOUNTS = [
-  {
-    email: 'admin@fashionstore.com',
-    password: 'Admin@FashionStore2026',
-    user: { id: 'usr-admin', email: 'admin@fashionstore.com', name: 'System Administrator', role: 'ADMIN' },
-  },
-  {
-    email: 'customer@example.com',
-    password: 'Customer@123456',
-    user: { id: 'usr-customer', email: 'customer@example.com', name: 'Jane Doe', role: 'CUSTOMER' },
-  },
-];
+import { ensureMongoReady, verifyUserPassword } from '@/lib/db/dataStore';
 
 export async function POST(request) {
   try {
     const { email, password } = await request.json();
+    try {
+      await ensureMongoReady();
+    } catch (e) {
+      console.warn('MongoDB non-blocking warning during login:', e.message);
+    }
 
     if (!email || !password) {
       return NextResponse.json({ error: 'Email and password are required.' }, { status: 400 });
     }
 
-    const match = DEMO_ACCOUNTS.find(
-      (acc) => acc.email.toLowerCase() === email.toLowerCase() && acc.password === password
-    );
+    const user = verifyUserPassword(email, password);
 
-    if (!match) {
+    if (!user) {
       return NextResponse.json({ error: 'Invalid email address or password.' }, { status: 401 });
     }
 
-    const token = await createSessionToken(match.user);
+    const token = await createSessionToken(user);
 
-    const response = NextResponse.json({ success: true, user: match.user });
+    const response = NextResponse.json({ success: true, user });
     response.cookies.set({
       name: COOKIE_NAME,
       value: token,
@@ -46,6 +36,10 @@ export async function POST(request) {
 
     return response;
   } catch (err) {
-    return NextResponse.json({ error: 'Server authentication error.' }, { status: 500 });
+    console.error('Authentication failed:', err);
+    return NextResponse.json(
+      { error: 'Server authentication error.' },
+      { status: 500 }
+    );
   }
 }
