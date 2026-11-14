@@ -119,12 +119,23 @@ export default function HomePage() {
       let list = stored ? JSON.parse(stored) : [];
       if (!Array.isArray(list)) list = [];
 
-      const exists = list.some((item) => item.id === product.id);
+      const exists = list.some((item) => item.id === product.id || item.slug === product.slug);
+      const swatchIndex = selectedSwatches[product.id] || 0;
+      const prodImg =
+        product.swatches?.[swatchIndex]?.image ||
+        product.image ||
+        (Array.isArray(product.images)
+          ? typeof product.images[0] === 'string'
+            ? product.images[0]
+            : product.images[0]?.url
+          : '/images/product-wool-coat.jpg');
+
       if (exists) {
-        list = list.filter((item) => item.id !== product.id);
+        list = list.filter((item) => item.id !== product.id && item.slug !== product.slug);
         setWishlist((prev) => {
           const next = { ...prev };
           delete next[product.id];
+          if (product.slug) delete next[product.slug];
           return next;
         });
       } else {
@@ -133,10 +144,14 @@ export default function HomePage() {
           title: product.title,
           slug: product.slug,
           price: product.price,
-          image: product.image || product.images?.[0]?.url,
+          image: prodImg,
           category: product.category,
         });
-        setWishlist((prev) => ({ ...prev, [product.id]: true }));
+        setWishlist((prev) => ({
+          ...prev,
+          [product.id]: true,
+          ...(product.slug ? { [product.slug]: true } : {}),
+        }));
       }
       localStorage.setItem('fashionstore_wishlist', JSON.stringify(list));
       window.dispatchEvent(new Event('wishlist-updated'));
@@ -280,8 +295,8 @@ export default function HomePage() {
                         <Heart
                           className={`w-4 h-4 transition-colors ${
                             isWishlisted
-                              ? 'fill-[#252525] text-[#252525]'
-                              : 'text-[#252525]/70 hover:text-[#252525]'
+                              ? 'fill-red-500 text-red-500'
+                              : 'text-[#252525]/70 hover:text-red-500'
                           }`}
                         />
                       </button>

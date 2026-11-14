@@ -16,10 +16,10 @@
       "isNew": false,
       "stockQuantity": 11,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/65/cc/4f/65cc4f95a69d7ceee28e27e58e8a76bd.jpg",
+      "image": "/images/products/img_1e1e2ec71139.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/65/cc/4f/65cc4f95a69d7ceee28e27e58e8a76bd.jpg",
+          "url": "/images/products/img_1e1e2ec71139.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -29,7 +29,7 @@
         {
           "name": "Black",
           "hex": "#9dbbd7",
-          "image": "https://i.pinimg.com/736x/65/cc/4f/65cc4f95a69d7ceee28e27e58e8a76bd.jpg"
+          "image": "/images/products/img_1e1e2ec71139.jpg"
         }
       ],
       "sizes": [
@@ -56,10 +56,10 @@
       "isNew": false,
       "stockQuantity": 13,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/23/a5/01/23a5017cc17a22f5c2b03db561886598.jpg",
+      "image": "/images/products/img_0c8ab54e64d7.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/23/a5/01/23a5017cc17a22f5c2b03db561886598.jpg",
+          "url": "/images/products/img_0c8ab54e64d7.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -69,7 +69,7 @@
         {
           "name": "Black",
           "hex": "#252525",
-          "image": "https://i.pinimg.com/736x/23/a5/01/23a5017cc17a22f5c2b03db561886598.jpg"
+          "image": "/images/products/img_0c8ab54e64d7.jpg"
         }
       ],
       "sizes": [
@@ -97,15 +97,15 @@
       "isNew": false,
       "stockQuantity": 9,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/6e/77/8b/6e778b5a975bc5a40eb4a41288fceb56.jpg",
+      "image": "/images/products/img_03c271fa436f.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/6e/77/8b/6e778b5a975bc5a40eb4a41288fceb56.jpg",
+          "url": "/images/products/img_03c271fa436f.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://i.pinimg.com/1200x/38/34/89/383489f5f87ec56f5eb0df0900210fc1.jpg",
+          "url": "/images/products/img_e9b55d949e85.jpg",
           "isPrimary": false,
           "sortOrder": 1
         }
@@ -115,12 +115,12 @@
         {
           "name": "Beige",
           "hex": "#ccb9a3",
-          "image": "https://i.pinimg.com/1200x/38/34/89/383489f5f87ec56f5eb0df0900210fc1.jpg"
+          "image": "/images/products/img_e9b55d949e85.jpg"
         },
         {
           "name": "Black",
           "hex": "#252525",
-          "image": "https://i.pinimg.com/736x/6e/77/8b/6e778b5a975bc5a40eb4a41288fceb56.jpg"
+          "image": "/images/products/img_03c271fa436f.jpg"
         }
       ],
       "sizes": [
@@ -146,10 +146,10 @@
       "isNew": false,
       "stockQuantity": 6,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/1200x/ce/09/1f/ce091f1560f1ca7ad0c551b5d5d8147a.jpg",
+      "image": "/images/products/img_ed51d5661d0e.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/ce/09/1f/ce091f1560f1ca7ad0c551b5d5d8147a.jpg",
+          "url": "/images/products/img_ed51d5661d0e.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -159,7 +159,7 @@
         {
           "name": "Beige",
           "hex": "#f2f2f2",
-          "image": "https://i.pinimg.com/1200x/ce/09/1f/ce091f1560f1ca7ad0c551b5d5d8147a.jpg"
+          "image": "/images/products/img_ed51d5661d0e.jpg"
         }
       ],
       "sizes": [
@@ -186,10 +186,10 @@
       "isNew": true,
       "stockQuantity": 8,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/236x/a9/a7/21/a9a721d37243258da3592ce27db025f2.jpg",
+      "image": "/images/products/img_13c8435ee5f3.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/236x/a9/a7/21/a9a721d37243258da3592ce27db025f2.jpg",
+          "url": "/images/products/img_13c8435ee5f3.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -199,7 +199,7 @@
         {
           "name": "Beige",
           "hex": "#d59a9a",
-          "image": "https://i.pinimg.com/236x/a9/a7/21/a9a721d37243258da3592ce27db025f2.jpg"
+          "image": "/images/products/img_13c8435ee5f3.jpg"
         }
       ],
       "sizes": [
@@ -224,10 +224,10 @@
       "isNew": true,
       "stockQuantity": 14,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/34/33/4f/34334fbc0f9c9a405b83f6268afae8fa.jpg",
+      "image": "/images/products/img_7e35875699d4.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/34/33/4f/34334fbc0f9c9a405b83f6268afae8fa.jpg",
+          "url": "/images/products/img_7e35875699d4.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -237,7 +237,7 @@
         {
           "name": "Black",
           "hex": "#252525",
-          "image": "https://i.pinimg.com/736x/34/33/4f/34334fbc0f9c9a405b83f6268afae8fa.jpg"
+          "image": "/images/products/img_7e35875699d4.jpg"
         }
       ],
       "sizes": [
@@ -266,10 +266,10 @@
       "isNew": false,
       "stockQuantity": 15,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/a9/de/7b/a9de7b63e3e468836f67641ad0721eea.jpg",
+      "image": "/images/products/img_57f586a1b2c7.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/a9/de/7b/a9de7b63e3e468836f67641ad0721eea.jpg",
+          "url": "/images/products/img_57f586a1b2c7.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -279,7 +279,7 @@
         {
           "name": "Beige",
           "hex": "#B69A7A",
-          "image": "https://i.pinimg.com/736x/a9/de/7b/a9de7b63e3e468836f67641ad0721eea.jpg"
+          "image": "/images/products/img_57f586a1b2c7.jpg"
         }
       ],
       "sizes": [
@@ -306,10 +306,10 @@
       "isNew": false,
       "stockQuantity": 5,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/70/bf/ee/70bfee6bbc3eb0ad8f04e67c377d833c.jpg",
+      "image": "/images/products/img_b2e8edb9752d.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/70/bf/ee/70bfee6bbc3eb0ad8f04e67c377d833c.jpg",
+          "url": "/images/products/img_b2e8edb9752d.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -319,7 +319,7 @@
         {
           "name": "Beige",
           "hex": "#B69A7A",
-          "image": "https://i.pinimg.com/736x/70/bf/ee/70bfee6bbc3eb0ad8f04e67c377d833c.jpg"
+          "image": "/images/products/img_b2e8edb9752d.jpg"
         }
       ],
       "sizes": [
@@ -342,10 +342,10 @@
       "isNew": false,
       "stockQuantity": 4,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/ad/14/49/ad14493502bc1c6b3fba79b86ce394a7.jpg",
+      "image": "/images/products/img_8aced4f637e6.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/ad/14/49/ad14493502bc1c6b3fba79b86ce394a7.jpg",
+          "url": "/images/products/img_8aced4f637e6.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -355,7 +355,7 @@
         {
           "name": "Black",
           "hex": "#252525",
-          "image": "https://i.pinimg.com/736x/ad/14/49/ad14493502bc1c6b3fba79b86ce394a7.jpg"
+          "image": "/images/products/img_8aced4f637e6.jpg"
         }
       ],
       "sizes": [
@@ -378,20 +378,20 @@
       "isNew": false,
       "stockQuantity": 5,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/42/b1/41/42b141bfceea67484f5224d36a8197fe.jpg",
+      "image": "/images/products/img_110533db1ce7.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/42/b1/41/42b141bfceea67484f5224d36a8197fe.jpg",
+          "url": "/images/products/img_110533db1ce7.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_c923dcede53b.jpg",
           "isPrimary": false,
           "sortOrder": 1
         },
         {
-          "url": "https://www.temu.com/ul/kuiper/un3.html?subj=dpa-un&_bg_fs=1&_p_jump_id=1082&_x_vst_scene=adg&goods_id=601099568409335&adg_ctx=a-a7aaf4a9~c-c6ab38bb&_p_rfs=1&_x_ads_channel=pinterest&_x_ads_creative_id=4260610032095&_x_ads_id=2680091946726&_x_ads_set=626759616912&_x_ads_sub_channel=shopping&_x_ns_catalog_id=2000117&_x_ns_creative=4260610032095&_x_ns_gid=601099568409335&_x_ns_product_id=17592423156127&_x_ns_prz_type=101&locale_override=187~~USD&_x_bg_adid=eu1075977328&_x_ads_account=549770650864&_x_ns_placement=%7Bplacement%7D&pp=0.png",
+          "url": "/images/products/img_efe1e732a636.png",
           "isPrimary": false,
           "sortOrder": 2
         }
@@ -401,7 +401,7 @@
         {
           "name": "White",
           "hex": "#f1e9e9",
-          "image": "https://i.pinimg.com/736x/42/b1/41/42b141bfceea67484f5224d36a8197fe.jpg"
+          "image": "/images/products/img_110533db1ce7.jpg"
         }
       ],
       "sizes": [
@@ -425,10 +425,10 @@
       "isNew": false,
       "stockQuantity": 7,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/25/ab/b9/25abb9fe4ab5e619a9c2232e70d18ee0.jpg",
+      "image": "/images/products/img_8d50a628b128.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/25/ab/b9/25abb9fe4ab5e619a9c2232e70d18ee0.jpg",
+          "url": "/images/products/img_8d50a628b128.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -438,7 +438,7 @@
         {
           "name": "Beige",
           "hex": "#B69A7A",
-          "image": "https://i.pinimg.com/736x/25/ab/b9/25abb9fe4ab5e619a9c2232e70d18ee0.jpg"
+          "image": "/images/products/img_8d50a628b128.jpg"
         }
       ],
       "sizes": [
@@ -461,10 +461,10 @@
       "isNew": false,
       "stockQuantity": 5,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/e0/1b/dc/e01bdc9b63002fe65791be3c999bf94b.jpg",
+      "image": "/images/products/img_604159c935d9.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/e0/1b/dc/e01bdc9b63002fe65791be3c999bf94b.jpg",
+          "url": "/images/products/img_604159c935d9.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -474,7 +474,7 @@
         {
           "name": "Black",
           "hex": "#252525",
-          "image": "https://i.pinimg.com/736x/e0/1b/dc/e01bdc9b63002fe65791be3c999bf94b.jpg"
+          "image": "/images/products/img_604159c935d9.jpg"
         }
       ],
       "sizes": [
@@ -497,10 +497,10 @@
       "isNew": true,
       "stockQuantity": 7,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/ff/58/23/ff582339e80acc12ea4fb09747411c3c.jpg",
+      "image": "/images/products/img_14d9cad5ada0.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/ff/58/23/ff582339e80acc12ea4fb09747411c3c.jpg",
+          "url": "/images/products/img_14d9cad5ada0.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -510,12 +510,12 @@
         {
           "name": "Red",
           "hex": "#983a3a",
-          "image": "https://i.pinimg.com/736x/ff/58/23/ff582339e80acc12ea4fb09747411c3c.jpg"
+          "image": "/images/products/img_14d9cad5ada0.jpg"
         },
         {
           "name": "Beige",
           "hex": "#88b77b",
-          "image": "https://i.pinimg.com/736x/f8/76/fd/f876fdf4e5cce42cef155e937a8dffb6.jpg"
+          "image": "/images/products/img_c59571c57110.jpg"
         }
       ],
       "sizes": [
@@ -538,10 +538,10 @@
       "isNew": true,
       "stockQuantity": 25,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/3e/f2/a9/3ef2a9e2b7eeb453f411ed9985244cf6.jpg",
+      "image": "/images/products/img_c30024b3be4d.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/3e/f2/a9/3ef2a9e2b7eeb453f411ed9985244cf6.jpg",
+          "url": "/images/products/img_c30024b3be4d.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -551,17 +551,17 @@
         {
           "name": "Beige",
           "hex": "#cead88",
-          "image": "https://i.pinimg.com/736x/3e/f2/a9/3ef2a9e2b7eeb453f411ed9985244cf6.jpg"
+          "image": "/images/products/img_c30024b3be4d.jpg"
         },
         {
           "name": "Green",
           "hex": "#2b4f21",
-          "image": "https://i.pinimg.com/1200x/2e/06/4f/2e064fc091d6f19bc9335475532aa62e.jpg"
+          "image": "/images/products/img_95cb4aab4709.jpg"
         },
         {
           "name": "Brown",
           "hex": "#4e1818",
-          "image": "https://i.pinimg.com/736x/74/f6/dc/74f6dc7f2e095795f41105463fa3f733.jpg"
+          "image": "/images/products/img_d9f588c7651c.jpg"
         }
       ],
       "sizes": [
@@ -587,10 +587,10 @@
       "isNew": false,
       "stockQuantity": 18,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_c923dcede53b.jpg",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_c923dcede53b.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -600,12 +600,12 @@
         {
           "name": "Pink",
           "hex": "#e1adc3",
-          "image": "https://i.pinimg.com/736x/30/da/72/30da728012339c421f4dff6791cb53d7.jpg"
+          "image": "/images/products/img_8d540163b037.jpg"
         },
         {
           "name": "Blue",
           "hex": "#99a7ea",
-          "image": "https://i.pinimg.com/736x/35/d2/59/35d25910ea243c16fdf8629bc6168a52.jpg"
+          "image": "/images/products/img_a8ea688cedfc.jpg"
         }
       ],
       "sizes": [
@@ -629,13 +629,13 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://i.pinimg.com/736x/f5/4e/68/f54e689bfc6be8c8d88c5ef3d8ab109c.jpg",
+      "image": "/images/products/img_d9b6793604f3.jpg",
       "description": "Spun from 100% GOTS-certified Aegean organic cotton with a structured neckline and tailored drape.",
       "colors": [
         {
           "name": "Pure White",
           "hex": "#ca3f69",
-          "image": "https://i.pinimg.com/736x/f5/4e/68/f54e689bfc6be8c8d88c5ef3d8ab109c.jpg"
+          "image": "/images/products/img_d9b6793604f3.jpg"
         }
       ],
       "sizes": [
@@ -653,7 +653,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/f5/4e/68/f54e689bfc6be8c8d88c5ef3d8ab109c.jpg",
+          "url": "/images/products/img_d9b6793604f3.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -669,7 +669,7 @@
       "originalPrice": 2900,
       "isSale": true,
       "isNew": false,
-      "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_6c09fa2580aa.jpg",
       "description": "Lustrous mulberry silk with soft concealed mother-of-pearl buttons and tailored cuff detailing.",
       "colors": [
         {
@@ -703,7 +703,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": false,
-      "image": "https://i.pinimg.com/736x/a1/68/f1/a168f16cc9a09f8274f8c557157c3dec.jpg",
+      "image": "/images/products/img_9911ec568027.jpg",
       "description": "Engineered compact ribbed knit that contours the silhouette comfortably with shape-recovery yarn.",
       "colors": [
         {
@@ -725,7 +725,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/a1/68/f1/a168f16cc9a09f8274f8c557157c3dec.jpg",
+          "url": "/images/products/img_9911ec568027.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -741,7 +741,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": false,
-      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_fece52803a6e.jpg",
       "description": "Pre-washed French flax linen with a breathable breezy drape, curved hem, and natural shell buttons.",
       "colors": [
         {
@@ -772,7 +772,7 @@
       "originalPrice": 2800,
       "isSale": true,
       "isNew": false,
-      "image": "https://i.pinimg.com/1200x/d5/d5/d3/d5d5d3a2a840fbb1f6410e99c258f658.jpg",
+      "image": "/images/products/img_eb2047816b22.jpg",
       "description": "Premium stretch modal fabric with wide binding along the square neckline and subtle ribbed texture.",
       "colors": [
         {
@@ -793,7 +793,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/d5/d5/d3/d5d5d3a2a840fbb1f6410e99c258f658.jpg",
+          "url": "/images/products/img_eb2047816b22.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -809,7 +809,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://i.pinimg.com/736x/e0/15/93/e01593322fea372a6d1fd14556185158.jpg",
+      "image": "/images/products/img_e2e628105a48.jpg",
       "description": "Double-layered lustrous heavy satin with delicate adjustable rouleau straps and subtle cowl front.",
       "colors": [
         {
@@ -839,7 +839,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://i.pinimg.com/736x/df/52/e8/df52e89a28a87c1d8d74967371bfc8db.jpg",
+      "image": "/images/products/img_26473a057148.jpg",
       "description": "Fluid tiered viscose crepe featuring subtle hand-painted botanical motifs and a self-tie waist cord.",
       "colors": [
         {
@@ -874,7 +874,7 @@
       "originalPrice": 6900,
       "isSale": true,
       "isNew": false,
-      "image": "https://i.pinimg.com/1200x/ce/6e/f6/ce6ef692b639167371a88eea12621f23.jpg",
+      "image": "/images/products/img_28cbf2a8523b.jpg",
       "description": "Floor-sweeping sunray accordion pleats that catch the light elegantly with each stride.",
       "colors": [
         {
@@ -909,7 +909,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://i.pinimg.com/1200x/4e/d8/1e/4ed81e49ed1dc673a4c9e5eeef050880.jpg",
+      "image": "/images/products/img_24a191e0b5d8.jpg",
       "description": "Cut on the bias for a natural contours-hugging drape. Features a flattering low back and side slit.",
       "colors": [
         {
@@ -942,7 +942,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": false,
-      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_2df4a3af6347.jpg",
       "description": "100% garment-dyed European linen with an adjustable wrap tie belt and roomy concealed pockets.",
       "colors": [
         {
@@ -974,7 +974,7 @@
       "originalPrice": 4500,
       "isSale": true,
       "isNew": false,
-      "image": "https://i.pinimg.com/736x/86/2d/62/862d626e4a88f153c27d355d7c7fd3fb.jpg",
+      "image": "/images/products/img_84ea2df8536c.jpg",
       "description": "Architectural crepe tailoring with refined seam detailing and an understated square boatneck neckline.",
       "colors": [
         {
@@ -1003,7 +1003,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_50119251b5d6.jpg",
       "description": "Crisp poplin cotton with a wide fabric obi belt, dropped shoulder line, and tailored breast pockets.",
       "colors": [
         {
@@ -1033,7 +1033,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://i.pinimg.com/736x/78/77/cb/7877cbaa68706ff6d3c8fd79b192a4cd.jpg",
+      "image": "/images/products/img_a839a76606de.jpg",
       "description": "Heavyweight 13oz ring-spun denim with distressed brass buttons and authentic vintage stone-washing.",
       "colors": [
         {
@@ -1067,7 +1067,7 @@
       "originalPrice": 5500,
       "isSale": true,
       "isNew": false,
-      "image": "https://i.pinimg.com/736x/1f/39/d2/1f39d2e177033d0904e21c963dad3fa4.jpg",
+      "image": "/images/products/img_ecc01c4714a8.jpg",
       "description": "Full-length wide-leg cut with authentic 90s vintage wash, 5-pocket construction, and zip fly.",
       "colors": [
         {
@@ -1098,7 +1098,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": false,
-      "image": "https://i.pinimg.com/1200x/5f/fe/0b/5ffe0bf8eb2389a047b2a1fb45b4817c.jpg",
+      "image": "/images/products/img_5b6eb5c8c872.jpg",
       "description": "Softened 7oz cotton denim with pointed western front yoke, pearl snap buttons, and chest flap pockets.",
       "colors": [
         {
@@ -1132,7 +1132,7 @@
       "originalPrice": 5200,
       "isSale": true,
       "isNew": false,
-      "image": "https://i.pinimg.com/736x/8e/4f/7d/8e4f7d8c217a0d55b5e087d09f9e30d0.jpg",
+      "image": "/images/products/img_1250758352e6.jpg",
       "description": "Boxy streetwear tailoring with raw fringe hemline, deep armholes, and oversized chest pockets.",
       "colors": [
         {
@@ -1162,7 +1162,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://i.pinimg.com/736x/75/cf/aa/75cfaaebe61821dd0451786c8e8e494d.jpg",
+      "image": "/images/products/img_eab26caad989.jpg",
       "description": "Clean ankle-grazing straight leg silhouette tailored for versatile day-to-night styling.",
       "colors": [
         {
@@ -1185,7 +1185,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/75/cf/aa/75cfaaebe61821dd0451786c8e8e494d.jpg",
+          "url": "/images/products/img_eab26caad989.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1201,28 +1201,28 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_ee3b1c76e6f8.jpg",
       "description": "Double front pleats with extended waistband tab, belt loops, and clean tapered leg silhouette.",
       "colors": [
         {
           "name": "White",
           "hex": "#faf7f5",
-          "image": "https://i.pinimg.com/736x/95/19/d3/9519d3174ea6cf3543c6d2d3ddaf32cc.jpg"
+          "image": "/images/products/img_3511578c3ecb.jpg"
         },
         {
           "name": "Jet Black",
           "hex": "#918d8d",
-          "image": "https://i.pinimg.com/736x/73/f7/12/73f71202888e91434895f8958235d620.jpg"
+          "image": "/images/products/img_79ea06cfeeea.jpg"
         },
         {
           "name": "Soft Sand",
           "hex": "#7e432a",
-          "image": "https://i.pinimg.com/736x/1b/d2/44/1bd2444f09ab4d8e518f91dedc467769.jpg"
+          "image": "/images/products/img_486d64ad2fa0.jpg"
         },
         {
           "name": "Black",
           "hex": "#252525",
-          "image": "https://i.pinimg.com/736x/df/1b/aa/df1baa6cb12b34c2e68bfb1e3cedd364.jpg"
+          "image": "/images/products/img_f27c730dcece.jpg"
         }
       ],
       "sizes": [
@@ -1239,27 +1239,27 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_ee3b1c76e6f8.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://i.pinimg.com/736x/95/19/d3/9519d3174ea6cf3543c6d2d3ddaf32cc.jpg",
+          "url": "/images/products/img_3511578c3ecb.jpg",
           "isPrimary": false,
           "sortOrder": 1
         },
         {
-          "url": "https://i.pinimg.com/736x/73/f7/12/73f71202888e91434895f8958235d620.jpg",
+          "url": "/images/products/img_79ea06cfeeea.jpg",
           "isPrimary": false,
           "sortOrder": 2
         },
         {
-          "url": "https://i.pinimg.com/736x/1b/d2/44/1bd2444f09ab4d8e518f91dedc467769.jpg",
+          "url": "/images/products/img_486d64ad2fa0.jpg",
           "isPrimary": false,
           "sortOrder": 3
         },
         {
-          "url": "https://i.pinimg.com/736x/df/1b/aa/df1baa6cb12b34c2e68bfb1e3cedd364.jpg",
+          "url": "/images/products/img_f27c730dcece.jpg",
           "isPrimary": false,
           "sortOrder": 4
         }
@@ -1276,7 +1276,7 @@
       "originalPrice": 3500,
       "isSale": true,
       "isNew": false,
-      "image": "https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_eabcadbf13d0.jpg",
       "description": "Pure French linen with elasticated back waist, front slash pockets, and voluminous breezy hem.",
       "colors": [
         {
@@ -1298,7 +1298,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_eabcadbf13d0.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1315,7 +1315,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_271e16ced52a.jpg",
       "description": "1% elastane comfort stretch denim that molds perfectly to your form without bagging out.",
       "colors": [
         {
@@ -1336,7 +1336,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_271e16ced52a.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1353,13 +1353,13 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": false,
-      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_4e1f37617bae.jpg",
       "description": "Wrinkle-resistant bi-stretch tailored twill with concealed hook-and-bar closure.",
       "colors": [
         {
           "name": "Matte Black",
           "hex": "#edc0c0",
-          "image": "https://i.pinimg.com/736x/13/0c/bc/130cbc29d6ae458daaa681115b7ba57a.jpg"
+          "image": "/images/products/img_292800cab4ba.jpg"
         }
       ],
       "sizes": [
@@ -1375,7 +1375,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_4e1f37617bae.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1392,13 +1392,13 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_0fad719b6fe1.jpg",
       "description": "Silky Tencel lyocell fiber with soft garment wash, drawstring waist, and gentle cuffed hems.",
       "colors": [
         {
           "name": "Warm Cream",
           "hex": "#547d4f",
-          "image": "https://i.pinimg.com/736x/1e/0c/5b/1e0c5b8d3c59a557a1648489fb547abe.jpg"
+          "image": "/images/products/img_e1dfb6db1da0.jpg"
         }
       ],
       "sizes": [
@@ -1414,7 +1414,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_0fad719b6fe1.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1431,23 +1431,23 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": false,
-      "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_b37da7e1cb2e.jpg",
       "description": "Silky heavyweight satin cut diagonally across the grain for an effortless liquid-drape motion.",
       "colors": [
         {
           "name": "Espresso",
           "hex": "#3B2F2A",
-          "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=700&q=80"
+          "image": "/images/products/img_b37da7e1cb2e.jpg"
         },
         {
           "name": "Midnight",
           "hex": "#305a2a",
-          "image": "https://i.pinimg.com/1200x/23/81/1c/23811ce670c62bd83281ea66dc30cf5f.jpg"
+          "image": "/images/products/img_a5bdf4feeef3.jpg"
         },
         {
           "name": "Dark Red",
           "hex": "#8a1414",
-          "image": "https://i.pinimg.com/736x/0e/06/5b/0e065baa641a92c007d8b55ddad6f6a0.jpg"
+          "image": "/images/products/img_bedf96552b2e.jpg"
         }
       ],
       "sizes": [
@@ -1462,17 +1462,17 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_b37da7e1cb2e.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://i.pinimg.com/1200x/23/81/1c/23811ce670c62bd83281ea66dc30cf5f.jpg",
+          "url": "/images/products/img_a5bdf4feeef3.jpg",
           "isPrimary": false,
           "sortOrder": 1
         },
         {
-          "url": "https://i.pinimg.com/736x/0e/06/5b/0e065baa641a92c007d8b55ddad6f6a0.jpg",
+          "url": "/images/products/img_bedf96552b2e.jpg",
           "isPrimary": false,
           "sortOrder": 2
         }
@@ -1489,18 +1489,18 @@
       "originalPrice": 4000,
       "isSale": true,
       "isNew": false,
-      "image": "https://i.pinimg.com/736x/88/63/70/886370c7da6c7f9a5daa2da082c3a9d7.jpg",
+      "image": "/images/products/img_345a3ec83c37.jpg",
       "description": "Fine knife pleating that retains crisp structural definition, finished with an elasticated waistband.",
       "colors": [
         {
           "name": "Sand Beige",
           "hex": "#B69A7A",
-          "image": "https://i.pinimg.com/736x/88/63/70/886370c7da6c7f9a5daa2da082c3a9d7.jpg"
+          "image": "/images/products/img_345a3ec83c37.jpg"
         },
         {
           "name": "White",
           "hex": "#ffffff",
-          "image": "https://i.pinimg.com/736x/04/a5/71/04a571e0678db30c84e467cb6454b130.jpg"
+          "image": "/images/products/img_d56f635b461d.jpg"
         }
       ],
       "sizes": [
@@ -1516,12 +1516,12 @@
       "updatedAt": "2026-10-28T15:38:34.510Z",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/88/63/70/886370c7da6c7f9a5daa2da082c3a9d7.jpg",
+          "url": "/images/products/img_345a3ec83c37.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://i.pinimg.com/736x/04/a5/71/04a571e0678db30c84e467cb6454b130.jpg",
+          "url": "/images/products/img_d56f635b461d.jpg",
           "isPrimary": false,
           "sortOrder": 1
         }
@@ -1537,7 +1537,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://images.unsplash.com/photo-1577900232427-18219b9166a0?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_06595d19ec41.jpg",
       "description": "Structured cotton twill with statement patch cargo pockets and horn button front placket.",
       "colors": [
         {
@@ -1557,7 +1557,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1577900232427-18219b9166a0?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_06595d19ec41.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1574,7 +1574,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": false,
-      "image": "https://i.pinimg.com/1200x/17/e5/6c/17e56c3b55c5378959fbafaf60b40816.jpg",
+      "image": "/images/products/img_c1729a6d4b5c.jpg",
       "description": "Airy multi-tiered organic cotton voile with subtle pintuck pleats and delicate ladder lace trim.",
       "colors": [
         {
@@ -1595,7 +1595,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/17/e5/6c/17e56c3b55c5378959fbafaf60b40816.jpg",
+          "url": "/images/products/img_c1729a6d4b5c.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1612,7 +1612,7 @@
       "originalPrice": 6900,
       "isSale": true,
       "isNew": false,
-      "image": "https://i.pinimg.com/736x/b7/74/ad/b774ad8bd49922c2b0beeef0b4107533.jpg",
+      "image": "/images/products/img_41b92283587c.jpg",
       "description": "Clean architectural overlapping front with hidden snap closure and smooth satin inner lining.",
       "colors": [
         {
@@ -1632,7 +1632,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/b7/74/ad/b774ad8bd49922c2b0beeef0b4107533.jpg",
+          "url": "/images/products/img_41b92283587c.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1649,7 +1649,7 @@
       "originalPrice": 3500,
       "isSale": true,
       "isNew": true,
-      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_001691203ec4.jpg",
       "description": "Supple full-grain calfskin with subtle gold-embossed logo, magnetic closure, and suede lining.",
       "colors": [
         {
@@ -1667,7 +1667,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_001691203ec4.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1684,7 +1684,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://i.pinimg.com/1200x/f2/19/94/f21994fc14cf984c24e3afe38cb84d46.jpg",
+      "image": "/images/products/img_3ba85101d8ec.jpg",
       "description": "Architectural trapezoid silhouette with sturdy top handle and detachable cross-body strap.",
       "colors": [
         {
@@ -1702,7 +1702,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/f2/19/94/f21994fc14cf984c24e3afe38cb84d46.jpg",
+          "url": "/images/products/img_3ba85101d8ec.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1719,7 +1719,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": false,
-      "image": "https://i.pinimg.com/1200x/1c/44/61/1c4461ff8ced8d0df65e1fdc8f42cf2e.jpg",
+      "image": "/images/products/img_bb164e1f4086.jpg",
       "description": "Hand-polished Italian acetate frame with 100% UV400 category 3 scratch-resistant polarized lenses.",
       "colors": [
         {
@@ -1737,7 +1737,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/1c/44/61/1c4461ff8ced8d0df65e1fdc8f42cf2e.jpg",
+          "url": "/images/products/img_bb164e1f4086.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1754,7 +1754,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": true,
-      "image": "https://i.pinimg.com/1200x/07/9d/a6/079da61aab309b04653280bfe68806ed.jpg",
+      "image": "/images/products/img_1aa8676e715c.jpg",
       "description": "100% 16mm Mulberry silk twill featuring exclusive geometric atelier print with hand-rolled edges.",
       "colors": [
         {
@@ -1772,7 +1772,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/07/9d/a6/079da61aab309b04653280bfe68806ed.jpg",
+          "url": "/images/products/img_1aa8676e715c.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1789,7 +1789,7 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": false,
-      "image": "https://i.pinimg.com/736x/eb/5e/c8/eb5ec83547deafc280a6fd571b84276b.jpg",
+      "image": "/images/products/img_9e3513f2ccba.jpg",
       "description": "18oz rugged water-resistant cotton canvas reinforced with Italian saddle leather handles and bottom studs.",
       "colors": [
         {
@@ -1807,7 +1807,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/eb/5e/c8/eb5ec83547deafc280a6fd571b84276b.jpg",
+          "url": "/images/products/img_9e3513f2ccba.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1828,7 +1828,7 @@
       "isNew": true,
       "stockQuantity": 7,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_f94196d79b95.jpg",
       "description": "Crafted from 320gsm durable twill cotton with dual chest patch pockets and matte horn buttons.",
       "colors": [
         {
@@ -1862,7 +1862,7 @@
       "isNew": false,
       "stockQuantity": 11,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/1200x/da/f4/25/daf425ec4994b3147e17caf3fd3c66b9.jpg",
+      "image": "/images/products/img_364365139c89.jpg",
       "description": "Airy pre-washed European flax linen featuring a retro relaxed camp collar and mother-of-pearl buttons.",
       "colors": [
         {
@@ -1878,7 +1878,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/da/f4/25/daf425ec4994b3147e17caf3fd3c66b9.jpg",
+          "url": "/images/products/img_364365139c89.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1899,7 +1899,7 @@
       "isNew": false,
       "stockQuantity": 15,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/a6/2d/c3/a62dc3ea8aaaf74210da26161c7cb0d1.jpg",
+      "image": "/images/products/img_a6eefe27113c.jpg",
       "description": "Extra-long staple American Supima cotton with a tailored classic neckline that maintains shape wash after wash.",
       "colors": [
         {
@@ -1918,7 +1918,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/a6/2d/c3/a62dc3ea8aaaf74210da26161c7cb0d1.jpg",
+          "url": "/images/products/img_a6eefe27113c.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1939,7 +1939,7 @@
       "isNew": true,
       "stockQuantity": 24,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/15/ce/bb/15cebb6fd5af3a4caa763fd0d1d19c59.jpg",
+      "image": "/images/products/img_672f5eda904c.jpg",
       "description": "Crisp two-ply pin-point Oxford cotton weave tailored with modern collar roll and rounded barrel cuffs.",
       "colors": [
         {
@@ -1961,7 +1961,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/15/ce/bb/15cebb6fd5af3a4caa763fd0d1d19c59.jpg",
+          "url": "/images/products/img_672f5eda904c.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -1982,7 +1982,7 @@
       "isNew": true,
       "stockQuantity": 12,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_d8263ef3852e.jpg",
       "description": "Lustrous mulberry silk and viscose blend with subtle fluid drape, hidden front placket, and tonal atelier sheen.",
       "colors": [
         {
@@ -1999,7 +1999,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_d8263ef3852e.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2020,7 +2020,7 @@
       "isNew": true,
       "stockQuantity": 17,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/1200x/29/44/3b/29443b7227a841943171462db6aeaf48.jpg",
+      "image": "/images/products/img_c6a0722a6217.jpg",
       "description": "14oz shuttle-loomed red-line selvedge denim woven in Okayama with authentic copper rivets and button fly.",
       "colors": [
         {
@@ -2037,7 +2037,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/29/44/3b/29443b7227a841943171462db6aeaf48.jpg",
+          "url": "/images/products/img_c6a0722a6217.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2058,7 +2058,7 @@
       "isNew": false,
       "stockQuantity": 18,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/08/b4/e0/08b4e0d740aae318cf86c38fa9352ff1.jpg",
+      "image": "/images/products/img_d414f412c66d.jpg",
       "description": "Gentle vintage stone enzyme wash with room in the seat and thigh tapering neatly toward the ankle hem.",
       "colors": [
         {
@@ -2075,7 +2075,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/08/b4/e0/08b4e0d740aae318cf86c38fa9352ff1.jpg",
+          "url": "/images/products/img_d414f412c66d.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2096,7 +2096,7 @@
       "isNew": false,
       "stockQuantity": 20,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/21/47/f2/2147f2cb257d01a5839b4c5cee0f0891.jpg",
+      "image": "/images/products/img_15fc97bed21d.jpg",
       "description": "Sulfur stay-black dyed cotton denim that resists fading through 40+ laundry cycles with 1% comfort stretch.",
       "colors": [
         {
@@ -2113,7 +2113,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/21/47/f2/2147f2cb257d01a5839b4c5cee0f0891.jpg",
+          "url": "/images/products/img_15fc97bed21d.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2134,7 +2134,7 @@
       "isNew": false,
       "stockQuantity": 11,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_feb2242796e9.jpg",
       "description": "90s archival silhouette cut with subtle boot flare at the leg opening and authentic whisker distressing.",
       "colors": [
         {
@@ -2151,7 +2151,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_feb2242796e9.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2172,7 +2172,7 @@
       "isNew": false,
       "stockQuantity": 25,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1560243563-062bfc001d68?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_e40aa82bcc1c.jpg",
       "description": "Wide cut relaxed leg profile with gentle stacking over sneakers in marbled marble acid-wash treatment.",
       "colors": [
         {
@@ -2196,7 +2196,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1560243563-062bfc001d68?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_e40aa82bcc1c.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2217,7 +2217,7 @@
       "isNew": true,
       "stockQuantity": 25,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_ba0a81761bf7.jpg",
       "description": "Fluid wool-viscose twill with double forward pleats, side waist adjusters, and a generous straight fall.",
       "colors": [
         {
@@ -2251,7 +2251,7 @@
       "isNew": false,
       "stockQuantity": 34,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_2005df94bf0c.jpg",
       "description": "Garment-dyed 260gsm combed cotton twill with welt back pockets and reinforced coin pocket.",
       "colors": [
         {
@@ -2290,7 +2290,7 @@
       "isNew": false,
       "stockQuantity": 6,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_7e5e5eb0f267.jpg",
       "description": "Contemporary silhouette terminating neatly above the shoe line with 2cm blind-stitched turn-up cuffs.",
       "colors": [
         {
@@ -2308,7 +2308,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_7e5e5eb0f267.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2329,7 +2329,7 @@
       "isNew": false,
       "stockQuantity": 8,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_e6ac0aa60381.jpg",
       "description": "Hand-finished double-faced Australian merino wool coat with clean concealed horn button front closure.",
       "colors": [
         {
@@ -2344,7 +2344,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_e6ac0aa60381.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2365,7 +2365,7 @@
       "isNew": false,
       "stockQuantity": 11,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/1200x/f7/b6/45/f7b64545c2db2b1ba1076b6053580d29.jpg",
+      "image": "/images/products/img_9ddf15cc85dd.jpg",
       "description": "450gsm dense 100% organic cotton loopback fleece with double-lined hood and seamless kangaroo pocket.",
       "colors": [
         {
@@ -2383,7 +2383,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/f7/b6/45/f7b64545c2db2b1ba1076b6053580d29.jpg",
+          "url": "/images/products/img_9ddf15cc85dd.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2404,13 +2404,13 @@
       "isNew": true,
       "stockQuantity": 3,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/1200x/cf/92/25/cf9225e07e998d0919b9b214448f92b4.jpg",
+      "image": "/images/products/img_0486e3137ce4.jpg",
       "description": "Quarter-lined Italian linen summer sport coat featuring patch pockets, double rear vents, and soft natural shoulders.",
       "colors": [
         {
           "name": "Sand Khaki",
           "hex": "#CDBFA9",
-          "image": "https://i.pinimg.com/1200x/cf/92/25/cf9225e07e998d0919b9b214448f92b4.jpg"
+          "image": "/images/products/img_0486e3137ce4.jpg"
         }
       ],
       "sizes": [
@@ -2419,12 +2419,12 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/cf/92/25/cf9225e07e998d0919b9b214448f92b4.jpg",
+          "url": "/images/products/img_0486e3137ce4.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_c2c31a7a2833.jpg",
           "isPrimary": false,
           "sortOrder": 1
         }
@@ -2445,7 +2445,7 @@
       "isNew": true,
       "stockQuantity": 6,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/1200x/35/28/0d/35280de29d099e7bad9bc96f6acb6fd1.jpg",
+      "image": "/images/products/img_c24ffe257bb1.jpg",
       "description": "Buttery full-grain lambskin leather with antique silver YKK two-way zipper and cupro diamond-quilted lining.",
       "colors": [
         {
@@ -2461,7 +2461,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/35/28/0d/35280de29d099e7bad9bc96f6acb6fd1.jpg",
+          "url": "/images/products/img_c24ffe257bb1.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2482,7 +2482,7 @@
       "isNew": false,
       "stockQuantity": 40,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_e4ca7674f07b.jpg",
       "description": "Vegetable-tanned 3.8mm thick bridle leather with hand-burnished beveled edges and solid brushed brass buckle.",
       "colors": [
         {
@@ -2499,7 +2499,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_e4ca7674f07b.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2520,7 +2520,7 @@
       "isNew": false,
       "stockQuantity": 10,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/1200x/b1/ca/15/b1ca1552e1b34b1a63e8ed685ab6b521.jpg",
+      "image": "/images/products/img_df67fc543ffa.jpg",
       "description": "Ultra-slim 8-card bifold crafted from buttero Italian calfskin leather with embedded RFID theft blocking.",
       "colors": [
         {
@@ -2534,7 +2534,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/b1/ca/15/b1ca1552e1b34b1a63e8ed685ab6b521.jpg",
+          "url": "/images/products/img_df67fc543ffa.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2555,7 +2555,7 @@
       "isNew": true,
       "stockQuantity": 7,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/736x/74/f5/06/74f506d106ae24662c64846664e9f7f8.jpg",
+      "image": "/images/products/img_9ceed2ff416a.jpg",
       "description": "Custom Japanese acetate frame with precision five-barrel hinges and category 3 polarized UV400 lenses.",
       "colors": [
         {
@@ -2569,7 +2569,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/74/f5/06/74f506d106ae24662c64846664e9f7f8.jpg",
+          "url": "/images/products/img_9ceed2ff416a.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2590,7 +2590,7 @@
       "isNew": true,
       "stockQuantity": 15,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/1200x/f9/8a/ae/f98aaec4fe7f6b17d3692628005d541c.jpg",
+      "image": "/images/products/img_8d70418667e9.jpg",
       "description": "Spun from Grade-A 100% white Mongolian cashmere fibers (15.5 micron diameter) for cloud-like softness.",
       "colors": [
         {
@@ -2608,7 +2608,7 @@
       "collectionSlugs": [],
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/f9/8a/ae/f98aaec4fe7f6b17d3692628005d541c.jpg",
+          "url": "/images/products/img_8d70418667e9.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2629,7 +2629,7 @@
       "isNew": false,
       "stockQuantity": 3,
       "status": "ACTIVE",
-      "image": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=700&q=80",
+      "image": "/images/products/img_6a5b6b3238d0.jpg",
       "description": "Traditional Aran heritage honeycomb and cable stitching from 100% unprocessed pure British shetland wool.",
       "colors": [
         {
@@ -2647,7 +2647,7 @@
       "categoryReviewReason": "Knitwear has no dedicated category in the requested structure.",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_6a5b6b3238d0.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2668,13 +2668,13 @@
       "isNew": false,
       "stockQuantity": 4,
       "status": "ACTIVE",
-      "image": "https://i.pinimg.com/1200x/b8/4f/3f/b84f3fe75397dd15ef68e3872171a1f9.jpg",
+      "image": "/images/products/img_5268d2a5093c.jpg",
       "description": "14-gauge Italian spun merino wool with refined tailored fit engineered to slide seamlessly underneath suit jackets.",
       "colors": [
         {
           "name": "Black Onyx",
           "hex": "#202020",
-          "image": "https://i.pinimg.com/1200x/b8/4f/3f/b84f3fe75397dd15ef68e3872171a1f9.jpg"
+          "image": "/images/products/img_5268d2a5093c.jpg"
         }
       ],
       "sizes": [
@@ -2687,12 +2687,12 @@
       "categoryReviewReason": "Knitwear has no dedicated category in the requested structure.",
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/b8/4f/3f/b84f3fe75397dd15ef68e3872171a1f9.jpg",
+          "url": "/images/products/img_5268d2a5093c.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=700&q=80",
+          "url": "/images/products/img_89afc957defe.jpg",
           "isPrimary": false,
           "sortOrder": 1
         }
@@ -2710,37 +2710,37 @@
         {
           "name": "Black",
           "hex": "#535f9d",
-          "image": "https://i.pinimg.com/736x/75/fc/20/75fc2089cd457fad6f0d2bada99a2942.jpg"
+          "image": "/images/products/img_046842115eb9.jpg"
         },
         {
           "name": "Green",
           "hex": "#1a7053",
-          "image": "https://i.pinimg.com/736x/94/df/c9/94dfc947509cc605be22588efcd4c9cd.jpg"
+          "image": "/images/products/img_7f68f89030cd.jpg"
         },
         {
           "name": "Red",
           "hex": "#7b0a0a",
-          "image": "https://i.pinimg.com/736x/35/2d/c3/352dc3407612e03cebc0bbdb11d62f8a.jpg"
+          "image": "/images/products/img_d233e09e40d7.jpg"
         }
       ],
       "createdAt": "2026-10-29T17:00:32.050Z",
       "description": "However, fall business casual is not all about being warm and comfortable it is also about being presentable without being over done.",
       "gender": "collection",
       "id": "prod-1793293232050-778",
-      "image": "https://i.pinimg.com/736x/75/fc/20/75fc2089cd457fad6f0d2bada99a2942.jpg",
+      "image": "/images/products/img_046842115eb9.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/75/fc/20/75fc2089cd457fad6f0d2bada99a2942.jpg",
+          "url": "/images/products/img_046842115eb9.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://i.pinimg.com/736x/94/df/c9/94dfc947509cc605be22588efcd4c9cd.jpg",
+          "url": "/images/products/img_7f68f89030cd.jpg",
           "isPrimary": false,
           "sortOrder": 1
         },
         {
-          "url": "https://i.pinimg.com/736x/35/2d/c3/352dc3407612e03cebc0bbdb11d62f8a.jpg",
+          "url": "/images/products/img_d233e09e40d7.jpg",
           "isPrimary": false,
           "sortOrder": 2
         }
@@ -2768,27 +2768,27 @@
         {
           "name": "Black",
           "hex": "#898080",
-          "image": "https://i.pinimg.com/1200x/a1/a8/3f/a1a83f363351fddbadb460bc0ddb4bda.jpg"
+          "image": "/images/products/img_98a98293d813.jpg"
         },
         {
           "name": "Beige",
           "hex": "#685b86",
-          "image": "https://i.pinimg.com/736x/27/b1/a0/27b1a00b0e220aa5dc808f0a02b99803.jpg"
+          "image": "/images/products/img_6423336d90d6.jpg"
         }
       ],
       "createdAt": "2026-10-29T17:03:58.028Z",
       "description": "Modern teal dress shirt with charcoal pants – perfect business casual look for work, meetings & date nights. Clean, sharp and trending in USA men’s fashion 2026. Save for outfit inspiration ✨",
       "gender": "collection",
       "id": "prod-1793293438028-929",
-      "image": "https://i.pinimg.com/1200x/a1/a8/3f/a1a83f363351fddbadb460bc0ddb4bda.jpg",
+      "image": "/images/products/img_98a98293d813.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/a1/a8/3f/a1a83f363351fddbadb460bc0ddb4bda.jpg",
+          "url": "/images/products/img_98a98293d813.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://i.pinimg.com/736x/27/b1/a0/27b1a00b0e220aa5dc808f0a02b99803.jpg",
+          "url": "/images/products/img_6423336d90d6.jpg",
           "isPrimary": false,
           "sortOrder": 1
         }
@@ -2819,17 +2819,17 @@
         {
           "name": "Black",
           "hex": "#6e3030",
-          "image": "https://i.pinimg.com/736x/6d/01/4d/6d014da5477c666a7f366abd14604a27.jpg"
+          "image": "/images/products/img_b55f8f4fefc8.jpg"
         }
       ],
       "createdAt": "2026-10-29T17:07:20.046Z",
       "description": "Trending Brown Shirt Black Pant Combo For Men ✨ Perfect for Office, Meeting & Formal Party Premium Slim Fit | Mens Fashion 2026",
       "gender": "collection",
       "id": "prod-1793293640046-354",
-      "image": "https://i.pinimg.com/736x/6d/01/4d/6d014da5477c666a7f366abd14604a27.jpg",
+      "image": "/images/products/img_b55f8f4fefc8.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/6d/01/4d/6d014da5477c666a7f366abd14604a27.jpg",
+          "url": "/images/products/img_b55f8f4fefc8.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2860,17 +2860,17 @@
         {
           "name": "Blue",
           "hex": "#792529",
-          "image": "https://i.pinimg.com/736x/5d/2f/72/5d2f72f1a0a73587b42e3d86ed559dff.jpg"
+          "image": "/images/products/img_6b660c55861c.jpg"
         }
       ],
       "createdAt": "2026-10-29T17:11:40.896Z",
       "description": "Elegant burgundy draped top styled with high-waisted ivory wide-leg trousers, a burgundy structured handbag, pointed-toe heels, gold accessories, and a matching belt",
       "gender": "collection",
       "id": "prod-1793293900895-984",
-      "image": "https://i.pinimg.com/736x/5d/2f/72/5d2f72f1a0a73587b42e3d86ed559dff.jpg",
+      "image": "/images/products/img_6b660c55861c.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/5d/2f/72/5d2f72f1a0a73587b42e3d86ed559dff.jpg",
+          "url": "/images/products/img_6b660c55861c.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2898,17 +2898,17 @@
         {
           "name": "Pink",
           "hex": "#e69ef5",
-          "image": "https://i.pinimg.com/736x/96/34/50/963450394b3d8a18317f1aaca0f2e90f.jpg"
+          "image": "/images/products/img_34ddfb763ab8.jpg"
         }
       ],
       "createdAt": "2026-10-29T17:13:46.963Z",
       "description": "Refresh your wardrobe with 20+ Baby Pink Outfits 2026 featuring elegant and trendy looks for every occasion. Discover the perfect baby pink outfit, stylish baby pink combination ideas, a chic baby pink shirt outfit, flattering baby pink outfit women styles, and versatile baby pink top outfit inspiration.",
       "gender": "collection",
       "id": "prod-1793294026963-285",
-      "image": "https://i.pinimg.com/736x/96/34/50/963450394b3d8a18317f1aaca0f2e90f.jpg",
+      "image": "/images/products/img_34ddfb763ab8.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/96/34/50/963450394b3d8a18317f1aaca0f2e90f.jpg",
+          "url": "/images/products/img_34ddfb763ab8.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2940,17 +2940,17 @@
         {
           "name": "Black",
           "hex": "#095315",
-          "image": "https://i.pinimg.com/736x/f9/db/2b/f9db2b79fc39f3c9d2ad60ee5996495e.jpg"
+          "image": "/images/products/img_8eb76ad6f1e3.jpg"
         }
       ],
       "createdAt": "2026-10-29T17:15:42.114Z",
       "description": "A beautiful neutral aesthetic outfit featuring olive green and beige tones styled with delicate gold accessories. Perfect for minimal fashion lovers and classy outfit inspiration.",
       "gender": "collection",
       "id": "prod-1793294142114-746",
-      "image": "https://i.pinimg.com/736x/f9/db/2b/f9db2b79fc39f3c9d2ad60ee5996495e.jpg",
+      "image": "/images/products/img_8eb76ad6f1e3.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/f9/db/2b/f9db2b79fc39f3c9d2ad60ee5996495e.jpg",
+          "url": "/images/products/img_8eb76ad6f1e3.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -2978,27 +2978,27 @@
         {
           "name": "White",
           "hex": "#c1bdbd",
-          "image": "https://i.pinimg.com/736x/c9/8a/d4/c98ad4ef42c33e94b840cdcfac146f08.jpg"
+          "image": "/images/products/img_a7523bfb25b9.jpg"
         },
         {
           "name": "Black",
           "hex": "#121212",
-          "image": "https://i.pinimg.com/736x/52/e8/0a/52e80a35eb4d140ae4aa957943cb32b7.jpg"
+          "image": "/images/products/img_77ae230b3d70.jpg"
         }
       ],
       "createdAt": "2026-10-29T17:20:04.866Z",
       "description": "Dress for success with stylish men's office outfits. Discover smart office fashion ideas featuring tailored shirts, blazers, dress pants, chinos, and polished shoes. Perfect for business meetings, office days, interviews, and professional events, these outfit ideas combine comfort, confidence, and timeless style.",
       "gender": "collection",
       "id": "prod-1793294404866-817",
-      "image": "https://i.pinimg.com/736x/c9/8a/d4/c98ad4ef42c33e94b840cdcfac146f08.jpg",
+      "image": "/images/products/img_a7523bfb25b9.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/c9/8a/d4/c98ad4ef42c33e94b840cdcfac146f08.jpg",
+          "url": "/images/products/img_a7523bfb25b9.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://i.pinimg.com/736x/52/e8/0a/52e80a35eb4d140ae4aa957943cb32b7.jpg",
+          "url": "/images/products/img_77ae230b3d70.jpg",
           "isPrimary": false,
           "sortOrder": 1
         }
@@ -3030,17 +3030,17 @@
         {
           "name": "Black",
           "hex": "#252525",
-          "image": "https://i.pinimg.com/236x/c0/a5/62/c0a56249033925c1f2192b2d4faf6a0d.jpg"
+          "image": "/images/products/img_3aa2cc6c893c.jpg"
         }
       ],
       "createdAt": "2026-10-29T17:27:14.098Z",
       "description": "Mooyius presents a striking midi dress that captures modern femininity through sculpted structure and fluid asymmetry.",
       "gender": "collection",
       "id": "prod-1793294834098-110",
-      "image": "https://i.pinimg.com/236x/c0/a5/62/c0a56249033925c1f2192b2d4faf6a0d.jpg",
+      "image": "/images/products/img_3aa2cc6c893c.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/236x/c0/a5/62/c0a56249033925c1f2192b2d4faf6a0d.jpg",
+          "url": "/images/products/img_3aa2cc6c893c.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3068,17 +3068,17 @@
         {
           "name": "Red",
           "hex": "#b71f1f",
-          "image": "https://www.blissfulgal.com/cdn/shop/files/9bb3d3fdcb80f89ee646ba9b48de1ae1.webp?v=1790652334&width=1200"
+          "image": "/images/products/img_457d655f903c.jpg"
         }
       ],
       "createdAt": "2026-10-29T17:29:00.814Z",
       "description": "Chic Halter Sleeveless Long High Split Prom Dress",
       "gender": "collection",
       "id": "prod-1793294940814-186",
-      "image": "https://www.blissfulgal.com/cdn/shop/files/9bb3d3fdcb80f89ee646ba9b48de1ae1.webp?v=1790652334&width=1200",
+      "image": "/images/products/img_457d655f903c.jpg",
       "images": [
         {
-          "url": "https://www.blissfulgal.com/cdn/shop/files/9bb3d3fdcb80f89ee646ba9b48de1ae1.webp?v=1790652334&width=1200",
+          "url": "/images/products/img_457d655f903c.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3106,17 +3106,17 @@
         {
           "name": "Beige",
           "hex": "#7b4b14",
-          "image": "https://i.pinimg.com/1200x/24/5e/0b/245e0b5d23343cc2503cc01b22d816dd.jpg"
+          "image": "/images/products/img_8d4ac32fc37b.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:07:30.545Z",
       "description": "Polyester Pattern:Printing Sheer:No Season:Suitable for all seasons Operation Instruction:Machine wash or professional dry clean Features",
       "gender": "collection",
       "id": "prod-1793718450544-707",
-      "image": "https://i.pinimg.com/1200x/24/5e/0b/245e0b5d23343cc2503cc01b22d816dd.jpg",
+      "image": "/images/products/img_8d4ac32fc37b.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/24/5e/0b/245e0b5d23343cc2503cc01b22d816dd.jpg",
+          "url": "/images/products/img_8d4ac32fc37b.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3144,17 +3144,17 @@
         {
           "name": "Blue",
           "hex": "#2a178c",
-          "image": "https://i.pinimg.com/736x/b5/30/0d/b5300ded97475c5bff687c0e933aa67b.jpg"
+          "image": "/images/products/img_6c7c1fb3cb27.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:09:11.429Z",
       "description": "Ice blue pant strip shirt",
       "gender": "collection",
       "id": "prod-1793718551429-470",
-      "image": "https://i.pinimg.com/736x/b5/30/0d/b5300ded97475c5bff687c0e933aa67b.jpg",
+      "image": "/images/products/img_6c7c1fb3cb27.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/b5/30/0d/b5300ded97475c5bff687c0e933aa67b.jpg",
+          "url": "/images/products/img_6c7c1fb3cb27.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3184,17 +3184,17 @@
         {
           "name": "Dark Red",
           "hex": "#842a2a",
-          "image": "https://i.pinimg.com/736x/a4/de/08/a4de08cb2223a1071aa81b8c570d8dd4.jpg"
+          "image": "/images/products/img_426a647fe02f.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:10:50.268Z",
       "description": "Discover elegant burgundy suit outfit ideas for men with a sophisticated luxury aesthetic. A deep burgundy blazer paired with a black shirt creates a timeless look for weddings, parties, date nights, formal events and evening occasions. Save this Fashion Aura style inspiration for your next classy men’s outfit.",
       "gender": "collection",
       "id": "prod-1793718650268-598",
-      "image": "https://i.pinimg.com/736x/a4/de/08/a4de08cb2223a1071aa81b8c570d8dd4.jpg",
+      "image": "/images/products/img_426a647fe02f.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/a4/de/08/a4de08cb2223a1071aa81b8c570d8dd4.jpg",
+          "url": "/images/products/img_426a647fe02f.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3222,17 +3222,17 @@
         {
           "name": "Beige",
           "hex": "#d2bca3",
-          "image": "https://i.pinimg.com/1200x/69/20/a8/6920a890b3d85d310ee9e123b1f05491.jpg"
+          "image": "/images/products/img_2d3cbeda5b24.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:12:38.835Z",
       "description": "So elegant and soft! Mauve taupe one shoulder long gown with draped bodice and crystal strap and beaded waist belt. Sheer tulle skirt with high leg slit, flowy train, silver sparkle clutch, silver heels.",
       "gender": "collection",
       "id": "prod-1793718758835-73",
-      "image": "https://i.pinimg.com/1200x/69/20/a8/6920a890b3d85d310ee9e123b1f05491.jpg",
+      "image": "/images/products/img_2d3cbeda5b24.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/69/20/a8/6920a890b3d85d310ee9e123b1f05491.jpg",
+          "url": "/images/products/img_2d3cbeda5b24.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3260,17 +3260,17 @@
         {
           "name": "Beige",
           "hex": "#e8cfdc",
-          "image": "https://i.pinimg.com/736x/5c/74/ac/5c74ac0d9222b1a938b4159aa6dedcce.jpg"
+          "image": "/images/products/img_3aa3bdbdbbdf.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:14:42.765Z",
       "description": "Cute Light Pink Sparkly Homecoming Dress, A-line off the shoulder with pearl beaded.",
       "gender": "collection",
       "id": "prod-1793718882765-166",
-      "image": "https://i.pinimg.com/736x/5c/74/ac/5c74ac0d9222b1a938b4159aa6dedcce.jpg",
+      "image": "/images/products/img_3aa3bdbdbbdf.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/5c/74/ac/5c74ac0d9222b1a938b4159aa6dedcce.jpg",
+          "url": "/images/products/img_3aa3bdbdbbdf.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3298,37 +3298,37 @@
         {
           "name": "Blue",
           "hex": "#131853",
-          "image": "https://img.staticdj.com/d5e20fe962c16372739d88f6a96c3760_750x.jpeg"
+          "image": "/images/products/img_9a300af71ac4.jpg"
         },
         {
           "name": "White",
           "hex": "#e1e1c1",
-          "image": "https://img.staticdj.com/9a9f593bcd3ca74ee2dd27e757234018_750x.jpeg"
+          "image": "/images/products/img_845aadb68ae0.jpg"
         },
         {
           "name": "Green",
           "hex": "#0b4007",
-          "image": "https://img.staticdj.com/43baac868cd732d991ff704596096f5e_750x.jpeg"
+          "image": "/images/products/img_7e01f953db23.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:36:07.893Z",
       "description": "Women'S Casual Solid Color Two Piece Suit",
       "gender": "collection",
       "id": "prod-1793720167893-91",
-      "image": "https://img.staticdj.com/d5e20fe962c16372739d88f6a96c3760_750x.jpeg",
+      "image": "/images/products/img_9a300af71ac4.jpg",
       "images": [
         {
-          "url": "https://img.staticdj.com/d5e20fe962c16372739d88f6a96c3760_750x.jpeg",
+          "url": "/images/products/img_9a300af71ac4.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://img.staticdj.com/9a9f593bcd3ca74ee2dd27e757234018_750x.jpeg",
+          "url": "/images/products/img_845aadb68ae0.jpg",
           "isPrimary": false,
           "sortOrder": 1
         },
         {
-          "url": "https://img.staticdj.com/43baac868cd732d991ff704596096f5e_750x.jpeg",
+          "url": "/images/products/img_7e01f953db23.jpg",
           "isPrimary": false,
           "sortOrder": 2
         }
@@ -3360,22 +3360,22 @@
         {
           "name": "Black",
           "hex": "#f7f3f3",
-          "image": "https://i.pinimg.com/736x/83/e2/6d/83e26d7256d51ac3a858f43d15219daa.jpg"
+          "image": "/images/products/img_850f68c6cc20.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:39:02.085Z",
       "description": "Discover stylish outfit ideas for every mood and occasion! 👗✨ From cute casual looks and classy outfits to aesthetic street style and everyday fashion, find inspiration to create your perfect look. Save this pin for your next outfit inspo! 💕🌸",
       "gender": "collection",
       "id": "prod-1793720342084-157",
-      "image": "https://i.pinimg.com/736x/83/e2/6d/83e26d7256d51ac3a858f43d15219daa.jpg",
+      "image": "/images/products/img_850f68c6cc20.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/83/e2/6d/83e26d7256d51ac3a858f43d15219daa.jpg",
+          "url": "/images/products/img_850f68c6cc20.jpg",
           "isPrimary": true,
           "sortOrder": 0
         },
         {
-          "url": "https://img.staticdj.com/d5e20fe962c16372739d88f6a96c3760_750x.jpeg",
+          "url": "/images/products/img_9a300af71ac4.jpg",
           "isPrimary": false,
           "sortOrder": 1
         }
@@ -3404,17 +3404,17 @@
         {
           "name": "Green",
           "hex": "#369151",
-          "image": "https://i.pinimg.com/736x/1f/10/34/1f10343465f62b91cdc6c0c892cc1054.jpg"
+          "image": "/images/products/img_d3ad3f6384fe.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:47:57.451Z",
       "description": "Elegant summer couple outfit featuring a yellow midi dress and classic black shirt with tailored trousers. ",
       "gender": "collection",
       "id": "prod-1793720877450-175",
-      "image": "https://i.pinimg.com/736x/1f/10/34/1f10343465f62b91cdc6c0c892cc1054.jpg",
+      "image": "/images/products/img_d3ad3f6384fe.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/1f/10/34/1f10343465f62b91cdc6c0c892cc1054.jpg",
+          "url": "/images/products/img_d3ad3f6384fe.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3442,17 +3442,17 @@
         {
           "name": "Purple",
           "hex": "#ccacd7",
-          "image": "https://i.pinimg.com/736x/83/5f/b1/835fb1585acfca98e93b54abffb53baa.jpg"
+          "image": "/images/products/img_457e21e36710.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:50:39.929Z",
       "description": "Lavender Couple Goals 💜👫 The most viral aesthetic matching outfit right now on Pinterest! Her: Lavender corset long dress with sweetheart neckline, cream mini bag, white heels ✨ Him: Lavender shirt + white pants + beige loafers Perfect for: Brunch, Date Night, Vacation, Pre-wedding Shoot Save this look 📌 | Follow for more viral couple outfits",
       "gender": "collection",
       "id": "prod-1793721039929-603",
-      "image": "https://i.pinimg.com/736x/83/5f/b1/835fb1585acfca98e93b54abffb53baa.jpg",
+      "image": "/images/products/img_457e21e36710.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/83/5f/b1/835fb1585acfca98e93b54abffb53baa.jpg",
+          "url": "/images/products/img_457e21e36710.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3480,17 +3480,17 @@
         {
           "name": "Black",
           "hex": "#b9d0df",
-          "image": "https://i.pinimg.com/736x/f6/f9/c7/f6f9c7abb8b2c737229d8a19f27dd04f.jpg"
+          "image": "/images/products/img_843671a324e7.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:52:20.009Z",
       "description": "light blue couple outfit, blue and white couple outfit, matching couple outfits, couple fashion ideas, couple outfit inspiration, classy couple look, aesthetic couple outfit, coordinated couple outfits, summer couple outfit, casual couple fashion",
       "gender": "collection",
       "id": "prod-1793721140009-51",
-      "image": "https://i.pinimg.com/736x/f6/f9/c7/f6f9c7abb8b2c737229d8a19f27dd04f.jpg",
+      "image": "/images/products/img_843671a324e7.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/f6/f9/c7/f6f9c7abb8b2c737229d8a19f27dd04f.jpg",
+          "url": "/images/products/img_843671a324e7.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3518,17 +3518,17 @@
         {
           "name": "Navy Blue",
           "hex": "#3e2a89",
-          "image": "https://i.pinimg.com/736x/c5/42/9f/c5429f7fbd96670feeaf53bdd12137ae.jpg"
+          "image": "/images/products/img_35e36a74b5a1.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:53:54.746Z",
       "description": "A stylish couple fashion look featuring coordinated navy blue and ivory outfits. The elegant combination creates a classy, modern, and romantic aesthetic—perfect for date nights, vacations, couple photoshoots, and special occasions. Save this look for chic couple outfit inspiration. 💙🤍✨",
       "gender": "collection",
       "id": "prod-1793721234746-96",
-      "image": "https://i.pinimg.com/736x/c5/42/9f/c5429f7fbd96670feeaf53bdd12137ae.jpg",
+      "image": "/images/products/img_35e36a74b5a1.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/c5/42/9f/c5429f7fbd96670feeaf53bdd12137ae.jpg",
+          "url": "/images/products/img_35e36a74b5a1.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3556,17 +3556,17 @@
         {
           "name": "Red",
           "hex": "#972b2b",
-          "image": "https://i.pinimg.com/1200x/f9/e9/79/f9e979950596a129ca303cf2dc3674eb.jpg"
+          "image": "/images/products/img_d978f983a503.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:55:24.587Z",
       "description": "Matching burgundy couple outfits for wedding and formal dinner. Woman in maroon ruffle high-low maxi dress with belt and man in burgundy shirt and white pants. Elegant couple style for engagement, valentine's date and luxury events. Save this wine red couple outfit!",
       "gender": "collection",
       "id": "prod-1793721324586-457",
-      "image": "https://i.pinimg.com/1200x/f9/e9/79/f9e979950596a129ca303cf2dc3674eb.jpg",
+      "image": "/images/products/img_d978f983a503.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/1200x/f9/e9/79/f9e979950596a129ca303cf2dc3674eb.jpg",
+          "url": "/images/products/img_d978f983a503.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3594,17 +3594,17 @@
         {
           "name": "Green",
           "hex": "#9bb09b",
-          "image": "https://i.pinimg.com/736x/cc/07/9f/cc079f1f38c730cd1ddcfb3e34fdb497.jpg"
+          "image": "/images/products/img_67d5d7769cf4.jpg"
         }
       ],
       "createdAt": "2026-11-03T15:56:56.809Z",
       "description": "2pcs Men's Hawaiian Vacation Casual Floral Print Shirt And Plain Shorts Set Mint Green Boho Tropical,Plants,All Over Print Slight Stretch All Men Clothing, size features are:Bust: ,Length: ,Sleeve Length:",
       "gender": "collection",
       "id": "prod-1793721416809-8",
-      "image": "https://i.pinimg.com/736x/cc/07/9f/cc079f1f38c730cd1ddcfb3e34fdb497.jpg",
+      "image": "/images/products/img_67d5d7769cf4.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/cc/07/9f/cc079f1f38c730cd1ddcfb3e34fdb497.jpg",
+          "url": "/images/products/img_67d5d7769cf4.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3636,17 +3636,17 @@
         {
           "name": "beige",
           "hex": "#f5f4db",
-          "image": "https://i.pinimg.com/736x/8d/d0/a3/8dd0a32ce08d11dcebe50caaaca5ec33.jpg"
+          "image": "/images/products/img_c6749dba4823.jpg"
         }
       ],
       "createdAt": "2026-11-03T16:01:33.961Z",
       "description": "Country Concert Outfit Retro Music Festival Summer Dress",
       "gender": "collection",
       "id": "prod-1793721693960-690",
-      "image": "https://i.pinimg.com/736x/8d/d0/a3/8dd0a32ce08d11dcebe50caaaca5ec33.jpg",
+      "image": "/images/products/img_c6749dba4823.jpg",
       "images": [
         {
-          "url": "https://i.pinimg.com/736x/8d/d0/a3/8dd0a32ce08d11dcebe50caaaca5ec33.jpg",
+          "url": "/images/products/img_c6749dba4823.jpg",
           "isPrimary": true,
           "sortOrder": 0
         }
@@ -3672,7 +3672,7 @@
       "href": "/women/tops",
       "description": "Effortless everyday basics, fluid silk blouses, and breathable linen silhouettes.",
       "cta": "Explore Tops",
-      "image": "https://i.pinimg.com/736x/6c/9e/f3/6c9ef350ccdf48add02362b6088eabe5.jpg",
+      "image": "/images/products/img_b9630d84d0f0.jpg",
       "itemCount": "6 Styles",
       "gender": "women",
       "isActive": true,
@@ -3686,7 +3686,7 @@
       "href": "/women/dresses",
       "description": "From daytime tiered midi dresses to graceful lustrous evening maxi silhouettes.",
       "cta": "Explore Dresses",
-      "image": "https://i.pinimg.com/736x/6b/0e/52/6b0e526b409f6cc06ea7978dcc8c6ad0.jpg",
+      "image": "/images/products/img_48bcb1f6346a.jpg",
       "itemCount": "6 Styles",
       "gender": "women",
       "isActive": true,
@@ -3699,7 +3699,7 @@
       "href": "/women/jeans",
       "description": "Tailored pleated high-waist trousers, fluid linen palazzos, and everyday pants.",
       "cta": "Explore Trousers",
-      "image": "https://i.pinimg.com/1200x/8f/66/ca/8f66ca5aa9f07f6f14b837c1229210f7.jpg",
+      "image": "/images/products/img_936325f6ea7a.jpg",
       "itemCount": "6 Styles",
       "gender": "women",
       "isActive": true,
@@ -3712,7 +3712,7 @@
       "href": "/women/skirts",
       "description": "Bias-cut satin midi skirts, pleated accordion silhouettes, and clean A-lines.",
       "cta": "Explore Skirts",
-      "image": "https://i.pinimg.com/736x/0c/22/3e/0c223e5d8656bc62baeed47698220c8d.jpg",
+      "image": "/images/products/img_3813d6c121f7.jpg",
       "itemCount": "6 Styles",
       "gender": "women",
       "isActive": true,
@@ -3725,7 +3725,7 @@
       "href": "/women/accessories",
       "description": "Handcrafted Italian leather shoulder bags, artisanal belts, and pure silk scarves.",
       "cta": "Explore Accessories",
-      "image": "https://i.pinimg.com/1200x/31/e3/9d/31e39df9aba102ae4d1fb45276beac91.jpg",
+      "image": "/images/products/img_1e630a28399e.jpg",
       "itemCount": "6 Styles",
       "gender": "women",
       "isActive": true,
@@ -3739,7 +3739,7 @@
       "href": "/men/shirts",
       "description": "Clean tailored button-downs, breathable pure linen resort shirts, and heavyweight Supima cotton tees.",
       "cta": "Explore Shirts",
-      "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80",
+      "image": "/images/products/img_4d78691c16f2.jpg",
       "itemCount": "6 Styles",
       "isActive": true,
       "displayOrder": 1
@@ -3752,7 +3752,7 @@
       "href": "/men/jeans",
       "description": "Vintage selvedge straight cuts, washed relaxed tapered silhouettes, and durable rigid Japanese cotton denim.",
       "cta": "Explore Jeans",
-      "image": "https://i.pinimg.com/1200x/72/e5/a8/72e5a8c44508c430d7fa2787a9d051f6.jpg",
+      "image": "/images/products/img_ae026869ecb9.jpg",
       "itemCount": "6 Styles",
       "isActive": true,
       "displayOrder": 2
@@ -3765,7 +3765,7 @@
       "href": "/men/outerwear",
       "description": "Unstructured tailoring, heavy French terry hoodies, rugged waxed field jackets, and minimalist overcoats.",
       "cta": "Explore Outerwear",
-      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80",
+      "image": "/images/products/img_78982bea6287.jpg",
       "itemCount": "6 Styles",
       "isActive": true,
       "displayOrder": 3
@@ -3778,7 +3778,7 @@
       "href": "/men/accessories",
       "description": "Vegetable-tanned leather belts, polarized sunglasses, full-grain weekender duffles, and brass jewelry.",
       "cta": "Explore Accessories",
-      "image": "https://i.pinimg.com/736x/ca/cb/06/cacb06a97da8caef297b43af2f0698a7.jpg",
+      "image": "/images/products/img_5601143f0f80.jpg",
       "itemCount": "6 Styles",
       "isActive": true,
       "displayOrder": 4
@@ -3791,7 +3791,7 @@
       "slug": "new-season",
       "description": "Spring / Summer 2025 ready-to-wear runway drop, featuring natural fibers and flowing minimalist cuts.",
       "cta": "Explore New Season",
-      "image": "https://i.pinimg.com/1200x/b2/ea/88/b2ea8837e69882060c9bfb97a9f87e29.jpg",
+      "image": "/images/products/img_c8bf3aa4f7b6.jpg",
       "itemCount": "12 Styles",
       "isActive": true,
       "displayOrder": 1,
@@ -3803,7 +3803,7 @@
       "slug": "office-wear",
       "description": "Refined contemporary power dressing, structured wool blazers, fluid pleated trousers, and crisp cottons.",
       "cta": "Explore Office Wear",
-      "image": "https://i.pinimg.com/1200x/49/e2/22/49e2226176b68044eb8f185feb7b693f.jpg",
+      "image": "/images/products/img_775cf612a429.jpg",
       "itemCount": "10 Styles",
       "isActive": true,
       "displayOrder": 2,
@@ -3815,7 +3815,7 @@
       "slug": "evening-occasion-wear",
       "description": "Lustrous silk slip dresses, tuxedo-inspired tailored outerwear, and artisanal leather accessories.",
       "cta": "Shop Evening Wear",
-      "image": "https://i.pinimg.com/1200x/2b/45/06/2b4506d0c19019a4246d4654d9d64546.jpg",
+      "image": "/images/products/img_6a682f95e725.jpg",
       "itemCount": "8 Styles",
       "isActive": true,
       "displayOrder": 3,
@@ -3827,7 +3827,7 @@
       "slug": "seasonal-edit",
       "description": "Elevated staples designed for everyday living — heavyweight tees, selvedge denim, and cashmere knits.",
       "cta": "Shop Essentials",
-      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80",
+      "image": "/images/products/img_8fb9d3b531c9.jpg",
       "itemCount": "14 Styles",
       "isActive": true,
       "displayOrder": 4,
@@ -3838,7 +3838,7 @@
       "cta": "Explore Couples Wear",
       "description": "Coordinated luxury silhouettes and matching capsule edits designed for modern couples.",
       "displayOrder": 5,
-      "image": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80",
+      "image": "/images/products/img_d1685bdda662.jpg",
       "isActive": true,
       "itemCount": "Coordinated Edits",
       "slug": "couples-wear",

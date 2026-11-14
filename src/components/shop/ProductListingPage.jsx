@@ -119,6 +119,38 @@ export default function ProductListingPage({
     }
   }, [availableSizes, sizeFilter]);
 
+  // Synchronize wishlist from localStorage and listen to updates
+  useEffect(() => {
+    const syncWishlist = () => {
+      try {
+        const stored = localStorage.getItem('fashionstore_wishlist');
+        if (stored) {
+          const list = JSON.parse(stored);
+          if (Array.isArray(list)) {
+            const map = {};
+            list.forEach((item) => {
+              if (item.id) map[item.id] = true;
+              if (item.slug) map[item.slug] = true;
+            });
+            setWishlist(map);
+            return;
+          }
+        }
+        setWishlist({});
+      } catch {
+        setWishlist({});
+      }
+    };
+
+    syncWishlist();
+    window.addEventListener('wishlist-updated', syncWishlist);
+    window.addEventListener('storage', syncWishlist);
+    return () => {
+      window.removeEventListener('wishlist-updated', syncWishlist);
+      window.removeEventListener('storage', syncWishlist);
+    };
+  }, []);
+
   // Default breadcrumbs if not provided
   const activeBreadcrumbs = breadcrumbs.length > 0 ? breadcrumbs : [
     { label: 'Home', href: '/' },
@@ -133,12 +165,53 @@ export default function ProductListingPage({
         : '/images/hero-editorial.jpg'
   );
 
-  const toggleWishlist = (id) => {
-    setWishlist((prev) => {
-      const next = !prev[id];
-      showToast(next ? 'Saved to your Wishlist!' : 'Removed from your Wishlist');
-      return { ...prev, [id]: next };
-    });
+  const toggleWishlist = (product) => {
+    try {
+      const stored = localStorage.getItem('fashionstore_wishlist');
+      let list = stored ? JSON.parse(stored) : [];
+      if (!Array.isArray(list)) list = [];
+
+      const exists = list.some((item) => item.id === product.id || item.slug === product.slug);
+      const colorIndex = selectedColors[product.id] || 0;
+      const activeColor = product.colors?.[colorIndex];
+      const prodImg =
+        activeColor?.image ||
+        product.image ||
+        (Array.isArray(product.images)
+          ? (typeof product.images[0] === 'string' ? product.images[0] : product.images[0]?.url)
+          : '/images/product-wool-coat.jpg');
+
+      if (exists) {
+        list = list.filter((item) => item.id !== product.id && item.slug !== product.slug);
+        setWishlist((prev) => {
+          const next = { ...prev };
+          delete next[product.id];
+          if (product.slug) delete next[product.slug];
+          return next;
+        });
+        showToast(`Removed "${product.title}" from your Wishlist`);
+      } else {
+        list.push({
+          id: product.id,
+          title: product.title,
+          slug: product.slug,
+          price: Number(product.price) || 0,
+          image: prodImg,
+          category: product.category?.name || product.category || 'Atelier',
+        });
+        setWishlist((prev) => ({
+          ...prev,
+          [product.id]: true,
+          ...(product.slug ? { [product.slug]: true } : {}),
+        }));
+        showToast(`Saved "${product.title}" to your Wishlist!`);
+      }
+
+      localStorage.setItem('fashionstore_wishlist', JSON.stringify(list));
+      window.dispatchEvent(new Event('wishlist-updated'));
+    } catch (err) {
+      console.error('Wishlist error:', err);
+    }
   };
 
   const showToast = (msg) => {
@@ -329,14 +402,18 @@ export default function ProductListingPage({
                     {/* Wishlist Heart Button */}
                     <button
                       type="button"
-                      onClick={() => toggleWishlist(product.id)}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        toggleWishlist(product);
+                      }}
                       aria-label="Add to Wishlist"
                       className="absolute top-2 right-2 sm:top-3.5 sm:right-3.5 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-[#F5F0E8]/90 backdrop-blur-sm flex items-center justify-center text-[#252525] hover:bg-[#F5F0E8] hover:scale-110 transition-all shadow-sm cursor-pointer z-10"
                     >
                       <Heart
                         className={`w-3.5 h-3.5 sm:w-4 sm:h-4 transition-colors ${
-                          isWishlisted
-                            ? 'fill-[#252525] text-[#252525]'
+                          wishlist[product.id] || (product.slug && wishlist[product.slug])
+                            ? 'fill-red-500 text-red-500'
                             : 'text-[#252525]/75 hover:text-[#252525]'
                         }`}
                       />
