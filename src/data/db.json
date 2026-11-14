@@ -691,7 +691,8 @@
       "stockQuantity": 20,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T17:05:57.229Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "top-3",
@@ -760,7 +761,8 @@
       "stockQuantity": 15,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T15:09:50.292Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "top-5",
@@ -827,7 +829,8 @@
       "stockQuantity": 7,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T15:15:28.233Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "dress-1",
@@ -862,7 +865,8 @@
       "stockQuantity": 12,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T14:45:41.929Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "dress-2",
@@ -897,7 +901,8 @@
       "stockQuantity": 4,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T14:57:57.348Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "dress-3",
@@ -930,7 +935,8 @@
       "stockQuantity": 7,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T15:17:19.142Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "dress-4",
@@ -962,7 +968,8 @@
       "stockQuantity": 15,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T15:18:20.280Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "dress-5",
@@ -991,7 +998,8 @@
       "stockQuantity": 5,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T15:19:44.503Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "dress-6",
@@ -1021,7 +1029,8 @@
       "stockQuantity": 15,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T15:20:43.721Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "denim-1",
@@ -1055,7 +1064,8 @@
       "stockQuantity": 9,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T15:22:52.746Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "denim-2",
@@ -1086,7 +1096,8 @@
       "stockQuantity": 10,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T15:24:19.599Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "denim-3",
@@ -1120,7 +1131,8 @@
       "stockQuantity": 23,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T15:26:21.222Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "denim-5",
@@ -1150,7 +1162,8 @@
       "stockQuantity": 8,
       "status": "ACTIVE",
       "updatedAt": "2026-10-27T15:30:19.947Z",
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "denim-6",
@@ -1846,7 +1859,8 @@
         "XL"
       ],
       "collectionSlugs": [],
-      "updatedAt": "2026-10-27T16:30:14.795Z"
+      "updatedAt": "2026-10-27T16:30:14.795Z",
+      "images": null
     },
     {
       "id": "m-sh-2",
@@ -2235,7 +2249,8 @@
         "34",
         "36"
       ],
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "m-tr-2",
@@ -2274,7 +2289,8 @@
         "36",
         "38"
       ],
-      "collectionSlugs": []
+      "collectionSlugs": [],
+      "images": null
     },
     {
       "id": "m-tr-5",
@@ -3941,67 +3957,6 @@
       "status": "DELIVERED",
       "createdAt": "2026-10-27T11:02:10.040Z",
       "updatedAt": "2026-11-14T11:29:16.103Z"
-    },
-    {
-      "createdAt": "2026-11-03T16:45:30.006Z",
-      "customerEmail": "admin@fashionstore.com",
-      "customerName": "L.P.Perera",
-      "customerPhone": "0745520980",
-      "discountAmount": 0,
-      "id": "ord-1793724330006",
-      "items": [
-        {
-          "id": "dress-1-M-Earthy Olive",
-          "productId": "dress-1-M-Earthy Olive",
-          "productTitle": "Floral Tiered Bohemian Midi Dress",
-          "price": null,
-          "quantity": 1,
-          "size": "M",
-          "color": "Earthy Olive",
-          "image": "https://i.pinimg.com/736x/df/52/e8/df52e89a28a87c1d8d74967371bfc8db.jpg"
-        }
-      ],
-      "orderNumber": "FS-2026-35994",
-      "paymentMethod": "CREDIT_CARD",
-      "paymentStatus": "PAID",
-      "shippingAddress": "104/A Galle rd,Colombo 05, colombo, colombo 12400, Sri Lanka",
-      "shippingFee": 650,
-      "status": "DELIVERED",
-      "subtotal": 0,
-      "totalAmount": 0,
-      "updatedAt": "2026-11-14T11:29:21.813Z"
-    },
-    {
-      "city": "Dehiwala-Mount Lavinia",
-      "createdAt": "2026-11-03T17:22:39.584Z",
-      "customerEmail": "admin@fashionstore.com",
-      "customerName": "Kalpa",
-      "customerPhone": "0752302018",
-      "discountAmount": 0,
-      "id": "ord-1793726559583",
-      "items": [
-        {
-          "id": "prod-1793209737492-257-One Size-Red",
-          "productId": "prod-1793209737492-257",
-          "productTitle": "Minimalist Leather Shoulder Bag",
-          "price": 4500,
-          "quantity": 1,
-          "size": "One Size",
-          "color": "Red",
-          "image": "https://i.pinimg.com/736x/ff/58/23/ff582339e80acc12ea4fb09747411c3c.jpg"
-        }
-      ],
-      "orderNumber": "FS-2026-50815",
-      "paymentMethod": "CASH_ON_DELIVERY",
-      "paymentStatus": "UNPAID",
-      "province": "Western Province",
-      "receiptToken": "8b9f4169-765c-4fb7-a90c-6fb5d548915c",
-      "shippingAddress": "1/B dehiwala, Dehiwala-Mount Lavinia, Western Province, Sri Lanka",
-      "shippingFee": 350,
-      "status": "DELIVERED",
-      "subtotal": 4500,
-      "totalAmount": 4850,
-      "updatedAt": "2026-11-14T11:29:19.776Z"
     },
     {
       "city": "Colombo",

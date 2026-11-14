@@ -72,10 +72,12 @@ export default function CollectionLandingPage({ slug }) {
     );
   }
 
+  const heroBannerImage = collection.image || (slug === 'couples-wear' ? '/images/products/img_d1685bdda662.jpg' : '/images/home-category-collection.jpg');
+
   return (
     <div className="min-h-screen bg-[#F5F0E8] text-[#252525]">
       <EditorialHero
-        image={collection.image || '/images/home-category-collection.jpg'}
+        image={heroBannerImage}
         imageAlt={`${collection.title} collection`}
         breadcrumbs={[
           { label: 'Home', href: '/' },
@@ -86,7 +88,7 @@ export default function CollectionLandingPage({ slug }) {
         heading={collection.title}
         description={collection.description}
         imageClassName="object-cover object-top"
-        unoptimized={Boolean(collection.image)}
+        unoptimized={Boolean(heroBannerImage)}
       />
 
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
@@ -98,7 +100,7 @@ export default function CollectionLandingPage({ slug }) {
           </div>
         ) : (
           <p className="py-16 text-center text-sm text-[#252525]/65">
-            New styles for this collection are coming soon.
+            There are no products in this collection at the moment.
           </p>
         )}
       </section>
