@@ -514,51 +514,79 @@ async function safeAtlasCall(actionName, fn) {
   }
 }
 
-export async function ensureMongoReady() {
-  try {
-    const seedData = readDb();
-    await seedEmptyCollectionsFromJson(seedData);
+let lastMongoSyncTime = 0;
+const MONGO_SYNC_INTERVAL = 30000; // 30 seconds high-speed memory cache window
+let inFlightSyncPromise = null;
 
-    const db = await fetchAllFromAtlas();
-    const sanitizedDb = sanitizeProductImageSources(db);
-    if (sanitizedDb !== db) {
-      await safeAtlasCall('persist sanitized products', () =>
-        persistDocumentsToAtlas({
-          upserts: (sanitizedDb.products || []).map((document) => ({
-            collectionName: 'products',
-            document,
-          })),
-        })
-      );
-    }
-
-    // Preserve local admin accounts so remote Atlas never wipes them
-    if (Array.isArray(seedData.users)) {
-      const adminAccounts = seedData.users.filter((u) => u.role === 'ADMIN');
-      if (!Array.isArray(sanitizedDb.users)) sanitizedDb.users = [];
-      adminAccounts.forEach((admin) => {
-        if (!sanitizedDb.users.some((u) => u.email?.toLowerCase() === admin.email?.toLowerCase())) {
-          sanitizedDb.users.unshift(admin);
-        }
-      });
-    }
-
-    if (!writeDb(sanitizedDb)) {
-      throw new Error('MongoDB data could not be cached locally.');
-    }
-    return sanitizedDb;
-  } catch (err) {
-    console.warn(`[MongoDB Warning] Atlas cluster unavailable (${err.message}). Using local JSON store.`);
+export async function ensureMongoReady(force = false) {
+  const now = Date.now();
+  if (!force && now - lastMongoSyncTime < MONGO_SYNC_INTERVAL) {
     return readDb();
   }
+
+  if (inFlightSyncPromise) {
+    return inFlightSyncPromise;
+  }
+
+  inFlightSyncPromise = (async () => {
+    try {
+      const seedData = readDb();
+      await seedEmptyCollectionsFromJson(seedData);
+
+      const db = await fetchAllFromAtlas();
+      const sanitizedDb = sanitizeProductImageSources(db);
+      if (sanitizedDb !== db) {
+        await safeAtlasCall('persist sanitized products', () =>
+          persistDocumentsToAtlas({
+            upserts: (sanitizedDb.products || []).map((document) => ({
+              collectionName: 'products',
+              document,
+            })),
+          })
+        );
+      }
+
+      // Preserve local admin accounts so remote Atlas never wipes them
+      if (Array.isArray(seedData.users)) {
+        const adminAccounts = seedData.users.filter((u) => u.role === 'ADMIN');
+        if (!Array.isArray(sanitizedDb.users)) sanitizedDb.users = [];
+        adminAccounts.forEach((admin) => {
+          if (!sanitizedDb.users.some((u) => u.email?.toLowerCase() === admin.email?.toLowerCase())) {
+            sanitizedDb.users.unshift(admin);
+          }
+        });
+      }
+
+      if (!writeDb(sanitizedDb)) {
+        throw new Error('MongoDB data could not be cached locally.');
+      }
+      lastMongoSyncTime = Date.now();
+      return sanitizedDb;
+    } catch (err) {
+      console.warn(`[MongoDB Warning] Atlas cluster unavailable (${err.message}). Using local JSON store.`);
+      return readDb();
+    } finally {
+      inFlightSyncPromise = null;
+    }
+  })();
+
+  return inFlightSyncPromise;
 }
 
 export const syncFromAtlasOnce = ensureMongoReady;
 
-// Read database from disk
+let memoryDb = null;
+let memoryDbMtime = 0;
+
+// Read database from disk with memory cache
 export function readDb() {
   try {
     if (fs.existsSync(DB_PATH)) {
+      const stat = fs.statSync(DB_PATH);
+      if (memoryDb && stat.mtimeMs === memoryDbMtime) {
+        return memoryDb;
+      }
+
       const raw = fs.readFileSync(DB_PATH, 'utf8');
       let db = JSON.parse(raw);
       let changed = false;
@@ -617,12 +645,12 @@ export function readDb() {
           }
         }
       });
-      if (!hasMigratedCatalogOnDisk) {
-        if (migrateCatalogCollections(db)) changed = true;
-        if (migrateCatalogCategories(db)) changed = true;
-        hasMigratedCatalogOnDisk = true;
+      if (changed) {
+        writeDb(db);
+      } else {
+        memoryDb = db;
+        memoryDbMtime = stat.mtimeMs;
       }
-      if (changed) writeDb(db);
       return db;
     }
   } catch (err) {
@@ -630,13 +658,11 @@ export function readDb() {
   }
 
   const initialData = generateInitialDatabase();
-  migrateCatalogCollections(initialData);
   writeDb(initialData);
-  hasMigratedCatalogOnDisk = true;
   return initialData;
 }
 
-// Atomically write database to disk
+// Atomically write database to disk with memory cache
 export function writeDb(data) {
   let tempPath;
   try {
@@ -647,11 +673,15 @@ export function writeDb(data) {
       fs.mkdirSync(dir, { recursive: true });
     }
     if (fs.existsSync(DB_PATH) && fs.readFileSync(DB_PATH, 'utf8') === serialized) {
+      memoryDb = sanitizedData;
+      try { memoryDbMtime = fs.statSync(DB_PATH).mtimeMs; } catch (_) {}
       return true;
     }
     tempPath = `${DB_PATH}.${process.pid}.${Date.now()}.${Math.random().toString(16).slice(2)}.tmp`;
     fs.writeFileSync(tempPath, serialized, 'utf8');
     fs.renameSync(tempPath, DB_PATH);
+    memoryDb = sanitizedData;
+    try { memoryDbMtime = fs.statSync(DB_PATH).mtimeMs; } catch (_) {}
     return true;
   } catch (err) {
     console.error('Failed writing db.json:', err.message);

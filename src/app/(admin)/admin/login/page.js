@@ -9,8 +9,8 @@ import { Shield, Lock, Mail, ArrowRight, AlertCircle, Sparkles } from 'lucide-re
 export default function AdminLoginPage() {
   const router = useRouter();
   const { login } = useAuth();
-  const [email, setEmail] = useState('admin@fashionstore.com');
-  const [password, setPassword] = useState('Admin@FashionStore2026');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -109,17 +109,6 @@ export default function AdminLoginPage() {
               <ArrowRight className="w-4 h-4" />
             </button>
           </form>
-
-          {/* Quick Demo Credentials Box */}
-          <div className="mt-6 pt-5 border-t border-[#B69A7A]/25 text-center">
-            <span className="text-[10.5px] font-medium text-[#252525]/70 block mb-2">
-              Default Administrator Credentials:
-            </span>
-            <div className="inline-block bg-[#F5F0E8] px-3.5 py-2 rounded-lg border border-[#B69A7A]/30 text-left font-mono text-[11px] text-[#252525]">
-              <div>Email: <strong>admin@fashionstore.com</strong></div>
-              <div>Password: <strong>Admin@FashionStore2026</strong></div>
-            </div>
-          </div>
         </div>
 
         <div className="text-center mt-6">
