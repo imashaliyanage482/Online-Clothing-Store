@@ -87,7 +87,16 @@ export default function CollectionLandingPage({ slug }) {
         eyebrow="THE COLLECTION"
         heading={collection.title}
         description={collection.description}
-        imageClassName="object-cover object-top"
+        imageClassName={
+          slug === 'couples-wear' || heroBannerImage?.includes('img_d1685bdda662')
+            ? 'object-cover object-[center_58%]'
+            : 'object-cover object-top'
+        }
+        imageAspectClassName={
+          slug === 'couples-wear' || heroBannerImage?.includes('img_d1685bdda662')
+            ? 'aspect-[16/10] sm:aspect-[16/7] md:aspect-[21/9] min-h-[340px]'
+            : undefined
+        }
         unoptimized={Boolean(heroBannerImage)}
       />
 

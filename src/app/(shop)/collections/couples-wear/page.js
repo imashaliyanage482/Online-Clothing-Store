@@ -26,6 +26,8 @@ export default function CouplesWearPage() {
       heading="Couples Wear"
       subheading="Collections"
       heroImage="/images/products/img_d1685bdda662.jpg"
+      heroImageClassName="object-cover object-[center_58%]"
+      heroImageAspectClassName="aspect-[16/10] sm:aspect-[16/7] md:aspect-[21/9] min-h-[340px]"
       description="Coordinated luxury silhouettes and matching capsule edits designed for modern couples."
       breadcrumbs={[
         { label: 'Home', href: '/' },

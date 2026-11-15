@@ -3897,9 +3897,9 @@
       "totalAmount": 19900,
       "paymentMethod": "CASH_ON_DELIVERY",
       "paymentStatus": "PAID",
-      "status": "CANCELLED",
+      "status": "DELIVERED",
       "createdAt": "2026-10-24T11:02:10.039Z",
-      "updatedAt": "2026-10-27T16:26:38.919Z"
+      "updatedAt": "2026-11-15T09:23:02.921Z"
     },
     {
       "id": "ord-102",
@@ -3926,8 +3926,9 @@
       "totalAmount": 16800,
       "paymentMethod": "CREDIT_CARD",
       "paymentStatus": "PAID",
-      "status": "PROCESSING",
-      "createdAt": "2026-10-26T11:02:10.040Z"
+      "status": "DELIVERED",
+      "createdAt": "2026-10-26T11:02:10.040Z",
+      "updatedAt": "2026-11-15T09:22:57.082Z"
     },
     {
       "id": "ord-103",
@@ -3985,9 +3986,10 @@
       "receiptToken": "55dbcb37-e35b-4233-abaf-bc1c910a6e63",
       "shippingAddress": "i86t, Colombo, Western Province, Sri Lanka",
       "shippingFee": 450,
-      "status": "PENDING",
+      "status": "CANCELLED",
       "subtotal": 3200,
-      "totalAmount": 3650
+      "totalAmount": 3650,
+      "updatedAt": "2026-11-15T09:23:13.595Z"
     },
     {
       "city": "Sri Jayawardenepura Kotte",
@@ -4046,10 +4048,10 @@
       "receiptToken": "d8fe5514-8e91-4bac-97fc-18eac8d5843d",
       "shippingAddress": "No-20/B Kotte , Sri Jayawardenepura Kotte, Western Province, Sri Lanka",
       "shippingFee": 350,
-      "status": "PENDING",
+      "status": "DELIVERED",
       "subtotal": 18100,
       "totalAmount": 18450,
-      "updatedAt": "2026-11-14T11:25:31.640Z"
+      "updatedAt": "2026-11-15T09:22:39.041Z"
     },
     {
       "city": "Sri Jayawardenepura Kotte",
@@ -4078,9 +4080,10 @@
       "receiptToken": "b0019d4f-391b-4e5a-9f17-4e1b5f9972d1",
       "shippingAddress": "No-20/B kotte, Sri Jayawardenepura Kotte, Western Province, Sri Lanka",
       "shippingFee": 350,
-      "status": "PENDING",
+      "status": "DELIVERED",
       "subtotal": 9000,
-      "totalAmount": 9350
+      "totalAmount": 9350,
+      "updatedAt": "2026-11-15T09:22:50.006Z"
     },
     {
       "city": "Horana",
@@ -4109,9 +4112,10 @@
       "receiptToken": "b95a366f-4f0a-4b71-9795-30c93351e550",
       "shippingAddress": "horana, Horana, Western Province, Sri Lanka",
       "shippingFee": 350,
-      "status": "PENDING",
+      "status": "DELIVERED",
       "subtotal": 7200,
-      "totalAmount": 7550
+      "totalAmount": 7550,
+      "updatedAt": "2026-11-15T09:22:43.753Z"
     },
     {
       "city": "Horana",
@@ -4205,6 +4209,16 @@
       "phone": "0745211003",
       "totalOrders": 0,
       "totalSpent": 0
+    },
+    {
+      "address": "",
+      "createdAt": "2026-11-15T09:05:47.453Z",
+      "email": "kumara@gmail.com",
+      "id": "cust-1794733547454",
+      "name": "kumara",
+      "phone": "0765234125",
+      "totalOrders": 0,
+      "totalSpent": 0
     }
   ],
   "users": [
@@ -4261,6 +4275,15 @@
       "passwordHash": "$2a$10$mcA3XOplRIHZDSt2gguCF.GSjuC5KnBGNilbCjJKrqrJPlbvOatX.",
       "phone": "+94 77 123 4567",
       "role": "ADMIN"
+    },
+    {
+      "createdAt": "2026-11-15T09:05:47.453Z",
+      "email": "kumara@gmail.com",
+      "id": "usr-1794733547453-140",
+      "name": "kumara",
+      "passwordHash": "$2a$10$oiFznmHBMFxe5UOr89PA2uYJA2.I8o1OYvpwObDtoITYfwivt6lZi",
+      "phone": "0765234125",
+      "role": "CUSTOMER"
     }
   ],
   "settings": {

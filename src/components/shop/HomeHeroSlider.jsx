@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, ChevronRight } from 'lucide-react';
+import { ArrowRight, ChevronRight, ChevronLeft } from 'lucide-react';
 
 const slides = [
   {
@@ -57,9 +57,15 @@ export default function HomeHeroSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const timerRef = useRef(null);
+  const touchStartX = useRef(null);
+  const touchStartY = useRef(null);
 
   const nextSlide = useCallback(() => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
+  }, []);
+
+  const prevSlide = useCallback(() => {
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   }, []);
 
   // Auto slide advance every 5 seconds (5000ms)
@@ -71,14 +77,53 @@ export default function HomeHeroSlider() {
     };
   }, [isPaused, nextSlide]);
 
+  const handleMouseEnter = () => {
+    // Only pause on desktop devices with hover support to prevent mobile taps from permanently freezing the slider
+    if (typeof window !== 'undefined' && window.matchMedia('(hover: hover)').matches) {
+      setIsPaused(true);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (typeof window !== 'undefined' && window.matchMedia('(hover: hover)').matches) {
+      setIsPaused(false);
+    }
+  };
+
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+    touchStartY.current = e.touches[0].clientY;
+  };
+
+  const handleTouchEnd = (e) => {
+    if (touchStartX.current === null || touchStartY.current === null) return;
+    const deltaX = touchStartX.current - e.changedTouches[0].clientX;
+    const deltaY = touchStartY.current - e.changedTouches[0].clientY;
+
+    // Horizontal swipe threshold: 40px, and horizontal distance > vertical distance
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 40) {
+      if (deltaX > 0) {
+        nextSlide();
+      } else {
+        prevSlide();
+      }
+    }
+
+    touchStartX.current = null;
+    touchStartY.current = null;
+    setIsPaused(false);
+  };
+
   return (
     <section
       aria-label="Home Hero Showcase"
       className="relative w-full overflow-hidden border-b border-[#B69A7A]/30 bg-[#EFE0CF]"
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
     >
-      <div className="relative aspect-[16/10] w-full overflow-hidden bg-[#EFE0CF] sm:aspect-[1672/687]">
+      <div className="relative aspect-[16/11] min-h-[290px] w-full overflow-hidden bg-[#EFE0CF] sm:aspect-[1672/687] sm:min-h-0">
         {slides.map((slide, index) => {
           const isActive = index === currentSlide;
           const isLeft = slide.alignment === 'left';
@@ -114,14 +159,14 @@ export default function HomeHeroSlider() {
 
               {/* Text & Content Container */}
               <div
-                className={`absolute inset-y-0 flex items-center px-3 sm:px-6 lg:px-16 ${
+                className={`absolute inset-y-0 flex items-center px-4 sm:px-6 lg:px-16 ${
                   isLeft
                     ? 'left-0 justify-start'
                     : 'right-0 justify-end'
                 }`}
               >
                 <div
-                  className={`w-full max-w-[280px] py-1 sm:max-w-[300px] sm:py-8 md:max-w-xl md:py-16 lg:max-w-2xl ${
+                  className={`w-full max-w-[290px] py-2 sm:max-w-[300px] sm:py-8 md:max-w-xl md:py-16 lg:max-w-2xl ${
                     isActive ? 'animate-in fade-in slide-in-from-bottom-3 duration-700' : ''
                   }`}
                 >
@@ -163,28 +208,38 @@ export default function HomeHeroSlider() {
           );
         })}
 
+        {/* Previous Slide Arrow Button */}
+        <button
+          type="button"
+          onClick={prevSlide}
+          aria-label="Previous Hero Slide"
+          className="absolute left-2.5 sm:left-6 top-1/2 -translate-y-1/2 z-20 flex h-8 w-8 sm:h-12 sm:w-12 items-center justify-center rounded-full border border-[#B69A7A]/40 bg-[#F5F0E8]/85 text-[#252525] shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:bg-[#252525] hover:text-[#F5F0E8] hover:border-[#252525] cursor-pointer"
+        >
+          <ChevronLeft className="h-4 w-4 sm:h-6 sm:w-6" />
+        </button>
+
         {/* Next Slide Arrow Button */}
         <button
           type="button"
           onClick={nextSlide}
           aria-label="Next Hero Slide"
-          className="absolute right-3.5 sm:right-6 top-1/2 -translate-y-1/2 z-20 flex h-10 w-10 sm:h-12 sm:w-12 items-center justify-center rounded-full border border-[#B69A7A]/40 bg-[#F5F0E8]/85 text-[#252525] shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:bg-[#252525] hover:text-[#F5F0E8] hover:border-[#252525] cursor-pointer"
+          className="absolute right-2.5 sm:right-6 top-1/2 -translate-y-1/2 z-20 flex h-8 w-8 sm:h-12 sm:w-12 items-center justify-center rounded-full border border-[#B69A7A]/40 bg-[#F5F0E8]/85 text-[#252525] shadow-lg backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:bg-[#252525] hover:text-[#F5F0E8] hover:border-[#252525] cursor-pointer"
         >
-          <ChevronRight className="h-5 w-5 sm:h-6 sm:w-6" />
+          <ChevronRight className="h-4 w-4 sm:h-6 sm:w-6" />
         </button>
 
         {/* Slide Indicators / Dots */}
-        <div className="absolute bottom-5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2.5 rounded-full bg-[#252525]/20 px-3.5 py-1.5 backdrop-blur-md">
+        <div className="absolute bottom-3 sm:bottom-5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 sm:gap-2.5 rounded-full bg-[#252525]/20 px-3 py-1 sm:px-3.5 sm:py-1.5 backdrop-blur-md">
           {slides.map((slide, idx) => (
             <button
               key={slide.id}
               type="button"
               onClick={() => setCurrentSlide(idx)}
               aria-label={`Go to slide ${idx + 1}`}
-              className={`h-2.5 transition-all duration-300 rounded-full cursor-pointer ${
+              className={`h-2 sm:h-2.5 transition-all duration-300 rounded-full cursor-pointer ${
                 idx === currentSlide
-                  ? 'w-8 bg-[#252525]'
-                  : 'w-2.5 bg-[#252525]/40 hover:bg-[#252525]/70'
+                  ? 'w-6 sm:w-8 bg-[#252525]'
+                  : 'w-2 sm:w-2.5 bg-[#252525]/40 hover:bg-[#252525]/70'
               }`}
             />
           ))}

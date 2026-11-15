@@ -583,6 +583,9 @@ export const syncFromAtlasOnce = ensureMongoReady;
 // Read database from disk with process-wide memory cache
 export function readDb() {
   try {
+    if (storeState.isDiskReadOnly && storeState.memoryDb) {
+      return storeState.memoryDb;
+    }
     if (fs.existsSync(DB_PATH)) {
       const stat = fs.statSync(DB_PATH);
       if (storeState.memoryDb && stat.mtimeMs === storeState.memoryDbMtime) {
@@ -667,8 +670,8 @@ export function readDb() {
 // Atomically write database to disk with memory cache
 export function writeDb(data) {
   let tempPath;
+  const sanitizedData = sanitizeProductImageSources(data);
   try {
-    const sanitizedData = sanitizeProductImageSources(data);
     const serialized = JSON.stringify(sanitizedData, null, 2);
     const dir = path.dirname(DB_PATH);
     if (!fs.existsSync(dir)) {
@@ -696,11 +699,14 @@ export function writeDb(data) {
       }
     }
     try {
-      fs.writeFileSync(DB_PATH, JSON.stringify(sanitizeProductImageSources(data), null, 2), 'utf8');
+      fs.writeFileSync(DB_PATH, JSON.stringify(sanitizedData, null, 2), 'utf8');
+      storeState.memoryDb = sanitizedData;
+      try { storeState.memoryDbMtime = fs.statSync(DB_PATH).mtimeMs; } catch (_) {}
       return true;
     } catch (e2) {
       // In serverless environments like Vercel, root filesystem is read-only.
       // Retain update in memoryDb so active instance serves latest data smoothly.
+      storeState.isDiskReadOnly = true;
       storeState.memoryDb = sanitizedData;
       return true;
     }

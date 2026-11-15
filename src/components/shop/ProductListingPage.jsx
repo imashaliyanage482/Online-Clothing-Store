@@ -47,6 +47,8 @@ export default function ProductListingPage({
   categorySlug,
   gender,
   heroImage,
+  heroImageClassName,
+  heroImageAspectClassName,
   belowImageText,
   showHeroCopy = true,
   emptyMessage = 'New atelier releases arriving shortly. Please check back soon.',
@@ -286,7 +288,20 @@ export default function ProductListingPage({
         heading={heading}
         description={description}
         belowImageText={belowImageText}
-        imageClassName={gender === 'women' ? 'object-contain object-center' : 'object-cover object-top'}
+        imageClassName={
+          heroImageClassName ||
+          (listingHeroImage?.includes('img_d1685bdda662')
+            ? 'object-cover object-[center_58%]'
+            : gender === 'women'
+            ? 'object-contain object-center'
+            : 'object-cover object-top')
+        }
+        imageAspectClassName={
+          heroImageAspectClassName ||
+          (listingHeroImage?.includes('img_d1685bdda662')
+            ? 'aspect-[16/10] sm:aspect-[16/7] md:aspect-[21/9] min-h-[340px]'
+            : undefined)
+        }
         contentSide={gender === 'men' ? 'right' : 'left'}
         showContent={showHeroCopy}
       />
