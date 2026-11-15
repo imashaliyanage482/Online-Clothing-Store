@@ -55,8 +55,6 @@ const slides = [
 
 export default function HomeHeroSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
-  const timerRef = useRef(null);
   const touchStartX = useRef(null);
   const touchStartY = useRef(null);
 
@@ -68,27 +66,13 @@ export default function HomeHeroSlider() {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   }, []);
 
-  // Auto slide advance every 5 seconds (5000ms)
+  // Continuous auto-slide advance every 4 seconds (4000ms), uninterrupted on both mobile & desktop
   useEffect(() => {
-    if (isPaused) return;
-    timerRef.current = setInterval(nextSlide, 5000);
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-  }, [isPaused, nextSlide]);
-
-  const handleMouseEnter = () => {
-    // Only pause on desktop devices with hover support to prevent mobile taps from permanently freezing the slider
-    if (typeof window !== 'undefined' && window.matchMedia('(hover: hover)').matches) {
-      setIsPaused(true);
-    }
-  };
-
-  const handleMouseLeave = () => {
-    if (typeof window !== 'undefined' && window.matchMedia('(hover: hover)').matches) {
-      setIsPaused(false);
-    }
-  };
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, [currentSlide]);
 
   const handleTouchStart = (e) => {
     touchStartX.current = e.touches[0].clientX;
@@ -111,15 +95,12 @@ export default function HomeHeroSlider() {
 
     touchStartX.current = null;
     touchStartY.current = null;
-    setIsPaused(false);
   };
 
   return (
     <section
       aria-label="Home Hero Showcase"
       className="relative w-full overflow-hidden border-b border-[#B69A7A]/30 bg-[#EFE0CF]"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
