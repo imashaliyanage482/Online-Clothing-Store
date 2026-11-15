@@ -45,14 +45,27 @@ const options = {
 
 let clientPromise;
 
-function getClientPromise() {
-  if (!process.env.MONGODB_URI) {
+function getNormalizedMongoUri() {
+  let uri = process.env.MONGODB_URI;
+  if (!uri) {
     throw new Error('MONGODB_URI is not configured. Add it to the server environment.');
   }
+  uri = uri.trim();
+  if ((uri.startsWith('"') && uri.endsWith('"')) || (uri.startsWith("'") && uri.endsWith("'"))) {
+    uri = uri.slice(1, -1);
+  }
+  if (!uri.includes('authSource=')) {
+    uri += (uri.includes('?') ? '&' : '?') + 'authSource=admin';
+  }
+  return uri;
+}
+
+function getClientPromise() {
+  const uri = getNormalizedMongoUri();
 
   if (process.env.NODE_ENV === 'development') {
     if (!global._mongoClientPromise) {
-      global._mongoClientPromise = new MongoClient(process.env.MONGODB_URI, options)
+      global._mongoClientPromise = new MongoClient(uri, options)
         .connect()
         .catch((error) => {
           global._mongoClientPromise = null;
@@ -63,7 +76,7 @@ function getClientPromise() {
   }
 
   if (!clientPromise) {
-    clientPromise = new MongoClient(process.env.MONGODB_URI, options).connect().catch((error) => {
+    clientPromise = new MongoClient(uri, options).connect().catch((error) => {
       clientPromise = null;
       throw error;
     });

@@ -44,7 +44,7 @@ export default function AdminCustomersPage() {
     setLoading(true);
     setError('');
     try {
-      const response = await fetch('/api/customers');
+      const response = await fetch('/api/customers?sync=true');
       const data = await response.json();
       if (!response.ok) {
         throw new Error(data.error || 'Unable to load customers.');

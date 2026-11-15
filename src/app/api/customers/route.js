@@ -16,8 +16,9 @@ export async function GET(request) {
       return unauthorizedResponse(auth.error);
     }
 
-    await ensureMongoReady();
-    const searchParams = new URL(request.url).searchParams;
+    const { searchParams } = new URL(request.url);
+    const forceSync = searchParams.get('sync') === 'true';
+    await ensureMongoReady(forceSync || true);
     const identifier = searchParams.get('q');
     if (identifier === null) {
       const ordersByEmail = new Map();

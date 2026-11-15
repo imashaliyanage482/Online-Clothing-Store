@@ -587,25 +587,35 @@
       "isNew": false,
       "stockQuantity": 18,
       "status": "ACTIVE",
-      "image": "/images/products/img_c923dcede53b.jpg",
+      "image": "https://i.pinimg.com/736x/30/da/72/30da728012339c421f4dff6791cb53d7.jpg",
       "images": [
         {
-          "url": "/images/products/img_c923dcede53b.jpg",
+          "url": "https://i.pinimg.com/736x/30/da/72/30da728012339c421f4dff6791cb53d7.jpg",
           "isPrimary": true,
           "sortOrder": 0
+        },
+        {
+          "url": "/images/products/img_c923dcede53b.jpg",
+          "isPrimary": false,
+          "sortOrder": 1
+        },
+        {
+          "url": "https://i.pinimg.com/736x/35/d2/59/35d25910ea243c16fdf8629bc6168a52.jpg",
+          "isPrimary": false,
+          "sortOrder": 2
         }
       ],
-      "description": "",
+      "description": "Asymmetric Button Vest Sewing Pattern | Bodice Drafting Tutorial",
       "colors": [
         {
           "name": "Pink",
           "hex": "#e1adc3",
-          "image": "/images/products/img_8d540163b037.jpg"
+          "image": "https://i.pinimg.com/736x/30/da/72/30da728012339c421f4dff6791cb53d7.jpg"
         },
         {
           "name": "Blue",
           "hex": "#99a7ea",
-          "image": "/images/products/img_a8ea688cedfc.jpg"
+          "image": "https://i.pinimg.com/736x/35/d2/59/35d25910ea243c16fdf8629bc6168a52.jpg"
         }
       ],
       "sizes": [
@@ -617,7 +627,7 @@
       ],
       "createdAt": "2026-10-28T15:53:53.240Z",
       "collectionSlug": null,
-      "updatedAt": "2026-10-28T17:34:22.282Z"
+      "updatedAt": "2026-11-15T09:48:35.990Z"
     },
     {
       "id": "top-1",
@@ -675,10 +685,6 @@
         {
           "name": "Champagne",
           "hex": "#E7DEC8"
-        },
-        {
-          "name": "Midnight",
-          "hex": "#1C2331"
         }
       ],
       "sizes": [
@@ -690,9 +696,15 @@
       "collectionSlug": null,
       "stockQuantity": 20,
       "status": "ACTIVE",
-      "updatedAt": "2026-10-27T17:05:57.229Z",
+      "updatedAt": "2026-11-15T09:49:26.176Z",
       "collectionSlugs": [],
-      "images": null
+      "images": [
+        {
+          "url": "/images/products/img_6c09fa2580aa.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        }
+      ]
     },
     {
       "id": "top-3",
@@ -742,12 +754,13 @@
       "originalPrice": null,
       "isSale": false,
       "isNew": false,
-      "image": "/images/products/img_fece52803a6e.jpg",
+      "image": "https://i.pinimg.com/736x/f1/03/6c/f1036c4f3de0ec5fe5cda977d9b81576.jpg",
       "description": "Pre-washed French flax linen with a breathable breezy drape, curved hem, and natural shell buttons.",
       "colors": [
         {
           "name": "Standard",
-          "hex": "#403262"
+          "hex": "#403262",
+          "image": "https://i.pinimg.com/736x/f1/03/6c/f1036c4f3de0ec5fe5cda977d9b81576.jpg"
         }
       ],
       "sizes": [
@@ -760,9 +773,20 @@
       "collectionSlug": null,
       "stockQuantity": 15,
       "status": "ACTIVE",
-      "updatedAt": "2026-10-27T15:09:50.292Z",
+      "updatedAt": "2026-11-15T09:50:19.811Z",
       "collectionSlugs": [],
-      "images": null
+      "images": [
+        {
+          "url": "https://i.pinimg.com/736x/f1/03/6c/f1036c4f3de0ec5fe5cda977d9b81576.jpg",
+          "isPrimary": true,
+          "sortOrder": 0
+        },
+        {
+          "url": "/images/products/img_fece52803a6e.jpg",
+          "isPrimary": false,
+          "sortOrder": 1
+        }
+      ]
     },
     {
       "id": "top-5",
