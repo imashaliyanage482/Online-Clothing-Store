@@ -45,11 +45,11 @@ const options = {
 
 let clientPromise;
 
+const FALLBACK_MONGODB_URI =
+  'mongodb+srv://fashionstore_import:fashionstore123@cluster0.mxulgll.mongodb.net/fashion_store?retryWrites=true&w=majority&authSource=admin';
+
 function getNormalizedMongoUri() {
-  let uri = process.env.MONGODB_URI;
-  if (!uri) {
-    throw new Error('MONGODB_URI is not configured. Add it to the server environment.');
-  }
+  let uri = process.env.MONGODB_URI || FALLBACK_MONGODB_URI;
   uri = uri.trim();
   if ((uri.startsWith('"') && uri.endsWith('"')) || (uri.startsWith("'") && uri.endsWith("'"))) {
     uri = uri.slice(1, -1);

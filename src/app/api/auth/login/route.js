@@ -15,7 +15,13 @@ export async function POST(request) {
       return NextResponse.json({ error: 'Email and password are required.' }, { status: 400 });
     }
 
-    const user = verifyUserPassword(email, password);
+    let user = verifyUserPassword(email, password);
+    if (!user) {
+      try {
+        await ensureMongoReady(true);
+        user = verifyUserPassword(email, password);
+      } catch (_) {}
+    }
 
     if (!user) {
       return NextResponse.json({ error: 'Invalid email address or password.' }, { status: 401 });
