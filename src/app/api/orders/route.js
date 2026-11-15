@@ -8,7 +8,9 @@ export const dynamic = 'force-dynamic';
 
 export async function GET(request) {
   try {
-    await ensureMongoReady();
+    const { searchParams } = new URL(request.url);
+    const forceSync = searchParams.get('sync') === 'true';
+    await ensureMongoReady(forceSync);
 
     // Check Admin authorization first
     const adminAuth = await checkAdminAuth(request);

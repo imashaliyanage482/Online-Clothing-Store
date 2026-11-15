@@ -31,11 +31,11 @@ export default function AdminOrdersPage() {
   const [error, setError] = useState('');
   const [message, setMessage] = useState('');
 
-  const fetchOrders = async () => {
+  const fetchOrders = async (forceSync = true) => {
     setLoading(true);
     setError('');
     try {
-      const response = await fetch('/api/orders');
+      const response = await fetch(forceSync ? '/api/orders?sync=true' : '/api/orders');
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || 'Unable to load orders.');
       setOrders(data.orders || []);
